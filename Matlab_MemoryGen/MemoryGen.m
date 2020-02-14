@@ -1,14 +1,38 @@
-%Memory:
+% Generate ROM Content for Fets and Crosses
+% ROM contains AI's move for every possible Gamestate
+%
+% Board numbering Convention:
+% 
+% 0 1 2 
+% 3 4 5
+% 6 7 8
+% 
+%
+% Memory:
 %   18bit wide Addresses
 %   8bit wide Data
 %   
-% I only need 4 bits to output the desired move (0-8), so I will only use
-% the 4 lower bits. The upper 4 bits are kept emtpy for now, but could later
-% be filled with alternative moves.
+% Address Encoding:
+% ADR bit 17 (MSB): 2 Player Board Slot 8 
+% ...
+% ADR bit 9: Player 2 Board Slot 0
+% ADR bit 8: Player 1 Board  Slot 8   
+% ...
+% ADR bit 0 (LSB): Player 1 Board Slot 0
+%
+% Output Encoding:
+% LSB active: Board slot 0
+% .
+% .
+% .
+% MSB active: Board slot 7
+% No bit active: Board slot 8
+% All bits active: No Move/ not a valid board state. 
+% Encoding choosen to minimize transistors needed. 
+
 
 %Whole Memory Map
 mem = uint8(zeros(2^18,1));
-
 
 %Iterate over ever address:
 for i = 1:length(mem)
@@ -26,7 +50,7 @@ for i = 1:length(mem)
          mem(i) = makeMove(board);
     else
         % Write 0b00001111
-         mem(i) = hex2dec('0F');
+         mem(i) = hex2dec('FF');
     end
 
 end
