@@ -1,0 +1,682 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 20
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LogicQ:NM Q?
+U 1 1 5EDB286F
+P 5250 4050
+AR Path="/5EDB286F" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB286F" Ref="Q37"  Part="1" 
+F 0 "Q37" H 5050 3950 50  0000 L CNN
+F 1 "NM" H 5350 3950 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 5050 4050 50  0001 C CNN
+F 3 "" H 5250 4050 50  0001 C CNN
+	1    5250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:NM Q?
+U 1 1 5EDB2875
+P 5700 4050
+AR Path="/5EDB2875" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB2875" Ref="Q43"  Part="1" 
+F 0 "Q43" H 5500 3950 50  0000 L CNN
+F 1 "NM" H 5800 3950 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 5500 4050 50  0001 C CNN
+F 3 "" H 5700 4050 50  0001 C CNN
+	1    5700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:NM Q?
+U 1 1 5EDB287B
+P 6150 4050
+AR Path="/5EDB287B" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB287B" Ref="Q49"  Part="1" 
+F 0 "Q49" H 5950 3950 50  0000 L CNN
+F 1 "NM" H 6250 3950 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 5950 4050 50  0001 C CNN
+F 3 "" H 6150 4050 50  0001 C CNN
+	1    6150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:NM Q?
+U 1 1 5EDB2881
+P 5250 4400
+AR Path="/5EDB2881" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB2881" Ref="Q38"  Part="1" 
+F 0 "Q38" H 5050 4300 50  0000 L CNN
+F 1 "NM" H 5350 4300 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 5050 4400 50  0001 C CNN
+F 3 "" H 5250 4400 50  0001 C CNN
+	1    5250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:NM Q?
+U 1 1 5EDB2887
+P 5700 4400
+AR Path="/5EDB2887" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB2887" Ref="Q44"  Part="1" 
+F 0 "Q44" H 5500 4300 50  0000 L CNN
+F 1 "NM" H 5800 4300 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 5500 4400 50  0001 C CNN
+F 3 "" H 5700 4400 50  0001 C CNN
+	1    5700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:NM Q?
+U 1 1 5EDB288D
+P 6150 4400
+AR Path="/5EDB288D" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB288D" Ref="Q50"  Part="1" 
+F 0 "Q50" H 5950 4300 50  0000 L CNN
+F 1 "NM" H 6250 4300 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 5950 4400 50  0001 C CNN
+F 3 "" H 6150 4400 50  0001 C CNN
+	1    6150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:NM Q?
+U 1 1 5EDB2893
+P 5250 4750
+AR Path="/5EDB2893" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB2893" Ref="Q39"  Part="1" 
+F 0 "Q39" H 5050 4650 50  0000 L CNN
+F 1 "NM" H 5350 4650 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 5050 4750 50  0001 C CNN
+F 3 "" H 5250 4750 50  0001 C CNN
+	1    5250 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:NM Q?
+U 1 1 5EDB2899
+P 5700 4750
+AR Path="/5EDB2899" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB2899" Ref="Q45"  Part="1" 
+F 0 "Q45" H 5500 4650 50  0000 L CNN
+F 1 "NM" H 5800 4650 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 5500 4750 50  0001 C CNN
+F 3 "" H 5700 4750 50  0001 C CNN
+	1    5700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:NM Q?
+U 1 1 5EDB289F
+P 6150 4750
+AR Path="/5EDB289F" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB289F" Ref="Q51"  Part="1" 
+F 0 "Q51" H 5950 4650 50  0000 L CNN
+F 1 "NM" H 6250 4650 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 5950 4750 50  0001 C CNN
+F 3 "" H 6150 4750 50  0001 C CNN
+	1    6150 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3900 5250 3950
+Wire Wire Line
+	5250 3900 5700 3900
+Wire Wire Line
+	6150 3900 6150 3950
+Wire Wire Line
+	5700 3950 5700 3900
+Connection ~ 5700 3900
+Wire Wire Line
+	5700 3900 6150 3900
+Wire Wire Line
+	5250 4150 5250 4200
+Wire Wire Line
+	5250 4200 5700 4200
+Wire Wire Line
+	6150 4200 6150 4150
+Wire Wire Line
+	5700 4150 5700 4200
+Connection ~ 5700 4200
+Wire Wire Line
+	5700 4200 6150 4200
+Wire Wire Line
+	5250 4300 5250 4250
+Wire Wire Line
+	5250 4250 5700 4250
+Wire Wire Line
+	6150 4250 6150 4300
+Wire Wire Line
+	5700 4300 5700 4250
+Connection ~ 5700 4250
+Wire Wire Line
+	5700 4250 6150 4250
+Wire Wire Line
+	6150 4500 6150 4550
+Wire Wire Line
+	6150 4550 5700 4550
+Wire Wire Line
+	5250 4550 5250 4500
+Wire Wire Line
+	5700 4550 5700 4500
+Connection ~ 5700 4550
+Wire Wire Line
+	5700 4550 5250 4550
+Wire Wire Line
+	5250 4650 5250 4600
+Wire Wire Line
+	5250 4600 5700 4600
+Wire Wire Line
+	6150 4600 6150 4650
+Wire Wire Line
+	5700 4650 5700 4600
+Connection ~ 5700 4600
+Wire Wire Line
+	5700 4600 6150 4600
+Wire Wire Line
+	5250 4850 5250 4900
+Wire Wire Line
+	5250 4900 5700 4900
+Wire Wire Line
+	6150 4900 6150 4850
+Wire Wire Line
+	5700 4850 5700 4900
+Connection ~ 5700 4900
+Wire Wire Line
+	5700 4900 6150 4900
+Wire Wire Line
+	6150 4600 6200 4600
+Wire Wire Line
+	6200 4600 6200 4250
+Wire Wire Line
+	6200 4250 6150 4250
+Connection ~ 6150 4600
+Connection ~ 6150 4250
+Wire Wire Line
+	6200 4250 6200 3900
+Wire Wire Line
+	6200 3900 6150 3900
+Connection ~ 6200 4250
+Connection ~ 6150 3900
+Wire Wire Line
+	6150 4200 6250 4200
+Wire Wire Line
+	6250 4200 6250 4550
+Wire Wire Line
+	6250 4550 6150 4550
+Connection ~ 6150 4200
+Connection ~ 6150 4550
+Wire Wire Line
+	6250 4550 6250 4900
+Wire Wire Line
+	6250 4900 6150 4900
+Connection ~ 6250 4550
+Connection ~ 6150 4900
+Wire Wire Line
+	5700 4900 5700 4950
+$Comp
+L power:GND #PWR?
+U 1 1 5EDB28DC
+P 5700 4950
+AR Path="/5EDB28DC" Ref="#PWR?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB28DC" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 5700 4700 50  0001 C CNN
+F 1 "GND" H 5705 4777 50  0000 C CNN
+F 2 "" H 5700 4950 50  0001 C CNN
+F 3 "" H 5700 4950 50  0001 C CNN
+	1    5700 4950
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 3900
+$Comp
+L LogicQ:PM Q?
+U 1 1 5EDB28E3
+P 5250 3700
+AR Path="/5EDB28E3" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB28E3" Ref="Q36"  Part="1" 
+F 0 "Q36" H 5050 3600 50  0000 L CNN
+F 1 "PM" H 5350 3600 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 5050 3700 50  0001 C CNN
+F 3 "" H 5250 3700 50  0001 C CNN
+	1    5250 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:PM Q?
+U 1 1 5EDB28E9
+P 5700 3700
+AR Path="/5EDB28E9" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB28E9" Ref="Q42"  Part="1" 
+F 0 "Q42" H 5500 3600 50  0000 L CNN
+F 1 "PM" H 5800 3600 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 5500 3700 50  0001 C CNN
+F 3 "" H 5700 3700 50  0001 C CNN
+	1    5700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:PM Q?
+U 1 1 5EDB28EF
+P 6150 3700
+AR Path="/5EDB28EF" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB28EF" Ref="Q48"  Part="1" 
+F 0 "Q48" H 5950 3600 50  0000 L CNN
+F 1 "PM" H 6250 3600 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 5950 3700 50  0001 C CNN
+F 3 "" H 6150 3700 50  0001 C CNN
+	1    6150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:PM Q?
+U 1 1 5EDB28F5
+P 6150 3300
+AR Path="/5EDB28F5" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB28F5" Ref="Q47"  Part="1" 
+F 0 "Q47" H 5950 3200 50  0000 L CNN
+F 1 "PM" H 6250 3200 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 5950 3300 50  0001 C CNN
+F 3 "" H 6150 3300 50  0001 C CNN
+	1    6150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:PM Q?
+U 1 1 5EDB28FB
+P 5700 3300
+AR Path="/5EDB28FB" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB28FB" Ref="Q41"  Part="1" 
+F 0 "Q41" H 5500 3200 50  0000 L CNN
+F 1 "PM" H 5800 3200 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 5500 3300 50  0001 C CNN
+F 3 "" H 5700 3300 50  0001 C CNN
+	1    5700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:PM Q?
+U 1 1 5EDB2901
+P 5250 3300
+AR Path="/5EDB2901" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB2901" Ref="Q35"  Part="1" 
+F 0 "Q35" H 5050 3200 50  0000 L CNN
+F 1 "PM" H 5350 3200 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 5050 3300 50  0001 C CNN
+F 3 "" H 5250 3300 50  0001 C CNN
+	1    5250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:PM Q?
+U 1 1 5EDB2907
+P 6150 2900
+AR Path="/5EDB2907" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB2907" Ref="Q46"  Part="1" 
+F 0 "Q46" H 5950 2800 50  0000 L CNN
+F 1 "PM" H 6250 2800 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 5950 2900 50  0001 C CNN
+F 3 "" H 6150 2900 50  0001 C CNN
+	1    6150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:PM Q?
+U 1 1 5EDB290D
+P 5700 2900
+AR Path="/5EDB290D" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB290D" Ref="Q40"  Part="1" 
+F 0 "Q40" H 5500 2800 50  0000 L CNN
+F 1 "PM" H 5800 2800 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 5500 2900 50  0001 C CNN
+F 3 "" H 5700 2900 50  0001 C CNN
+	1    5700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:PM Q?
+U 1 1 5EDB2913
+P 5250 2900
+AR Path="/5EDB2913" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB2913" Ref="Q34"  Part="1" 
+F 0 "Q34" H 5050 2800 50  0000 L CNN
+F 1 "PM" H 5350 2800 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 5050 2900 50  0001 C CNN
+F 3 "" H 5250 2900 50  0001 C CNN
+	1    5250 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3800 6150 3900
+Wire Wire Line
+	5700 3800 5700 3850
+Wire Wire Line
+	5700 3850 5750 3850
+Wire Wire Line
+	5750 3850 5750 3550
+Wire Wire Line
+	5750 3550 6150 3550
+Wire Wire Line
+	6150 3550 6150 3600
+Wire Wire Line
+	5700 3550 5700 3600
+Wire Wire Line
+	5700 3550 5300 3550
+Wire Wire Line
+	5300 3550 5300 3850
+Wire Wire Line
+	5300 3850 5250 3850
+Wire Wire Line
+	5250 3850 5250 3800
+Wire Wire Line
+	5250 3600 5250 3500
+Wire Wire Line
+	5250 3500 6150 3500
+Wire Wire Line
+	6150 3400 6150 3500
+Wire Wire Line
+	6150 3200 6150 3150
+Wire Wire Line
+	6150 3150 5750 3150
+Wire Wire Line
+	5750 3150 5750 3450
+Wire Wire Line
+	5750 3450 5700 3450
+Wire Wire Line
+	5700 3450 5700 3400
+Wire Wire Line
+	5700 3200 5700 3150
+Wire Wire Line
+	5700 3150 5300 3150
+Wire Wire Line
+	5300 3150 5300 3450
+Wire Wire Line
+	5300 3450 5250 3450
+Wire Wire Line
+	5250 3450 5250 3400
+Wire Wire Line
+	5250 3200 5250 3100
+Wire Wire Line
+	5250 3100 6150 3100
+Wire Wire Line
+	6150 3000 6150 3100
+Wire Wire Line
+	5700 3000 5700 3050
+Wire Wire Line
+	5700 3050 5750 3050
+Wire Wire Line
+	5750 3050 5750 2750
+Wire Wire Line
+	5750 2750 6150 2750
+Wire Wire Line
+	6150 2750 6150 2800
+Wire Wire Line
+	5700 2800 5700 2750
+Wire Wire Line
+	5700 2750 5300 2750
+Wire Wire Line
+	5300 2750 5300 3050
+Wire Wire Line
+	5300 3050 5250 3050
+Wire Wire Line
+	5250 3050 5250 3000
+$Comp
+L power:+5V #PWR?
+U 1 1 5EDB293E
+P 5250 2750
+AR Path="/5EDB293E" Ref="#PWR?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB293E" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 5250 2600 50  0001 C CNN
+F 1 "+5V" H 5265 2923 50  0000 C CNN
+F 2 "" H 5250 2750 50  0001 C CNN
+F 3 "" H 5250 2750 50  0001 C CNN
+	1    5250 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2750 5250 2800
+Wire Wire Line
+	5550 2900 5350 2900
+Wire Wire Line
+	5100 2900 4900 2900
+Wire Wire Line
+	6000 2900 5800 2900
+Wire Wire Line
+	6000 3300 5800 3300
+Wire Wire Line
+	5550 3300 5350 3300
+Wire Wire Line
+	5100 3300 4900 3300
+Wire Wire Line
+	5100 3700 4900 3700
+Wire Wire Line
+	5550 3700 5350 3700
+Wire Wire Line
+	6000 3700 5800 3700
+Wire Wire Line
+	5100 4050 4900 4050
+Wire Wire Line
+	5550 4050 5350 4050
+Wire Wire Line
+	6000 4050 5800 4050
+Wire Wire Line
+	6000 4400 5800 4400
+Wire Wire Line
+	5550 4400 5350 4400
+Wire Wire Line
+	5100 4400 4900 4400
+Wire Wire Line
+	5100 4750 4900 4750
+Wire Wire Line
+	5550 4750 5350 4750
+Wire Wire Line
+	6000 4750 5800 4750
+Text Label 4900 2900 0    50   ~ 0
+AN1
+Text Label 5350 2900 0    50   ~ 0
+AN2
+Text Label 5800 2900 0    50   ~ 0
+AN3
+Text Label 4900 3300 0    50   ~ 0
+AN4
+Text Label 5350 3300 0    50   ~ 0
+AN5
+Text Label 5800 3300 0    50   ~ 0
+AN6
+Text Label 4900 3700 0    50   ~ 0
+AN7
+Text Label 5350 3700 0    50   ~ 0
+AN8
+Text Label 5800 3700 0    50   ~ 0
+AN9
+Text Label 4900 4050 0    50   ~ 0
+AN1
+Text Label 5350 4050 0    50   ~ 0
+AN2
+Text Label 5800 4050 0    50   ~ 0
+AN3
+Text Label 4900 4400 0    50   ~ 0
+AN4
+Text Label 5350 4400 0    50   ~ 0
+AN5
+Text Label 5800 4400 0    50   ~ 0
+AN6
+Text Label 4900 4750 0    50   ~ 0
+AN7
+Text Label 5350 4750 0    50   ~ 0
+AN8
+Text Label 5800 4750 0    50   ~ 0
+AN9
+$Comp
+L LogicQ:PM Q?
+U 1 1 5EDB2969
+P 6800 3750
+AR Path="/5EDB2969" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB2969" Ref="Q52"  Part="1" 
+F 0 "Q52" H 6850 3700 50  0000 L CNN
+F 1 "PM" H 6900 3650 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 6600 3750 50  0001 C CNN
+F 3 "" H 6800 3750 50  0001 C CNN
+	1    6800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:NM Q?
+U 1 1 5EDB296F
+P 6800 4050
+AR Path="/5EDB296F" Ref="Q?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB296F" Ref="Q53"  Part="1" 
+F 0 "Q53" H 6850 3950 50  0000 L CNN
+F 1 "NM" H 6900 3950 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 6600 4050 50  0001 C CNN
+F 3 "" H 6800 4050 50  0001 C CNN
+	1    6800 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3850 6800 3900
+Connection ~ 6800 3900
+Wire Wire Line
+	6800 3900 6800 3950
+Wire Wire Line
+	6600 3750 6650 3750
+Wire Wire Line
+	6600 4050 6650 4050
+Wire Wire Line
+	6800 4150 6800 4200
+Wire Wire Line
+	6800 3650 6800 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5EDB297C
+P 6800 4200
+AR Path="/5EDB297C" Ref="#PWR?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB297C" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 6800 3950 50  0001 C CNN
+F 1 "GND" H 6805 4027 50  0000 C CNN
+F 2 "" H 6800 4200 50  0001 C CNN
+F 3 "" H 6800 4200 50  0001 C CNN
+	1    6800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5EDB2982
+P 6800 3600
+AR Path="/5EDB2982" Ref="#PWR?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB2982" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 6800 3450 50  0001 C CNN
+F 1 "+5V" H 6815 3773 50  0000 C CNN
+F 2 "" H 6800 3600 50  0001 C CNN
+F 3 "" H 6800 3600 50  0001 C CNN
+	1    6800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EDB2988
+P 6950 3900
+AR Path="/5EDB2988" Ref="TP?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB2988" Ref="TP15"  Part="1" 
+F 0 "TP15" V 6850 3950 50  0000 L CNN
+F 1 "TestPoint" V 7050 3850 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 7150 3900 50  0001 C CNN
+F 3 "~" H 7150 3900 50  0001 C CNN
+	1    6950 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 3900 6950 3900
+Wire Wire Line
+	6200 3900 6300 3900
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EDB2990
+P 6350 3550
+AR Path="/5EDB2990" Ref="TP?"  Part="1" 
+AR Path="/5ECBD9DE/5EDB2990" Ref="TP14"  Part="1" 
+F 0 "TP14" V 6250 3600 50  0000 L CNN
+F 1 "TestPoint" V 6450 3500 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 6550 3550 50  0001 C CNN
+F 3 "~" H 6550 3550 50  0001 C CNN
+	1    6350 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 3550 6300 3550
+Wire Wire Line
+	6300 3550 6300 3900
+Wire Wire Line
+	6600 3750 6600 3900
+Wire Wire Line
+	6300 3900 6600 3900
+Connection ~ 6300 3900
+Connection ~ 6600 3900
+Wire Wire Line
+	6600 3900 6600 4050
+Text Label 3950 3700 0    50   ~ 0
+AN1
+Text Label 3950 3800 0    50   ~ 0
+AN2
+Text Label 3950 3900 0    50   ~ 0
+AN3
+Text Label 3950 4000 0    50   ~ 0
+AN4
+Text Label 3950 4100 0    50   ~ 0
+AN5
+Text Label 3950 4200 0    50   ~ 0
+AN6
+Text Label 3950 4300 0    50   ~ 0
+AN7
+Text Label 3950 4400 0    50   ~ 0
+AN8
+Text Label 3950 4500 0    50   ~ 0
+AN9
+Text GLabel 3850 3700 0    50   Input ~ 0
+AN1
+Text GLabel 3850 3800 0    50   Input ~ 0
+AN2
+Text GLabel 3850 3900 0    50   Input ~ 0
+AN3
+Text GLabel 3850 4000 0    50   Input ~ 0
+AN4
+Text GLabel 3850 4100 0    50   Input ~ 0
+AN5
+Text GLabel 3850 4200 0    50   Input ~ 0
+AN6
+Text GLabel 3850 4300 0    50   Input ~ 0
+AN7
+Text GLabel 3850 4400 0    50   Input ~ 0
+AN8
+Text GLabel 3850 4500 0    50   Input ~ 0
+AN9
+Wire Wire Line
+	3850 3700 3950 3700
+Wire Wire Line
+	3850 3800 3950 3800
+Wire Wire Line
+	3850 3900 3950 3900
+Wire Wire Line
+	3850 4000 3950 4000
+Wire Wire Line
+	3850 4100 3950 4100
+Wire Wire Line
+	3850 4200 3950 4200
+Wire Wire Line
+	3850 4300 3950 4300
+Wire Wire Line
+	3850 4400 3950 4400
+Wire Wire Line
+	3950 4500 3850 4500
+$EndSCHEMATC

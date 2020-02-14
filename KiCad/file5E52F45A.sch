@@ -1,0 +1,1690 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 20 20
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LogicQ:PM Q?
+U 1 1 5E530EC3
+P 2650 2000
+AR Path="/5E530EC3" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E530EC3" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E530EC3" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E530EC3" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E530EC3" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E530EC3" Ref="Q97"  Part="1" 
+F 0 "Q97" H 2700 1950 50  0000 L CNN
+F 1 "PM" H 2750 1900 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 2450 2000 50  0001 C CNN
+F 3 "" H 2650 2000 50  0001 C CNN
+	1    2650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LogicQ:NM Q?
+U 1 1 5E530EC9
+P 6000 2050
+AR Path="/5E530EC9" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E530EC9" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E530EC9" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E530EC9" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E530EC9" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E530EC9" Ref="Q98"  Part="1" 
+F 0 "Q98" H 6050 1950 50  0000 L CNN
+F 1 "NM" H 6100 1950 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 5800 2050 50  0001 C CNN
+F 3 "" H 6000 2050 50  0001 C CNN
+	1    6000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP40
+U 1 1 5E533284
+P 2650 2150
+F 0 "TP40" H 2592 2176 50  0000 R CNN
+F 1 "TestPoint" H 2592 2267 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 2850 2150 50  0001 C CNN
+F 3 "~" H 2850 2150 50  0001 C CNN
+	1    2650 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP38
+U 1 1 5E534A84
+P 2450 2000
+F 0 "TP38" V 2645 2072 50  0000 C CNN
+F 1 "TestPoint" V 2554 2072 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 2650 2000 50  0001 C CNN
+F 3 "~" H 2650 2000 50  0001 C CNN
+	1    2450 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 2000 2500 2000
+Wire Wire Line
+	2650 2150 2650 2100
+$Comp
+L LogicQ:PM Q?
+U 1 1 5E53AA8F
+P 3600 2000
+AR Path="/5E53AA8F" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E53AA8F" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E53AA8F" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E53AA8F" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E53AA8F" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E53AA8F" Ref="Q101"  Part="1" 
+F 0 "Q101" H 3650 1950 50  0000 L CNN
+F 1 "PM" H 3700 1900 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 3400 2000 50  0001 C CNN
+F 3 "" H 3600 2000 50  0001 C CNN
+	1    3600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP51
+U 1 1 5E53AA9B
+P 3600 2150
+F 0 "TP51" H 3542 2176 50  0000 R CNN
+F 1 "TestPoint" H 3542 2267 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 3800 2150 50  0001 C CNN
+F 3 "~" H 3800 2150 50  0001 C CNN
+	1    3600 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP47
+U 1 1 5E53AAA1
+P 3400 2000
+F 0 "TP47" V 3595 2072 50  0000 C CNN
+F 1 "TestPoint" V 3504 2072 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 3600 2000 50  0001 C CNN
+F 3 "~" H 3600 2000 50  0001 C CNN
+	1    3400 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 2000 3450 2000
+Wire Wire Line
+	3600 2150 3600 2100
+$Comp
+L LogicQ:PM Q?
+U 1 1 5E53CF01
+P 4500 2000
+AR Path="/5E53CF01" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E53CF01" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E53CF01" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E53CF01" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E53CF01" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E53CF01" Ref="Q104"  Part="1" 
+F 0 "Q104" H 4550 1950 50  0000 L CNN
+F 1 "PM" H 4600 1900 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 4300 2000 50  0001 C CNN
+F 3 "" H 4500 2000 50  0001 C CNN
+	1    4500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP60
+U 1 1 5E53CF0D
+P 4500 2150
+F 0 "TP60" H 4442 2176 50  0000 R CNN
+F 1 "TestPoint" H 4442 2267 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4700 2150 50  0001 C CNN
+F 3 "~" H 4700 2150 50  0001 C CNN
+	1    4500 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP56
+U 1 1 5E53CF13
+P 4300 2000
+F 0 "TP56" V 4495 2072 50  0000 C CNN
+F 1 "TestPoint" V 4404 2072 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4500 2000 50  0001 C CNN
+F 3 "~" H 4500 2000 50  0001 C CNN
+	1    4300 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 2000 4350 2000
+Wire Wire Line
+	4500 2150 4500 2100
+$Comp
+L LogicQ:PM Q?
+U 1 1 5E5479A6
+P 2650 2750
+AR Path="/5E5479A6" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E5479A6" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E5479A6" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E5479A6" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E5479A6" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E5479A6" Ref="Q99"  Part="1" 
+F 0 "Q99" H 2700 2700 50  0000 L CNN
+F 1 "PM" H 2750 2650 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 2450 2750 50  0001 C CNN
+F 3 "" H 2650 2750 50  0001 C CNN
+	1    2650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP43
+U 1 1 5E5479AC
+P 2650 2600
+F 0 "TP43" H 2708 2718 50  0000 L CNN
+F 1 "TestPoint" H 2708 2627 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 2850 2600 50  0001 C CNN
+F 3 "~" H 2850 2600 50  0001 C CNN
+	1    2650 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP44
+U 1 1 5E5479B2
+P 2650 2900
+F 0 "TP44" H 2592 2926 50  0000 R CNN
+F 1 "TestPoint" H 2592 3017 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 2850 2900 50  0001 C CNN
+F 3 "~" H 2850 2900 50  0001 C CNN
+	1    2650 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP41
+U 1 1 5E5479B8
+P 2450 2750
+F 0 "TP41" V 2645 2822 50  0000 C CNN
+F 1 "TestPoint" V 2554 2822 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 2650 2750 50  0001 C CNN
+F 3 "~" H 2650 2750 50  0001 C CNN
+	1    2450 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 2750 2500 2750
+Wire Wire Line
+	2650 2650 2650 2600
+Wire Wire Line
+	2650 2900 2650 2850
+$Comp
+L LogicQ:PM Q?
+U 1 1 5E5479C1
+P 3600 2750
+AR Path="/5E5479C1" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E5479C1" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E5479C1" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E5479C1" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E5479C1" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E5479C1" Ref="Q102"  Part="1" 
+F 0 "Q102" H 3650 2700 50  0000 L CNN
+F 1 "PM" H 3700 2650 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 3400 2750 50  0001 C CNN
+F 3 "" H 3600 2750 50  0001 C CNN
+	1    3600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP52
+U 1 1 5E5479C7
+P 3600 2600
+F 0 "TP52" H 3658 2718 50  0000 L CNN
+F 1 "TestPoint" H 3658 2627 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 3800 2600 50  0001 C CNN
+F 3 "~" H 3800 2600 50  0001 C CNN
+	1    3600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP53
+U 1 1 5E5479CD
+P 3600 2900
+F 0 "TP53" H 3542 2926 50  0000 R CNN
+F 1 "TestPoint" H 3542 3017 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 3800 2900 50  0001 C CNN
+F 3 "~" H 3800 2900 50  0001 C CNN
+	1    3600 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP48
+U 1 1 5E5479D3
+P 3400 2750
+F 0 "TP48" V 3595 2822 50  0000 C CNN
+F 1 "TestPoint" V 3504 2822 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 3600 2750 50  0001 C CNN
+F 3 "~" H 3600 2750 50  0001 C CNN
+	1    3400 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 2750 3450 2750
+Wire Wire Line
+	3600 2650 3600 2600
+Wire Wire Line
+	3600 2900 3600 2850
+$Comp
+L LogicQ:PM Q?
+U 1 1 5E5479DC
+P 4500 2750
+AR Path="/5E5479DC" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E5479DC" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E5479DC" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E5479DC" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E5479DC" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E5479DC" Ref="Q105"  Part="1" 
+F 0 "Q105" H 4550 2700 50  0000 L CNN
+F 1 "PM" H 4600 2650 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 4300 2750 50  0001 C CNN
+F 3 "" H 4500 2750 50  0001 C CNN
+	1    4500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP61
+U 1 1 5E5479E2
+P 4500 2600
+F 0 "TP61" H 4558 2718 50  0000 L CNN
+F 1 "TestPoint" H 4558 2627 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4700 2600 50  0001 C CNN
+F 3 "~" H 4700 2600 50  0001 C CNN
+	1    4500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP62
+U 1 1 5E5479E8
+P 4500 2900
+F 0 "TP62" H 4442 2926 50  0000 R CNN
+F 1 "TestPoint" H 4442 3017 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4700 2900 50  0001 C CNN
+F 3 "~" H 4700 2900 50  0001 C CNN
+	1    4500 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP57
+U 1 1 5E5479EE
+P 4300 2750
+F 0 "TP57" V 4495 2822 50  0000 C CNN
+F 1 "TestPoint" V 4404 2822 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4500 2750 50  0001 C CNN
+F 3 "~" H 4500 2750 50  0001 C CNN
+	1    4300 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 2750 4350 2750
+Wire Wire Line
+	4500 2650 4500 2600
+Wire Wire Line
+	4500 2900 4500 2850
+$Comp
+L LogicQ:PM Q?
+U 1 1 5E54E53E
+P 2650 3450
+AR Path="/5E54E53E" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E54E53E" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E54E53E" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E54E53E" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E54E53E" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E54E53E" Ref="Q100"  Part="1" 
+F 0 "Q100" H 2700 3400 50  0000 L CNN
+F 1 "PM" H 2750 3350 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 2450 3450 50  0001 C CNN
+F 3 "" H 2650 3450 50  0001 C CNN
+	1    2650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP45
+U 1 1 5E54E544
+P 2650 3300
+F 0 "TP45" H 2708 3418 50  0000 L CNN
+F 1 "TestPoint" H 2708 3327 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 2850 3300 50  0001 C CNN
+F 3 "~" H 2850 3300 50  0001 C CNN
+	1    2650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP46
+U 1 1 5E54E54A
+P 2650 3600
+F 0 "TP46" H 2592 3626 50  0000 R CNN
+F 1 "TestPoint" H 2592 3717 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 2850 3600 50  0001 C CNN
+F 3 "~" H 2850 3600 50  0001 C CNN
+	1    2650 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP42
+U 1 1 5E54E550
+P 2450 3450
+F 0 "TP42" V 2645 3522 50  0000 C CNN
+F 1 "TestPoint" V 2554 3522 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 2650 3450 50  0001 C CNN
+F 3 "~" H 2650 3450 50  0001 C CNN
+	1    2450 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 3450 2500 3450
+Wire Wire Line
+	2650 3350 2650 3300
+Wire Wire Line
+	2650 3600 2650 3550
+$Comp
+L LogicQ:PM Q?
+U 1 1 5E54E559
+P 3600 3450
+AR Path="/5E54E559" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E54E559" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E54E559" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E54E559" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E54E559" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E54E559" Ref="Q103"  Part="1" 
+F 0 "Q103" H 3650 3400 50  0000 L CNN
+F 1 "PM" H 3700 3350 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 3400 3450 50  0001 C CNN
+F 3 "" H 3600 3450 50  0001 C CNN
+	1    3600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP54
+U 1 1 5E54E55F
+P 3600 3300
+F 0 "TP54" H 3658 3418 50  0000 L CNN
+F 1 "TestPoint" H 3658 3327 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 3800 3300 50  0001 C CNN
+F 3 "~" H 3800 3300 50  0001 C CNN
+	1    3600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP55
+U 1 1 5E54E565
+P 3600 3600
+F 0 "TP55" H 3542 3626 50  0000 R CNN
+F 1 "TestPoint" H 3542 3717 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 3800 3600 50  0001 C CNN
+F 3 "~" H 3800 3600 50  0001 C CNN
+	1    3600 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP49
+U 1 1 5E54E56B
+P 3400 3450
+F 0 "TP49" V 3595 3522 50  0000 C CNN
+F 1 "TestPoint" V 3504 3522 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 3600 3450 50  0001 C CNN
+F 3 "~" H 3600 3450 50  0001 C CNN
+	1    3400 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 3450 3450 3450
+Wire Wire Line
+	3600 3350 3600 3300
+Wire Wire Line
+	3600 3600 3600 3550
+$Comp
+L LogicQ:PM Q?
+U 1 1 5E54E574
+P 4500 3450
+AR Path="/5E54E574" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E54E574" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E54E574" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E54E574" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E54E574" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E54E574" Ref="Q106"  Part="1" 
+F 0 "Q106" H 4550 3400 50  0000 L CNN
+F 1 "PM" H 4600 3350 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 4300 3450 50  0001 C CNN
+F 3 "" H 4500 3450 50  0001 C CNN
+	1    4500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP63
+U 1 1 5E54E57A
+P 4500 3300
+F 0 "TP63" H 4558 3418 50  0000 L CNN
+F 1 "TestPoint" H 4558 3327 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4700 3300 50  0001 C CNN
+F 3 "~" H 4700 3300 50  0001 C CNN
+	1    4500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP64
+U 1 1 5E54E580
+P 4500 3600
+F 0 "TP64" H 4442 3626 50  0000 R CNN
+F 1 "TestPoint" H 4442 3717 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4700 3600 50  0001 C CNN
+F 3 "~" H 4700 3600 50  0001 C CNN
+	1    4500 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP58
+U 1 1 5E54E586
+P 4300 3450
+F 0 "TP58" V 4495 3522 50  0000 C CNN
+F 1 "TestPoint" V 4404 3522 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4500 3450 50  0001 C CNN
+F 3 "~" H 4500 3450 50  0001 C CNN
+	1    4300 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 3450 4350 3450
+Wire Wire Line
+	4500 3350 4500 3300
+Wire Wire Line
+	4500 3600 4500 3550
+$Comp
+L Connector:TestPoint TP65
+U 1 1 5E54FAE7
+P 5800 2050
+F 0 "TP65" V 5995 2122 50  0000 C CNN
+F 1 "TestPoint" V 5904 2122 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 6000 2050 50  0001 C CNN
+F 3 "~" H 6000 2050 50  0001 C CNN
+	1    5800 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP69
+U 1 1 5E54FCD4
+P 6000 2200
+F 0 "TP69" H 5942 2226 50  0000 R CNN
+F 1 "TestPoint" H 5942 2317 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 6200 2200 50  0001 C CNN
+F 3 "~" H 6200 2200 50  0001 C CNN
+	1    6000 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 2150 6000 2200
+Wire Wire Line
+	5800 2050 5850 2050
+Wire Wire Line
+	6000 1900 6000 1950
+$Comp
+L LogicQ:NM Q?
+U 1 1 5E55337E
+P 6950 2050
+AR Path="/5E55337E" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E55337E" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E55337E" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E55337E" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E55337E" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E55337E" Ref="Q109"  Part="1" 
+F 0 "Q109" H 7000 1950 50  0000 L CNN
+F 1 "NM" H 7050 1950 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 6750 2050 50  0001 C CNN
+F 3 "" H 6950 2050 50  0001 C CNN
+	1    6950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP74
+U 1 1 5E55338A
+P 6750 2050
+F 0 "TP74" V 6945 2122 50  0000 C CNN
+F 1 "TestPoint" V 6854 2122 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 6950 2050 50  0001 C CNN
+F 3 "~" H 6950 2050 50  0001 C CNN
+	1    6750 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP78
+U 1 1 5E553390
+P 6950 2200
+F 0 "TP78" H 6892 2226 50  0000 R CNN
+F 1 "TestPoint" H 6892 2317 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 7150 2200 50  0001 C CNN
+F 3 "~" H 7150 2200 50  0001 C CNN
+	1    6950 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 2150 6950 2200
+Wire Wire Line
+	6750 2050 6800 2050
+Wire Wire Line
+	6950 1900 6950 1950
+$Comp
+L LogicQ:NM Q?
+U 1 1 5E555A2E
+P 7850 2050
+AR Path="/5E555A2E" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E555A2E" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E555A2E" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E555A2E" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E555A2E" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E555A2E" Ref="Q112"  Part="1" 
+F 0 "Q112" H 7900 1950 50  0000 L CNN
+F 1 "NM" H 7950 1950 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 7650 2050 50  0001 C CNN
+F 3 "" H 7850 2050 50  0001 C CNN
+	1    7850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP83
+U 1 1 5E555A3A
+P 7650 2050
+F 0 "TP83" V 7845 2122 50  0000 C CNN
+F 1 "TestPoint" V 7754 2122 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 7850 2050 50  0001 C CNN
+F 3 "~" H 7850 2050 50  0001 C CNN
+	1    7650 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP87
+U 1 1 5E555A40
+P 7850 2200
+F 0 "TP87" H 7792 2226 50  0000 R CNN
+F 1 "TestPoint" H 7792 2317 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 8050 2200 50  0001 C CNN
+F 3 "~" H 8050 2200 50  0001 C CNN
+	1    7850 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 2150 7850 2200
+Wire Wire Line
+	7650 2050 7700 2050
+Wire Wire Line
+	7850 1900 7850 1950
+$Comp
+L LogicQ:NM Q?
+U 1 1 5E55A8BE
+P 6000 2800
+AR Path="/5E55A8BE" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E55A8BE" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E55A8BE" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E55A8BE" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E55A8BE" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E55A8BE" Ref="Q107"  Part="1" 
+F 0 "Q107" H 6050 2700 50  0000 L CNN
+F 1 "NM" H 6100 2700 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 5800 2800 50  0001 C CNN
+F 3 "" H 6000 2800 50  0001 C CNN
+	1    6000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP70
+U 1 1 5E55A8C4
+P 6000 2650
+F 0 "TP70" H 6058 2768 50  0000 L CNN
+F 1 "TestPoint" H 6058 2677 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 6200 2650 50  0001 C CNN
+F 3 "~" H 6200 2650 50  0001 C CNN
+	1    6000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP66
+U 1 1 5E55A8CA
+P 5800 2800
+F 0 "TP66" V 5995 2872 50  0000 C CNN
+F 1 "TestPoint" V 5904 2872 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 6000 2800 50  0001 C CNN
+F 3 "~" H 6000 2800 50  0001 C CNN
+	1    5800 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP71
+U 1 1 5E55A8D0
+P 6000 2950
+F 0 "TP71" H 5942 2976 50  0000 R CNN
+F 1 "TestPoint" H 5942 3067 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 6200 2950 50  0001 C CNN
+F 3 "~" H 6200 2950 50  0001 C CNN
+	1    6000 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 2900 6000 2950
+Wire Wire Line
+	5800 2800 5850 2800
+Wire Wire Line
+	6000 2650 6000 2700
+$Comp
+L LogicQ:NM Q?
+U 1 1 5E55A8D9
+P 6950 2800
+AR Path="/5E55A8D9" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E55A8D9" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E55A8D9" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E55A8D9" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E55A8D9" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E55A8D9" Ref="Q110"  Part="1" 
+F 0 "Q110" H 7000 2700 50  0000 L CNN
+F 1 "NM" H 7050 2700 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 6750 2800 50  0001 C CNN
+F 3 "" H 6950 2800 50  0001 C CNN
+	1    6950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP79
+U 1 1 5E55A8DF
+P 6950 2650
+F 0 "TP79" H 7008 2768 50  0000 L CNN
+F 1 "TestPoint" H 7008 2677 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 7150 2650 50  0001 C CNN
+F 3 "~" H 7150 2650 50  0001 C CNN
+	1    6950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP75
+U 1 1 5E55A8E5
+P 6750 2800
+F 0 "TP75" V 6945 2872 50  0000 C CNN
+F 1 "TestPoint" V 6854 2872 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 6950 2800 50  0001 C CNN
+F 3 "~" H 6950 2800 50  0001 C CNN
+	1    6750 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP80
+U 1 1 5E55A8EB
+P 6950 2950
+F 0 "TP80" H 6892 2976 50  0000 R CNN
+F 1 "TestPoint" H 6892 3067 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 7150 2950 50  0001 C CNN
+F 3 "~" H 7150 2950 50  0001 C CNN
+	1    6950 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 2900 6950 2950
+Wire Wire Line
+	6750 2800 6800 2800
+Wire Wire Line
+	6950 2650 6950 2700
+$Comp
+L LogicQ:NM Q?
+U 1 1 5E55A8F4
+P 7850 2800
+AR Path="/5E55A8F4" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E55A8F4" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E55A8F4" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E55A8F4" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E55A8F4" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E55A8F4" Ref="Q113"  Part="1" 
+F 0 "Q113" H 7900 2700 50  0000 L CNN
+F 1 "NM" H 7950 2700 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 7650 2800 50  0001 C CNN
+F 3 "" H 7850 2800 50  0001 C CNN
+	1    7850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP88
+U 1 1 5E55A8FA
+P 7850 2650
+F 0 "TP88" H 7908 2768 50  0000 L CNN
+F 1 "TestPoint" H 7908 2677 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 8050 2650 50  0001 C CNN
+F 3 "~" H 8050 2650 50  0001 C CNN
+	1    7850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP84
+U 1 1 5E55A900
+P 7650 2800
+F 0 "TP84" V 7845 2872 50  0000 C CNN
+F 1 "TestPoint" V 7754 2872 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 7850 2800 50  0001 C CNN
+F 3 "~" H 7850 2800 50  0001 C CNN
+	1    7650 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP89
+U 1 1 5E55A906
+P 7850 2950
+F 0 "TP89" H 7792 2976 50  0000 R CNN
+F 1 "TestPoint" H 7792 3067 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 8050 2950 50  0001 C CNN
+F 3 "~" H 8050 2950 50  0001 C CNN
+	1    7850 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 2900 7850 2950
+Wire Wire Line
+	7650 2800 7700 2800
+Wire Wire Line
+	7850 2650 7850 2700
+$Comp
+L LogicQ:NM Q?
+U 1 1 5E55EE01
+P 6000 3500
+AR Path="/5E55EE01" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E55EE01" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E55EE01" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E55EE01" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E55EE01" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E55EE01" Ref="Q108"  Part="1" 
+F 0 "Q108" H 6050 3400 50  0000 L CNN
+F 1 "NM" H 6100 3400 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 5800 3500 50  0001 C CNN
+F 3 "" H 6000 3500 50  0001 C CNN
+	1    6000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP72
+U 1 1 5E55EE07
+P 6000 3350
+F 0 "TP72" H 6058 3468 50  0000 L CNN
+F 1 "TestPoint" H 6058 3377 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 6200 3350 50  0001 C CNN
+F 3 "~" H 6200 3350 50  0001 C CNN
+	1    6000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP67
+U 1 1 5E55EE0D
+P 5800 3500
+F 0 "TP67" V 5995 3572 50  0000 C CNN
+F 1 "TestPoint" V 5904 3572 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 6000 3500 50  0001 C CNN
+F 3 "~" H 6000 3500 50  0001 C CNN
+	1    5800 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP73
+U 1 1 5E55EE13
+P 6000 3650
+F 0 "TP73" H 5942 3676 50  0000 R CNN
+F 1 "TestPoint" H 5942 3767 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 6200 3650 50  0001 C CNN
+F 3 "~" H 6200 3650 50  0001 C CNN
+	1    6000 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 3600 6000 3650
+Wire Wire Line
+	5800 3500 5850 3500
+Wire Wire Line
+	6000 3350 6000 3400
+$Comp
+L LogicQ:NM Q?
+U 1 1 5E55EE1C
+P 6950 3500
+AR Path="/5E55EE1C" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E55EE1C" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E55EE1C" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E55EE1C" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E55EE1C" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E55EE1C" Ref="Q111"  Part="1" 
+F 0 "Q111" H 7000 3400 50  0000 L CNN
+F 1 "NM" H 7050 3400 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 6750 3500 50  0001 C CNN
+F 3 "" H 6950 3500 50  0001 C CNN
+	1    6950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP81
+U 1 1 5E55EE22
+P 6950 3350
+F 0 "TP81" H 7008 3468 50  0000 L CNN
+F 1 "TestPoint" H 7008 3377 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 7150 3350 50  0001 C CNN
+F 3 "~" H 7150 3350 50  0001 C CNN
+	1    6950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP76
+U 1 1 5E55EE28
+P 6750 3500
+F 0 "TP76" V 6945 3572 50  0000 C CNN
+F 1 "TestPoint" V 6854 3572 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 6950 3500 50  0001 C CNN
+F 3 "~" H 6950 3500 50  0001 C CNN
+	1    6750 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP82
+U 1 1 5E55EE2E
+P 6950 3650
+F 0 "TP82" H 6892 3676 50  0000 R CNN
+F 1 "TestPoint" H 6892 3767 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 7150 3650 50  0001 C CNN
+F 3 "~" H 7150 3650 50  0001 C CNN
+	1    6950 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 3600 6950 3650
+Wire Wire Line
+	6750 3500 6800 3500
+Wire Wire Line
+	6950 3350 6950 3400
+$Comp
+L LogicQ:NM Q?
+U 1 1 5E55EE37
+P 7850 3500
+AR Path="/5E55EE37" Ref="Q?"  Part="1" 
+AR Path="/5EC45553/5E55EE37" Ref="Q?"  Part="1" 
+AR Path="/5ED5CBB1/5E55EE37" Ref="Q?"  Part="1" 
+AR Path="/5ED5DFBF/5E55EE37" Ref="Q?"  Part="1" 
+AR Path="/5ED71D34/5E55EE37" Ref="Q?"  Part="1" 
+AR Path="/5E52F45B/5E55EE37" Ref="Q114"  Part="1" 
+F 0 "Q114" H 7900 3400 50  0000 L CNN
+F 1 "NM" H 7950 3400 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 7650 3500 50  0001 C CNN
+F 3 "" H 7850 3500 50  0001 C CNN
+	1    7850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP90
+U 1 1 5E55EE3D
+P 7850 3350
+F 0 "TP90" H 7908 3468 50  0000 L CNN
+F 1 "TestPoint" H 7908 3377 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 8050 3350 50  0001 C CNN
+F 3 "~" H 8050 3350 50  0001 C CNN
+	1    7850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP85
+U 1 1 5E55EE43
+P 7650 3500
+F 0 "TP85" V 7845 3572 50  0000 C CNN
+F 1 "TestPoint" V 7754 3572 50  0000 C CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 7850 3500 50  0001 C CNN
+F 3 "~" H 7850 3500 50  0001 C CNN
+	1    7650 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP91
+U 1 1 5E55EE49
+P 7850 3650
+F 0 "TP91" H 7792 3676 50  0000 R CNN
+F 1 "TestPoint" H 7792 3767 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 8050 3650 50  0001 C CNN
+F 3 "~" H 8050 3650 50  0001 C CNN
+	1    7850 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 3600 7850 3650
+Wire Wire Line
+	7650 3500 7700 3500
+Wire Wire Line
+	7850 3350 7850 3400
+$Comp
+L Connector:TestPoint TP86
+U 1 1 5E555A34
+P 7850 1900
+F 0 "TP86" H 7908 2018 50  0000 L CNN
+F 1 "TestPoint" H 7908 1927 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 8050 1900 50  0001 C CNN
+F 3 "~" H 8050 1900 50  0001 C CNN
+	1    7850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP77
+U 1 1 5E553384
+P 6950 1900
+F 0 "TP77" H 7008 2018 50  0000 L CNN
+F 1 "TestPoint" H 7008 1927 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 7150 1900 50  0001 C CNN
+F 3 "~" H 7150 1900 50  0001 C CNN
+	1    6950 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP68
+U 1 1 5E54F816
+P 6000 1900
+F 0 "TP68" H 6058 2018 50  0000 L CNN
+F 1 "TestPoint" H 6058 1927 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 6200 1900 50  0001 C CNN
+F 3 "~" H 6200 1900 50  0001 C CNN
+	1    6000 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1900 4500 1850
+$Comp
+L Connector:TestPoint TP59
+U 1 1 5E53CF07
+P 4500 1850
+F 0 "TP59" H 4558 1968 50  0000 L CNN
+F 1 "TestPoint" H 4558 1877 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4700 1850 50  0001 C CNN
+F 3 "~" H 4700 1850 50  0001 C CNN
+	1    4500 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1900 3600 1850
+$Comp
+L Connector:TestPoint TP50
+U 1 1 5E53AA95
+P 3600 1850
+F 0 "TP50" H 3658 1968 50  0000 L CNN
+F 1 "TestPoint" H 3658 1877 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 3800 1850 50  0001 C CNN
+F 3 "~" H 3800 1850 50  0001 C CNN
+	1    3600 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1900 2650 1850
+$Comp
+L Connector:TestPoint TP39
+U 1 1 5E531EE6
+P 2650 1850
+F 0 "TP39" H 2708 1968 50  0000 L CNN
+F 1 "TestPoint" H 2708 1877 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 2850 1850 50  0001 C CNN
+F 3 "~" H 2850 1850 50  0001 C CNN
+	1    2650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP92
+U 1 1 5E6144AC
+P 1200 4600
+F 0 "TP92" H 1258 4718 50  0000 L CNN
+F 1 "TestPoint" H 1258 4627 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 1400 4600 50  0001 C CNN
+F 3 "~" H 1400 4600 50  0001 C CNN
+	1    1200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP93
+U 1 1 5E61559D
+P 1200 4900
+F 0 "TP93" H 1142 4926 50  0000 R CNN
+F 1 "TestPoint" H 1142 5017 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 1400 4900 50  0001 C CNN
+F 3 "~" H 1400 4900 50  0001 C CNN
+	1    1200 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1200 4850 1200 4900
+$Comp
+L Connector:TestPoint TP94
+U 1 1 5E61B415
+P 1750 4600
+F 0 "TP94" H 1808 4718 50  0000 L CNN
+F 1 "TestPoint" H 1808 4627 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 1950 4600 50  0001 C CNN
+F 3 "~" H 1950 4600 50  0001 C CNN
+	1    1750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP95
+U 1 1 5E61B41B
+P 1750 4900
+F 0 "TP95" H 1692 4926 50  0000 R CNN
+F 1 "TestPoint" H 1692 5017 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 1950 4900 50  0001 C CNN
+F 3 "~" H 1950 4900 50  0001 C CNN
+	1    1750 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 4850 1750 4900
+$Comp
+L Connector:TestPoint TP96
+U 1 1 5E61ED5E
+P 2300 4600
+F 0 "TP96" H 2358 4718 50  0000 L CNN
+F 1 "TestPoint" H 2358 4627 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 2500 4600 50  0001 C CNN
+F 3 "~" H 2500 4600 50  0001 C CNN
+	1    2300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP97
+U 1 1 5E61ED64
+P 2300 4900
+F 0 "TP97" H 2242 4926 50  0000 R CNN
+F 1 "TestPoint" H 2242 5017 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 2500 4900 50  0001 C CNN
+F 3 "~" H 2500 4900 50  0001 C CNN
+	1    2300 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 4850 2300 4900
+$Comp
+L Connector:TestPoint TP98
+U 1 1 5E61ED72
+P 1200 5550
+F 0 "TP98" H 1258 5668 50  0000 L CNN
+F 1 "TestPoint" H 1258 5577 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 1400 5550 50  0001 C CNN
+F 3 "~" H 1400 5550 50  0001 C CNN
+	1    1200 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP99
+U 1 1 5E61ED78
+P 1200 5850
+F 0 "TP99" H 1142 5876 50  0000 R CNN
+F 1 "TestPoint" H 1142 5967 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 1400 5850 50  0001 C CNN
+F 3 "~" H 1400 5850 50  0001 C CNN
+	1    1200 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1200 5800 1200 5850
+$Comp
+L Connector:TestPoint TP100
+U 1 1 5E623681
+P 1750 5550
+F 0 "TP100" H 1808 5668 50  0000 L CNN
+F 1 "TestPoint" H 1808 5577 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 1950 5550 50  0001 C CNN
+F 3 "~" H 1950 5550 50  0001 C CNN
+	1    1750 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP101
+U 1 1 5E623687
+P 1750 5850
+F 0 "TP101" H 1692 5876 50  0000 R CNN
+F 1 "TestPoint" H 1692 5967 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 1950 5850 50  0001 C CNN
+F 3 "~" H 1950 5850 50  0001 C CNN
+	1    1750 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 5800 1750 5850
+$Comp
+L Connector:TestPoint TP102
+U 1 1 5E623695
+P 2300 5550
+F 0 "TP102" H 2358 5668 50  0000 L CNN
+F 1 "TestPoint" H 2358 5577 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 2500 5550 50  0001 C CNN
+F 3 "~" H 2500 5550 50  0001 C CNN
+	1    2300 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP103
+U 1 1 5E62369B
+P 2300 5850
+F 0 "TP103" H 2242 5876 50  0000 R CNN
+F 1 "TestPoint" H 2242 5967 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 2500 5850 50  0001 C CNN
+F 3 "~" H 2500 5850 50  0001 C CNN
+	1    2300 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 5800 2300 5850
+$Comp
+L Connector:TestPoint TP104
+U 1 1 5E6236A9
+P 1250 6700
+F 0 "TP104" H 1308 6818 50  0000 L CNN
+F 1 "TestPoint" H 1308 6727 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 1450 6700 50  0001 C CNN
+F 3 "~" H 1450 6700 50  0001 C CNN
+	1    1250 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP105
+U 1 1 5E6236AF
+P 1250 7000
+F 0 "TP105" H 1192 7026 50  0000 R CNN
+F 1 "TestPoint" H 1192 7117 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 1450 7000 50  0001 C CNN
+F 3 "~" H 1450 7000 50  0001 C CNN
+	1    1250 7000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1250 6950 1250 7000
+$Comp
+L Connector:TestPoint TP106
+U 1 1 5E6236BD
+P 1800 6700
+F 0 "TP106" H 1858 6818 50  0000 L CNN
+F 1 "TestPoint" H 1858 6727 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 2000 6700 50  0001 C CNN
+F 3 "~" H 2000 6700 50  0001 C CNN
+	1    1800 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP107
+U 1 1 5E6236C3
+P 1800 7000
+F 0 "TP107" H 1742 7026 50  0000 R CNN
+F 1 "TestPoint" H 1742 7117 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 2000 7000 50  0001 C CNN
+F 3 "~" H 2000 7000 50  0001 C CNN
+	1    1800 7000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 6950 1800 7000
+$Comp
+L Connector:TestPoint TP108
+U 1 1 5E63713B
+P 2350 6700
+F 0 "TP108" H 2408 6818 50  0000 L CNN
+F 1 "TestPoint" H 2408 6727 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 2550 6700 50  0001 C CNN
+F 3 "~" H 2550 6700 50  0001 C CNN
+	1    2350 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP109
+U 1 1 5E637141
+P 2350 7000
+F 0 "TP109" H 2292 7026 50  0000 R CNN
+F 1 "TestPoint" H 2292 7117 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 2550 7000 50  0001 C CNN
+F 3 "~" H 2550 7000 50  0001 C CNN
+	1    2350 7000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2350 6950 2350 7000
+$Comp
+L Connector:TestPoint TP110
+U 1 1 5E63714F
+P 3850 4650
+F 0 "TP110" H 3908 4768 50  0000 L CNN
+F 1 "TestPoint" H 3908 4677 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4050 4650 50  0001 C CNN
+F 3 "~" H 4050 4650 50  0001 C CNN
+	1    3850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP111
+U 1 1 5E637155
+P 3850 4950
+F 0 "TP111" H 3792 4976 50  0000 R CNN
+F 1 "TestPoint" H 3792 5067 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4050 4950 50  0001 C CNN
+F 3 "~" H 4050 4950 50  0001 C CNN
+	1    3850 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 4900 3850 4950
+$Comp
+L Connector:TestPoint TP112
+U 1 1 5E637163
+P 4400 4650
+F 0 "TP112" H 4458 4768 50  0000 L CNN
+F 1 "TestPoint" H 4458 4677 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4600 4650 50  0001 C CNN
+F 3 "~" H 4600 4650 50  0001 C CNN
+	1    4400 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP113
+U 1 1 5E637169
+P 4400 4950
+F 0 "TP113" H 4342 4976 50  0000 R CNN
+F 1 "TestPoint" H 4342 5067 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4600 4950 50  0001 C CNN
+F 3 "~" H 4600 4950 50  0001 C CNN
+	1    4400 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4400 4900 4400 4950
+$Comp
+L Connector:TestPoint TP114
+U 1 1 5E637177
+P 4950 4650
+F 0 "TP114" H 5008 4768 50  0000 L CNN
+F 1 "TestPoint" H 5008 4677 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 5150 4650 50  0001 C CNN
+F 3 "~" H 5150 4650 50  0001 C CNN
+	1    4950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP115
+U 1 1 5E63717D
+P 4950 4950
+F 0 "TP115" H 4892 4976 50  0000 R CNN
+F 1 "TestPoint" H 4892 5067 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 5150 4950 50  0001 C CNN
+F 3 "~" H 5150 4950 50  0001 C CNN
+	1    4950 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 4900 4950 4950
+$Comp
+L Connector:TestPoint TP116
+U 1 1 5E63718B
+P 3850 5500
+F 0 "TP116" H 3908 5618 50  0000 L CNN
+F 1 "TestPoint" H 3908 5527 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4050 5500 50  0001 C CNN
+F 3 "~" H 4050 5500 50  0001 C CNN
+	1    3850 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP117
+U 1 1 5E637191
+P 3850 5800
+F 0 "TP117" H 3792 5826 50  0000 R CNN
+F 1 "TestPoint" H 3792 5917 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4050 5800 50  0001 C CNN
+F 3 "~" H 4050 5800 50  0001 C CNN
+	1    3850 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 5750 3850 5800
+$Comp
+L Connector:TestPoint TP118
+U 1 1 5E63719F
+P 4400 5500
+F 0 "TP118" H 4458 5618 50  0000 L CNN
+F 1 "TestPoint" H 4458 5527 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4600 5500 50  0001 C CNN
+F 3 "~" H 4600 5500 50  0001 C CNN
+	1    4400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP119
+U 1 1 5E6371A5
+P 4400 5800
+F 0 "TP119" H 4342 5826 50  0000 R CNN
+F 1 "TestPoint" H 4342 5917 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4600 5800 50  0001 C CNN
+F 3 "~" H 4600 5800 50  0001 C CNN
+	1    4400 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4400 5750 4400 5800
+$Comp
+L Connector:TestPoint TP120
+U 1 1 5E6371B3
+P 4950 5500
+F 0 "TP120" H 5008 5618 50  0000 L CNN
+F 1 "TestPoint" H 5008 5527 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 5150 5500 50  0001 C CNN
+F 3 "~" H 5150 5500 50  0001 C CNN
+	1    4950 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP121
+U 1 1 5E6371B9
+P 4950 5800
+F 0 "TP121" H 4892 5826 50  0000 R CNN
+F 1 "TestPoint" H 4892 5917 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 5150 5800 50  0001 C CNN
+F 3 "~" H 5150 5800 50  0001 C CNN
+	1    4950 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 5750 4950 5800
+$Comp
+L Connector:TestPoint TP122
+U 1 1 5E6371C7
+P 4950 6550
+F 0 "TP122" H 5008 6668 50  0000 L CNN
+F 1 "TestPoint" H 5008 6577 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 5150 6550 50  0001 C CNN
+F 3 "~" H 5150 6550 50  0001 C CNN
+	1    4950 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP123
+U 1 1 5E6371CD
+P 4950 6850
+F 0 "TP123" H 4892 6876 50  0000 R CNN
+F 1 "TestPoint" H 4892 6967 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 5150 6850 50  0001 C CNN
+F 3 "~" H 5150 6850 50  0001 C CNN
+	1    4950 6850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 6800 4950 6850
+Wire Wire Line
+	4950 6550 4950 6600
+Wire Wire Line
+	4950 5500 4950 5550
+Wire Wire Line
+	4400 5500 4400 5550
+Wire Wire Line
+	3850 5500 3850 5550
+Wire Wire Line
+	4950 4650 4950 4700
+Wire Wire Line
+	4400 4650 4400 4700
+Wire Wire Line
+	3850 4650 3850 4700
+Wire Wire Line
+	2350 6700 2350 6750
+Wire Wire Line
+	1800 6700 1800 6750
+Wire Wire Line
+	1250 6700 1250 6750
+Wire Wire Line
+	2300 5550 2300 5600
+Wire Wire Line
+	1750 5550 1750 5600
+Wire Wire Line
+	1200 5550 1200 5600
+Wire Wire Line
+	2300 4600 2300 4650
+Wire Wire Line
+	1750 4600 1750 4650
+Wire Wire Line
+	1200 4600 1200 4650
+$Comp
+L Device:R_Small R19
+U 1 1 5E613991
+P 1200 4750
+F 0 "R19" H 1259 4796 50  0000 L CNN
+F 1 "R_Small" H 1259 4705 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 1200 4750 50  0001 C CNN
+F 3 "~" H 1200 4750 50  0001 C CNN
+	1    1200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R20
+U 1 1 5E653C93
+P 1750 4750
+F 0 "R20" H 1809 4796 50  0000 L CNN
+F 1 "R_Small" H 1809 4705 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 1750 4750 50  0001 C CNN
+F 3 "~" H 1750 4750 50  0001 C CNN
+	1    1750 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R21
+U 1 1 5E654081
+P 2300 4750
+F 0 "R21" H 2359 4796 50  0000 L CNN
+F 1 "R_Small" H 2359 4705 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 2300 4750 50  0001 C CNN
+F 3 "~" H 2300 4750 50  0001 C CNN
+	1    2300 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R22
+U 1 1 5E6543E4
+P 1200 5700
+F 0 "R22" H 1259 5746 50  0000 L CNN
+F 1 "R_Small" H 1259 5655 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 1200 5700 50  0001 C CNN
+F 3 "~" H 1200 5700 50  0001 C CNN
+	1    1200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R23
+U 1 1 5E6547A2
+P 1750 5700
+F 0 "R23" H 1809 5746 50  0000 L CNN
+F 1 "R_Small" H 1809 5655 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 1750 5700 50  0001 C CNN
+F 3 "~" H 1750 5700 50  0001 C CNN
+	1    1750 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R24
+U 1 1 5E654ADD
+P 2300 5700
+F 0 "R24" H 2359 5746 50  0000 L CNN
+F 1 "R_Small" H 2359 5655 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 2300 5700 50  0001 C CNN
+F 3 "~" H 2300 5700 50  0001 C CNN
+	1    2300 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R25
+U 1 1 5E65578D
+P 1250 6850
+F 0 "R25" H 1309 6896 50  0000 L CNN
+F 1 "R_Small" H 1309 6805 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 1250 6850 50  0001 C CNN
+F 3 "~" H 1250 6850 50  0001 C CNN
+	1    1250 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R26
+U 1 1 5E655A8E
+P 1800 6850
+F 0 "R26" H 1859 6896 50  0000 L CNN
+F 1 "R_Small" H 1859 6805 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 1800 6850 50  0001 C CNN
+F 3 "~" H 1800 6850 50  0001 C CNN
+	1    1800 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R27
+U 1 1 5E656374
+P 2350 6850
+F 0 "R27" H 2409 6896 50  0000 L CNN
+F 1 "R_Small" H 2409 6805 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 2350 6850 50  0001 C CNN
+F 3 "~" H 2350 6850 50  0001 C CNN
+	1    2350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R28
+U 1 1 5E65678E
+P 3850 4800
+F 0 "R28" H 3909 4846 50  0000 L CNN
+F 1 "R_Small" H 3909 4755 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 3850 4800 50  0001 C CNN
+F 3 "~" H 3850 4800 50  0001 C CNN
+	1    3850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R29
+U 1 1 5E6569EF
+P 4400 4800
+F 0 "R29" H 4459 4846 50  0000 L CNN
+F 1 "R_Small" H 4459 4755 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 4400 4800 50  0001 C CNN
+F 3 "~" H 4400 4800 50  0001 C CNN
+	1    4400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R30
+U 1 1 5E65715B
+P 4950 4800
+F 0 "R30" H 5009 4846 50  0000 L CNN
+F 1 "R_Small" H 5009 4755 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 4950 4800 50  0001 C CNN
+F 3 "~" H 4950 4800 50  0001 C CNN
+	1    4950 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R31
+U 1 1 5E6573BB
+P 3850 5650
+F 0 "R31" H 3909 5696 50  0000 L CNN
+F 1 "R_Small" H 3909 5605 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 3850 5650 50  0001 C CNN
+F 3 "~" H 3850 5650 50  0001 C CNN
+	1    3850 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R32
+U 1 1 5E6576C6
+P 4400 5650
+F 0 "R32" H 4459 5696 50  0000 L CNN
+F 1 "R_Small" H 4459 5605 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 4400 5650 50  0001 C CNN
+F 3 "~" H 4400 5650 50  0001 C CNN
+	1    4400 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R33
+U 1 1 5E6579B7
+P 4950 5650
+F 0 "R33" H 5009 5696 50  0000 L CNN
+F 1 "R_Small" H 5009 5605 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 4950 5650 50  0001 C CNN
+F 3 "~" H 4950 5650 50  0001 C CNN
+	1    4950 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R34
+U 1 1 5E657BFF
+P 4950 6700
+F 0 "R34" H 5009 6746 50  0000 L CNN
+F 1 "R_Small" H 5009 6655 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 4950 6700 50  0001 C CNN
+F 3 "~" H 4950 6700 50  0001 C CNN
+	1    4950 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP124
+U 1 1 5E6C414C
+P 3850 6550
+F 0 "TP124" H 3908 6668 50  0000 L CNN
+F 1 "TestPoint" H 3908 6577 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4050 6550 50  0001 C CNN
+F 3 "~" H 4050 6550 50  0001 C CNN
+	1    3850 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP125
+U 1 1 5E6C4152
+P 3850 6850
+F 0 "TP125" H 3792 6876 50  0000 R CNN
+F 1 "TestPoint" H 3792 6967 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4050 6850 50  0001 C CNN
+F 3 "~" H 4050 6850 50  0001 C CNN
+	1    3850 6850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 6800 3850 6850
+$Comp
+L Connector:TestPoint TP126
+U 1 1 5E6C4159
+P 4400 6550
+F 0 "TP126" H 4458 6668 50  0000 L CNN
+F 1 "TestPoint" H 4458 6577 50  0000 L CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4600 6550 50  0001 C CNN
+F 3 "~" H 4600 6550 50  0001 C CNN
+	1    4400 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP127
+U 1 1 5E6C415F
+P 4400 6850
+F 0 "TP127" H 4342 6876 50  0000 R CNN
+F 1 "TestPoint" H 4342 6967 50  0000 R CNN
+F 2 "LogicQ:TestPoint_Pad_1.5x1.5mm_NOLBL" H 4600 6850 50  0001 C CNN
+F 3 "~" H 4600 6850 50  0001 C CNN
+	1    4400 6850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4400 6800 4400 6850
+Wire Wire Line
+	4400 6550 4400 6600
+Wire Wire Line
+	3850 6550 3850 6600
+$Comp
+L Device:R_Small R35
+U 1 1 5E6C4168
+P 3850 6700
+F 0 "R35" H 3909 6746 50  0000 L CNN
+F 1 "R_Small" H 3909 6655 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 3850 6700 50  0001 C CNN
+F 3 "~" H 3850 6700 50  0001 C CNN
+	1    3850 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R36
+U 1 1 5E6C416E
+P 4400 6700
+F 0 "R36" H 4459 6746 50  0000 L CNN
+F 1 "R_Small" H 4459 6655 50  0000 L CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 4400 6700 50  0001 C CNN
+F 3 "~" H 4400 6700 50  0001 C CNN
+	1    4400 6700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

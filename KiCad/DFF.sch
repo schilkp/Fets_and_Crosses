@@ -1,0 +1,396 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 13 20
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 700  1200 0    50   Input ~ 0
+CLK_IN
+Text HLabel 2750 2700 0    50   Input ~ 0
+D
+Text HLabel 1700 3100 0    50   Input ~ 0
+~R
+Text HLabel 8150 2600 2    50   Input ~ 0
+Q
+Text HLabel 8150 3900 2    50   Input ~ 0
+~Q
+$Comp
+L LogicQ:NM Q?
+U 1 1 5F0B63EE
+P 3200 2750
+AR Path="/5F08E133/5F0B63EE" Ref="Q?"  Part="1" 
+AR Path="/5F08E133/5F0AFCF0/5F0B63EE" Ref="Q?"  Part="1" 
+AR Path="/5F08E133/5F0B4401/5F0B63EE" Ref="Q74"  Part="1" 
+F 0 "Q74" V 3450 2650 50  0000 C CNN
+F 1 "NM" H 3300 2650 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 3000 2750 50  0001 C CNN
+F 3 "" H 3200 2750 50  0001 C CNN
+	1    3200 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LogicQ:PM Q?
+U 1 1 5F0B63F4
+P 3200 2650
+AR Path="/5F08E133/5F0B63F4" Ref="Q?"  Part="1" 
+AR Path="/5F08E133/5F0AFCF0/5F0B63F4" Ref="Q?"  Part="1" 
+AR Path="/5F08E133/5F0B4401/5F0B63F4" Ref="Q73"  Part="1" 
+F 0 "Q73" V 3450 2750 50  0000 C CNN
+F 1 "PM" H 3300 2550 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 3000 2650 50  0001 C CNN
+F 3 "" H 3200 2650 50  0001 C CNN
+	1    3200 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 2650 3350 2650
+Wire Wire Line
+	3350 2750 3300 2750
+Wire Wire Line
+	3100 2650 3050 2650
+Wire Wire Line
+	3050 2750 3100 2750
+Wire Wire Line
+	3350 2650 3350 2700
+Wire Wire Line
+	3050 2650 3050 2700
+$Comp
+L LogicQ:NM Q?
+U 1 1 5F0BB67F
+P 3850 3250
+AR Path="/5F08E133/5F0BB67F" Ref="Q?"  Part="1" 
+AR Path="/5F08E133/5F0AFCF0/5F0BB67F" Ref="Q?"  Part="1" 
+AR Path="/5F08E133/5F0B4401/5F0BB67F" Ref="Q75"  Part="1" 
+F 0 "Q75" V 4050 3150 50  0000 C CNN
+F 1 "NM" H 3950 3150 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 3650 3250 50  0001 C CNN
+F 3 "" H 3850 3250 50  0001 C CNN
+	1    3850 3250
+	0    -1   1    0   
+$EndComp
+$Comp
+L LogicQ:PM Q?
+U 1 1 5F0BB685
+P 3850 3350
+AR Path="/5F08E133/5F0BB685" Ref="Q?"  Part="1" 
+AR Path="/5F08E133/5F0AFCF0/5F0BB685" Ref="Q?"  Part="1" 
+AR Path="/5F08E133/5F0B4401/5F0BB685" Ref="Q76"  Part="1" 
+F 0 "Q76" V 4100 3450 50  0000 C CNN
+F 1 "PM" H 3950 3250 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 3650 3350 50  0001 C CNN
+F 3 "" H 3850 3350 50  0001 C CNN
+	1    3850 3350
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3950 3350 4000 3350
+Wire Wire Line
+	4000 3250 3950 3250
+Wire Wire Line
+	3750 3350 3700 3350
+Wire Wire Line
+	3700 3250 3750 3250
+Wire Wire Line
+	4000 3350 4000 3300
+Wire Wire Line
+	3700 3350 3700 3300
+Wire Wire Line
+	3700 3300 3550 3300
+Wire Wire Line
+	3550 3300 3550 2700
+Wire Wire Line
+	3550 2700 3350 2700
+Connection ~ 3700 3300
+Wire Wire Line
+	3700 3300 3700 3250
+Connection ~ 3350 2700
+Wire Wire Line
+	3350 2700 3350 2750
+Connection ~ 3550 2700
+$Sheet
+S 3950 2600 500  150 
+U 5F0BC753
+F0 "Sheet5F0BC752" 50
+F1 "NOT.sch" 50
+F2 "IN" I L 3950 2700 50 
+F3 "OUT" I R 4450 2650 50 
+$EndSheet
+Wire Wire Line
+	3550 2700 3950 2700
+Wire Wire Line
+	4450 2650 5050 2650
+Wire Wire Line
+	5050 2650 5050 3250
+Wire Wire Line
+	5050 3250 4950 3250
+Connection ~ 5050 2650
+Wire Wire Line
+	1850 1150 1850 1050
+Wire Wire Line
+	1400 1150 1850 1150
+Wire Wire Line
+	900  1200 700  1200
+$Sheet
+S 900  1100 500  150 
+U 5F0C0C5C
+F0 "sheet5F0C0C58" 50
+F1 "NOT.sch" 50
+F2 "IN" I L 900 1200 50 
+F3 "OUT" I R 1400 1150 50 
+$EndSheet
+$Sheet
+S 2200 950  500  150 
+U 5F0C1FC4
+F0 "sheet5F0C1FC0" 50
+F1 "NOT.sch" 50
+F2 "IN" I L 2200 1050 50 
+F3 "OUT" I R 2700 1000 50 
+$EndSheet
+Wire Wire Line
+	1850 1050 2200 1050
+Wire Wire Line
+	1850 1150 1850 1500
+Wire Wire Line
+	1850 1500 2250 1500
+Connection ~ 1850 1150
+Text Label 2250 1500 2    50   ~ 0
+~CLK
+Wire Wire Line
+	2700 1000 3050 1000
+Text Label 3050 1000 2    50   ~ 0
+CLK
+$Sheet
+S 4400 3150 550  250 
+U 5F0C3E70
+F0 "NAND1" 50
+F1 "NAND.sch" 50
+F2 "A" I R 4950 3350 50 
+F3 "Y" I L 4400 3300 50 
+F4 "B" I R 4950 3250 50 
+$EndSheet
+Wire Wire Line
+	4400 3300 4000 3300
+Connection ~ 4000 3300
+Wire Wire Line
+	4000 3300 4000 3250
+Wire Wire Line
+	4950 3350 5050 3350
+Wire Wire Line
+	5050 3350 5050 3750
+Wire Wire Line
+	5050 3750 4850 3750
+Text Label 1750 3100 0    50   ~ 0
+~R
+Wire Wire Line
+	1700 3100 1800 3100
+Text Label 4850 3750 0    50   ~ 0
+~R
+$Comp
+L LogicQ:NM Q?
+U 1 1 5F0D15F8
+P 5800 2700
+AR Path="/5F08E133/5F0D15F8" Ref="Q?"  Part="1" 
+AR Path="/5F08E133/5F0AFCF0/5F0D15F8" Ref="Q?"  Part="1" 
+AR Path="/5F08E133/5F0B4401/5F0D15F8" Ref="Q78"  Part="1" 
+F 0 "Q78" V 6050 2600 50  0000 C CNN
+F 1 "NM" H 5900 2600 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 5600 2700 50  0001 C CNN
+F 3 "" H 5800 2700 50  0001 C CNN
+	1    5800 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LogicQ:PM Q?
+U 1 1 5F0D15FE
+P 5800 2600
+AR Path="/5F08E133/5F0D15FE" Ref="Q?"  Part="1" 
+AR Path="/5F08E133/5F0AFCF0/5F0D15FE" Ref="Q?"  Part="1" 
+AR Path="/5F08E133/5F0B4401/5F0D15FE" Ref="Q77"  Part="1" 
+F 0 "Q77" V 6050 2700 50  0000 C CNN
+F 1 "PM" H 5900 2500 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 5600 2600 50  0001 C CNN
+F 3 "" H 5800 2600 50  0001 C CNN
+	1    5800 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 2600 5950 2600
+Wire Wire Line
+	5950 2700 5900 2700
+Wire Wire Line
+	5700 2600 5650 2600
+Wire Wire Line
+	5650 2700 5700 2700
+Wire Wire Line
+	5950 2600 5950 2650
+Wire Wire Line
+	5650 2600 5650 2650
+$Comp
+L LogicQ:NM Q?
+U 1 1 5F0D160A
+P 6450 3200
+AR Path="/5F08E133/5F0D160A" Ref="Q?"  Part="1" 
+AR Path="/5F08E133/5F0AFCF0/5F0D160A" Ref="Q?"  Part="1" 
+AR Path="/5F08E133/5F0B4401/5F0D160A" Ref="Q79"  Part="1" 
+F 0 "Q79" V 6700 3100 50  0000 C CNN
+F 1 "NM" H 6550 3100 50  0001 C CNN
+F 2 "LogicQ:SOT-23-N" H 6250 3200 50  0001 C CNN
+F 3 "" H 6450 3200 50  0001 C CNN
+	1    6450 3200
+	0    -1   1    0   
+$EndComp
+$Comp
+L LogicQ:PM Q?
+U 1 1 5F0D1610
+P 6450 3300
+AR Path="/5F08E133/5F0D1610" Ref="Q?"  Part="1" 
+AR Path="/5F08E133/5F0AFCF0/5F0D1610" Ref="Q?"  Part="1" 
+AR Path="/5F08E133/5F0B4401/5F0D1610" Ref="Q80"  Part="1" 
+F 0 "Q80" V 6700 3400 50  0000 C CNN
+F 1 "PM" H 6550 3200 50  0001 C CNN
+F 2 "LogicQ:SOT-23-P" H 6250 3300 50  0001 C CNN
+F 3 "" H 6450 3300 50  0001 C CNN
+	1    6450 3300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6550 3300 6600 3300
+Wire Wire Line
+	6600 3200 6550 3200
+Wire Wire Line
+	6350 3300 6300 3300
+Wire Wire Line
+	6300 3200 6350 3200
+Wire Wire Line
+	6600 3300 6600 3250
+Wire Wire Line
+	6300 3300 6300 3250
+Wire Wire Line
+	6300 3250 6150 3250
+Wire Wire Line
+	6150 3250 6150 2650
+Wire Wire Line
+	6150 2650 5950 2650
+Connection ~ 6300 3250
+Wire Wire Line
+	6300 3250 6300 3200
+Connection ~ 5950 2650
+Wire Wire Line
+	5950 2650 5950 2700
+Connection ~ 6150 2650
+$Sheet
+S 6550 2550 500  150 
+U 5F0D1622
+F0 "sheet5F0D15F1" 50
+F1 "NOT.sch" 50
+F2 "IN" I L 6550 2650 50 
+F3 "OUT" I R 7050 2600 50 
+$EndSheet
+Wire Wire Line
+	6150 2650 6550 2650
+Wire Wire Line
+	7050 2600 7650 2600
+Wire Wire Line
+	7650 2600 7650 3200
+Wire Wire Line
+	7650 3200 7550 3200
+Connection ~ 7650 2600
+$Sheet
+S 7000 3100 550  250 
+U 5F0D162D
+F0 "sheet5F0D15F2" 50
+F1 "NAND.sch" 50
+F2 "A" I R 7550 3300 50 
+F3 "Y" I L 7000 3250 50 
+F4 "B" I R 7550 3200 50 
+$EndSheet
+Wire Wire Line
+	7000 3250 6800 3250
+Connection ~ 6600 3250
+Wire Wire Line
+	6600 3250 6600 3200
+Wire Wire Line
+	7550 3300 7650 3300
+Wire Wire Line
+	7650 3300 7650 3700
+Wire Wire Line
+	7650 3700 7450 3700
+Text Label 7450 3700 0    50   ~ 0
+~R
+Wire Wire Line
+	5050 2650 5650 2650
+Connection ~ 5650 2650
+Wire Wire Line
+	5650 2650 5650 2700
+Wire Wire Line
+	3200 2500 3200 2400
+Wire Wire Line
+	3200 2900 3200 3000
+Wire Wire Line
+	3000 2400 3200 2400
+Text Label 3000 2400 0    50   ~ 0
+CLK
+Text Label 3000 3000 0    50   ~ 0
+~CLK
+Wire Wire Line
+	3000 3000 3200 3000
+Wire Wire Line
+	3850 3100 3850 3000
+Wire Wire Line
+	3850 3000 4050 3000
+Wire Wire Line
+	3850 3500 3850 3600
+Wire Wire Line
+	3850 3600 4100 3600
+Text Label 4050 3000 2    50   ~ 0
+CLK
+Text Label 4100 3600 2    50   ~ 0
+~CLK
+Wire Wire Line
+	5600 2350 5800 2350
+Text Label 5600 3000 0    50   ~ 0
+CLK
+Wire Wire Line
+	5800 2350 5800 2450
+Text Label 5600 2350 0    50   ~ 0
+~CLK
+Wire Wire Line
+	5800 2850 5800 3000
+Wire Wire Line
+	5800 3000 5600 3000
+Wire Wire Line
+	6450 3050 6450 2950
+Wire Wire Line
+	6450 2950 6600 2950
+Text Label 6600 2950 2    50   ~ 0
+~CLK
+Wire Wire Line
+	6450 3450 6450 3600
+Wire Wire Line
+	6150 3600 6450 3600
+Text Label 6150 3600 0    50   ~ 0
+CLK
+Wire Wire Line
+	6800 3250 6800 3900
+Connection ~ 6800 3250
+Wire Wire Line
+	6800 3250 6600 3250
+Wire Wire Line
+	7650 2600 8150 2600
+Wire Wire Line
+	6800 3900 8150 3900
+Wire Wire Line
+	3050 2700 2750 2700
+Connection ~ 3050 2700
+Wire Wire Line
+	3050 2700 3050 2750
+$EndSCHEMATC
