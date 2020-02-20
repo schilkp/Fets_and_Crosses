@@ -39,7 +39,7 @@ function isLegal = checkBoardLegal(board)
     
     %Check that no end-condition is met
     
-    %Rows
+    %Win Rows
     for r = 1:3
         if sum(board(r,:,1)) == 3 || sum( board(r,:,2)) == 3
             isLegal = 0;
@@ -47,7 +47,7 @@ function isLegal = checkBoardLegal(board)
         end
     end
     
-    %Collums
+    %Win Collums
     for c = 1:3
         if sum(board(:,c,1)) == 3 || sum( board(:,c,2)) == 3
             isLegal = 0;
@@ -55,16 +55,23 @@ function isLegal = checkBoardLegal(board)
         end
     end
     
-    %Diags:
-    if sum(diag(board(:,:,1))) == 3 || sum(diag(board(:,:,1))) == 3 
+    %Win Diags:
+    if sum(diag(board(:,:,1))) == 3 || sum(diag(board(:,:,2))) == 3 
         isLegal = 0;
         return;
     end
     
-    if sum(diag(flipud(board(:,:,1)))) == 3 || sum(diag(flipud(board(:,:,1)))) == 3 
+    if sum(diag(flipud(board(:,:,1)))) == 3 || sum(diag(flipud(board(:,:,2)))) == 3 
         isLegal = 0;
         return;
     end
+    
+    %Draw
+    if sum(sum(board(:,:,1))+sum(board(:,:,2))) == 9
+        isLegal = 0;
+        return;
+    end
+    
     
     isLegal = 1;
 end

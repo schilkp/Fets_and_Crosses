@@ -49,7 +49,7 @@ for i = 1:length(mem)
         % Calculate the move the AI should make
          mem(i) = makeMove(board);
     else
-        % Write 0b00001111
+        % Write 0b11111111
          mem(i) = hex2dec('FF');
     end
 
