@@ -1,0 +1,211 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 30
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 2950 4400 0    50   Input ~ 0
+D
+Text HLabel 2650 3550 0    50   Input ~ 0
+CLK
+Text HLabel 3050 2750 0    50   Input ~ 0
+~R
+Text HLabel 7500 2750 2    50   Output ~ 0
+Q
+Text HLabel 7500 3000 2    50   Output ~ 0
+~Q
+$Sheet
+S 3750 1750 550  350 
+U 5E8D9C7B
+F0 "sheet5E8D9C76" 50
+F1 "GateNAND2in.sch" 50
+F2 "A" I L 3750 1850 50 
+F3 "B" I L 3750 2000 50 
+F4 "Q" O R 4300 1950 50 
+$EndSheet
+$Sheet
+S 3650 2550 850  400 
+U 5E8DA6DA
+F0 "sheet5E8DA6D4" 50
+F1 "Nand3in.sch" 50
+F2 "A" I L 3650 2650 50 
+F3 "B" I L 3650 2850 50 
+F4 "C" I L 3650 2750 50 
+F5 "Q" O R 4500 2750 50 
+$EndSheet
+$Sheet
+S 3650 3350 850  400 
+U 5E8DACE2
+F0 "sheet5E8DACDC" 50
+F1 "Nand3in.sch" 50
+F2 "A" I L 3650 3450 50 
+F3 "B" I L 3650 3650 50 
+F4 "C" I L 3650 3550 50 
+F5 "Q" O R 4500 3550 50 
+$EndSheet
+$Sheet
+S 3650 4100 850  400 
+U 5E8DADC5
+F0 "sheet5E8DADBF" 50
+F1 "Nand3in.sch" 50
+F2 "A" I L 3650 4200 50 
+F3 "B" I L 3650 4400 50 
+F4 "C" I L 3650 4300 50 
+F5 "Q" O R 4500 4300 50 
+$EndSheet
+$Sheet
+S 5500 3450 850  400 
+U 5E8DAEDF
+F0 "sheet5E8DAED9" 50
+F1 "Nand3in.sch" 50
+F2 "A" I L 5500 3550 50 
+F3 "B" I L 5500 3750 50 
+F4 "C" I L 5500 3650 50 
+F5 "Q" O R 6350 3650 50 
+$EndSheet
+$Sheet
+S 5550 2250 550  350 
+U 5E8DB125
+F0 "sheet5E8DB120" 50
+F1 "GateNAND2in.sch" 50
+F2 "A" I L 5550 2350 50 
+F3 "B" I L 5550 2500 50 
+F4 "Q" O R 6100 2450 50 
+$EndSheet
+Wire Wire Line
+	6350 3650 6500 3650
+Wire Wire Line
+	6500 3650 6500 3200
+Wire Wire Line
+	6500 3100 5250 3100
+Wire Wire Line
+	5250 3100 5250 2500
+Wire Wire Line
+	5250 2500 5550 2500
+Wire Wire Line
+	6100 2450 6550 2450
+Wire Wire Line
+	6550 2450 6550 2750
+Wire Wire Line
+	6550 3000 5400 3000
+Wire Wire Line
+	5400 3000 5400 3550
+Wire Wire Line
+	5400 3550 5500 3550
+Wire Wire Line
+	7500 2750 6550 2750
+Connection ~ 6550 2750
+Wire Wire Line
+	6550 2750 6550 3000
+Wire Wire Line
+	7500 3000 7100 3000
+Wire Wire Line
+	7100 3000 7100 3200
+Wire Wire Line
+	7100 3200 6500 3200
+Connection ~ 6500 3200
+Wire Wire Line
+	6500 3200 6500 3100
+Wire Wire Line
+	5550 2350 4750 2350
+Wire Wire Line
+	4750 2350 4750 2750
+Wire Wire Line
+	4750 2750 4500 2750
+Wire Wire Line
+	4750 2350 3700 2350
+Wire Wire Line
+	3700 2350 3700 2000
+Wire Wire Line
+	3700 2000 3750 2000
+Connection ~ 4750 2350
+Wire Wire Line
+	4750 2750 4750 3150
+Wire Wire Line
+	4750 3150 3550 3150
+Wire Wire Line
+	3550 3150 3550 3450
+Wire Wire Line
+	3550 3450 3650 3450
+Connection ~ 4750 2750
+Wire Wire Line
+	3650 3550 3350 3550
+Wire Wire Line
+	3650 2850 3350 2850
+Wire Wire Line
+	3350 2850 3350 3550
+Connection ~ 3350 3550
+Wire Wire Line
+	3350 3550 2650 3550
+Wire Wire Line
+	3650 2750 3150 2750
+Wire Wire Line
+	3150 2750 3150 3200
+Wire Wire Line
+	3150 3200 5200 3200
+Wire Wire Line
+	5200 3200 5200 3650
+Wire Wire Line
+	5200 3650 5500 3650
+Wire Wire Line
+	3150 3200 3150 4300
+Wire Wire Line
+	3150 4300 3650 4300
+Connection ~ 3150 3200
+Wire Wire Line
+	3650 4200 3450 4200
+Wire Wire Line
+	3450 4200 3450 3950
+Wire Wire Line
+	3450 3950 4650 3950
+Wire Wire Line
+	4650 3950 4650 3750
+Wire Wire Line
+	4650 3550 4500 3550
+Wire Wire Line
+	4500 4300 4600 4300
+Wire Wire Line
+	4600 4300 4600 3850
+Wire Wire Line
+	4600 3850 3500 3850
+Wire Wire Line
+	3500 3850 3500 3650
+Wire Wire Line
+	3500 3650 3650 3650
+Wire Wire Line
+	4650 3750 5500 3750
+Connection ~ 4650 3750
+Wire Wire Line
+	4650 3750 4650 3550
+Wire Wire Line
+	3650 2650 3350 2650
+Wire Wire Line
+	3350 2650 3350 2250
+Wire Wire Line
+	3350 2250 4650 2250
+Wire Wire Line
+	4650 2250 4650 1950
+Wire Wire Line
+	4650 1950 4300 1950
+Wire Wire Line
+	3500 3650 3250 3650
+Wire Wire Line
+	3250 3650 3250 1850
+Wire Wire Line
+	3250 1850 3750 1850
+Connection ~ 3500 3650
+Wire Wire Line
+	3050 2750 3150 2750
+Connection ~ 3150 2750
+Wire Wire Line
+	2950 4400 3650 4400
+$EndSCHEMATC

@@ -1,0 +1,581 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 30
+Title "Philipp Schilk"
+Date "2020-02-26"
+Rev "v0.1"
+Comp "TestingBoard"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5EE284B8
+P 1000 1450
+AR Path="/5EE284B8" Ref="J2"  Part="1" 
+AR Path="/5EE11FBA/5EE284B8" Ref="J2"  Part="1" 
+F 0 "J2" H 918 1125 50  0000 C CNN
+F 1 "Conn_01x02" H 918 1216 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1000 1450 50  0001 C CNN
+F 3 "~" H 1000 1450 50  0001 C CNN
+	1    1000 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP_Small C1
+U 1 1 5EE284BE
+P 1900 1400
+AR Path="/5EE284BE" Ref="C1"  Part="1" 
+AR Path="/5EE11FBA/5EE284BE" Ref="C1"  Part="1" 
+F 0 "C1" H 1988 1446 50  0000 L CNN
+F 1 "CP_Small" H 1988 1355 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x6.5" H 1900 1400 50  0001 C CNN
+F 3 "~" H 1900 1400 50  0001 C CNN
+	1    1900 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1350 1750 1250
+Wire Wire Line
+	1750 1250 1800 1250
+Wire Wire Line
+	1900 1250 1900 1300
+Wire Wire Line
+	1750 1450 1750 1550
+Wire Wire Line
+	1750 1550 1800 1550
+Wire Wire Line
+	1900 1550 1900 1500
+Wire Wire Line
+	1800 1200 1800 1250
+Connection ~ 1800 1250
+Wire Wire Line
+	1800 1250 1900 1250
+$Comp
+L power:GND #PWR0101
+U 1 1 5EE284D3
+P 1800 1600
+AR Path="/5EE284D3" Ref="#PWR0101"  Part="1" 
+AR Path="/5EE11FBA/5EE284D3" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0101" H 1800 1350 50  0001 C CNN
+F 1 "GND" H 1805 1427 50  0000 C CNN
+F 2 "" H 1800 1600 50  0001 C CNN
+F 3 "" H 1800 1600 50  0001 C CNN
+	1    1800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1600 1800 1550
+Connection ~ 1800 1550
+Wire Wire Line
+	1800 1550 1900 1550
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5EE285F7
+P 1350 750
+AR Path="/5EE285F7" Ref="J3"  Part="1" 
+AR Path="/5EE11FBA/5EE285F7" Ref="J3"  Part="1" 
+F 0 "J3" V 1314 562 50  0000 R CNN
+F 1 "Conn_01x02" V 1223 562 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1350 750 50  0001 C CNN
+F 3 "~" H 1350 750 50  0001 C CNN
+	1    1350 750 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 950  1450 1350
+Wire Wire Line
+	1450 1350 1750 1350
+Wire Wire Line
+	1200 1450 1750 1450
+Wire Wire Line
+	1200 1350 1350 1350
+Wire Wire Line
+	1350 1350 1350 950 
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5EE78A69
+P 9300 3650
+AR Path="/5EE78A69" Ref="TP4"  Part="1" 
+AR Path="/5EE11FBA/5EE78A69" Ref="TP23"  Part="1" 
+F 0 "TP4" V 9254 3838 50  0000 L CNN
+F 1 "TestPoint" V 9345 3838 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 9500 3650 50  0001 C CNN
+F 3 "~" H 9500 3650 50  0001 C CNN
+	1    9300 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9300 3650 9000 3650
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5EE7F18B
+P 9300 3100
+AR Path="/5EE7F18B" Ref="TP6"  Part="1" 
+AR Path="/5EE11FBA/5EE7F18B" Ref="TP21"  Part="1" 
+F 0 "TP6" V 9254 3288 50  0000 L CNN
+F 1 "TestPoint" V 9345 3288 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 9500 3100 50  0001 C CNN
+F 3 "~" H 9500 3100 50  0001 C CNN
+	1    9300 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9300 3100 9000 3100
+$Comp
+L Connector_Generic:Conn_01x08 J1
+U 1 1 5F02CE01
+P 1200 2850
+F 0 "J1" H 1118 2225 50  0000 C CNN
+F 1 "Conn_01x08" H 1118 2316 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 1200 2850 50  0001 C CNN
+F 3 "~" H 1200 2850 50  0001 C CNN
+	1    1200 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 2550 1600 2550
+Wire Wire Line
+	1400 2650 1600 2650
+Wire Wire Line
+	1400 2750 1600 2750
+Wire Wire Line
+	1400 2850 1600 2850
+Wire Wire Line
+	1400 2950 1600 2950
+Wire Wire Line
+	1400 3050 1600 3050
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5EE73F58
+P 9200 4300
+AR Path="/5EE73F58" Ref="TP3"  Part="1" 
+AR Path="/5EE11FBA/5EE73F58" Ref="TP22"  Part="1" 
+F 0 "TP3" V 9154 4488 50  0000 L CNN
+F 1 "TestPoint" V 9245 4488 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 9400 4300 50  0001 C CNN
+F 3 "~" H 9400 4300 50  0001 C CNN
+	1    9200 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0118
+U 1 1 5EE284CA
+P 1800 1200
+AR Path="/5EE284CA" Ref="#PWR0118"  Part="1" 
+AR Path="/5EE11FBA/5EE284CA" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0118" H 1800 1050 50  0001 C CNN
+F 1 "+5V" H 1815 1373 50  0000 C CNN
+F 2 "" H 1800 1200 50  0001 C CNN
+F 3 "" H 1800 1200 50  0001 C CNN
+	1    1800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0119
+U 1 1 5E589B8D
+P 1800 2400
+AR Path="/5E589B8D" Ref="#PWR0119"  Part="1" 
+AR Path="/5EE11FBA/5E589B8D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0119" H 1800 2250 50  0001 C CNN
+F 1 "+5V" H 1815 2573 50  0000 C CNN
+F 2 "" H 1800 2400 50  0001 C CNN
+F 3 "" H 1800 2400 50  0001 C CNN
+	1    1800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5E589ECA
+P 1850 3250
+AR Path="/5E589ECA" Ref="#PWR0120"  Part="1" 
+AR Path="/5EE11FBA/5E589ECA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0120" H 1850 3000 50  0001 C CNN
+F 1 "GND" H 1855 3077 50  0000 C CNN
+F 2 "" H 1850 3250 50  0001 C CNN
+F 3 "" H 1850 3250 50  0001 C CNN
+	1    1850 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2400 1800 2450
+Wire Wire Line
+	1400 2450 1600 2450
+Wire Wire Line
+	1600 2750 1600 2650
+Wire Wire Line
+	1600 2650 1600 2550
+Connection ~ 1600 2650
+Wire Wire Line
+	1600 2550 1600 2450
+Connection ~ 1600 2550
+Connection ~ 1600 2450
+Wire Wire Line
+	1600 2450 1800 2450
+Wire Wire Line
+	1850 3250 1850 3150
+Wire Wire Line
+	1400 3150 1600 3150
+Wire Wire Line
+	1600 3150 1600 3050
+Connection ~ 1600 3150
+Wire Wire Line
+	1600 3150 1850 3150
+Wire Wire Line
+	1600 3050 1600 2950
+Connection ~ 1600 3050
+Wire Wire Line
+	1600 2950 1600 2850
+Connection ~ 1600 2950
+$Sheet
+S 1350 6900 1050 500 
+U 5E5E2116
+F0 "BoardCell" 50
+F1 "BoardCell.sch" 50
+F2 "P1" I L 1350 7000 50 
+F3 "P2" I L 1350 7150 50 
+$EndSheet
+$Sheet
+S 1300 4300 850  400 
+U 5E5F123C
+F0 "Sheet5E5F123B" 50
+F1 "Nand3in.sch" 50
+F2 "A" I L 1300 4400 50 
+F3 "B" I L 1300 4600 50 
+F4 "C" I L 1300 4500 50 
+F5 "Q" O R 2150 4500 50 
+$EndSheet
+Wire Wire Line
+	2200 4500 2150 4500
+Wire Wire Line
+	9000 4300 9200 4300
+Text Label 9050 4300 0    50   ~ 0
+B0
+Text Label 9100 3650 0    50   ~ 0
+B1
+Text Label 9150 3100 0    50   ~ 0
+B2
+Text Label 1200 4400 0    50   ~ 0
+B0
+Text Label 1200 4500 0    50   ~ 0
+B1
+Text Label 1200 4600 0    50   ~ 0
+B2
+Wire Wire Line
+	1200 4400 1300 4400
+Wire Wire Line
+	1200 4500 1300 4500
+Wire Wire Line
+	1200 4600 1300 4600
+$Sheet
+S 8050 5550 1050 300 
+U 5E71CB78
+F0 "Sheet5E71CB77" 50
+F1 "GateNor2in.sch" 50
+F2 "Q" O R 9100 5700 50 
+F3 "A" I L 8050 5650 50 
+F4 "B" I L 8050 5750 50 
+$EndSheet
+Wire Wire Line
+	9200 5700 9100 5700
+Text Label 7900 5650 0    50   ~ 0
+B0
+Text Label 7900 5750 0    50   ~ 0
+B1
+Wire Wire Line
+	7900 5650 8050 5650
+Wire Wire Line
+	7900 5750 8050 5750
+$Sheet
+S 5400 5800 850  200 
+U 5E76514D
+F0 "Sheet5E76514C" 50
+F1 "GateNot.sch" 50
+F2 "A" I L 5400 5900 50 
+F3 "Q" O R 6250 5900 50 
+$EndSheet
+Text Label 5250 5900 0    50   ~ 0
+B0
+Wire Wire Line
+	5250 5900 5400 5900
+Wire Wire Line
+	6650 5900 6250 5900
+$Sheet
+S 3350 2450 900  1050
+U 5E7BEA14
+F0 "Sheet5E7BEA13" 50
+F1 "GateNor.sch" 50
+F2 "0" I L 3350 2600 50 
+F3 "1" I L 3350 2700 50 
+F4 "2" I L 3350 2800 50 
+F5 "3" I L 3350 2900 50 
+F6 "4" I L 3350 3000 50 
+F7 "5" I L 3350 3100 50 
+F8 "6" I L 3350 3200 50 
+F9 "7" I L 3350 3300 50 
+F10 "8" I L 3350 3400 50 
+F11 "Q" O R 4250 3000 50 
+$EndSheet
+Wire Wire Line
+	4350 3000 4250 3000
+$Comp
+L Connector_Generic:Conn_01x09 J4
+U 1 1 5E7EC64E
+P 2950 3000
+F 0 "J4" H 2868 2375 50  0000 C CNN
+F 1 "Conn_01x09" H 2868 2466 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical" H 2950 3000 50  0001 C CNN
+F 3 "~" H 2950 3000 50  0001 C CNN
+	1    2950 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 2600 3350 2600
+Wire Wire Line
+	3150 2700 3350 2700
+Wire Wire Line
+	3150 2800 3350 2800
+Wire Wire Line
+	3150 2900 3350 2900
+Wire Wire Line
+	3150 3000 3350 3000
+Wire Wire Line
+	3150 3100 3350 3100
+Wire Wire Line
+	3150 3200 3350 3200
+Wire Wire Line
+	3150 3300 3350 3300
+Wire Wire Line
+	3150 3400 3350 3400
+$Sheet
+S 2400 5500 950  400 
+U 5E834D11
+F0 "Sheet5E834D10" 50
+F1 "DFF.sch" 50
+F2 "D" I L 2400 5600 50 
+F3 "CLK" I L 2400 5700 50 
+F4 "~R" I L 2400 5800 50 
+F5 "Q" O R 3350 5700 50 
+F6 "~Q" O R 3350 5800 50 
+$EndSheet
+$Sheet
+S 850  5950 850  200 
+U 5E838951
+F0 "sheet5E83894D" 50
+F1 "GateNot.sch" 50
+F2 "A" I L 850 6050 50 
+F3 "Q" O R 1700 6050 50 
+$EndSheet
+Text Label 700  6050 0    50   ~ 0
+B0
+Wire Wire Line
+	700  6050 850  6050
+Wire Wire Line
+	2100 6050 1700 6050
+Wire Wire Line
+	2400 5800 2100 5800
+Wire Wire Line
+	2100 5800 2100 6050
+Text Label 1500 5600 0    50   ~ 0
+B1
+Text Label 1500 5700 0    50   ~ 0
+B2
+Wire Wire Line
+	1500 5700 2400 5700
+Wire Wire Line
+	1500 5600 2400 5600
+Wire Wire Line
+	3650 5700 3350 5700
+$Sheet
+S 8200 4750 550  350 
+U 5E89C247
+F0 "Sheet5E89C246" 50
+F1 "GateNAND2in.sch" 50
+F2 "A" I L 8200 4850 50 
+F3 "B" I L 8200 5000 50 
+F4 "Q" O R 8750 4950 50 
+$EndSheet
+Wire Wire Line
+	9050 4950 8750 4950
+Text Label 8050 4850 0    50   ~ 0
+B0
+Text Label 8050 5000 0    50   ~ 0
+B1
+Wire Wire Line
+	8050 4850 8200 4850
+Wire Wire Line
+	8050 5000 8200 5000
+$Sheet
+S 3200 6850 700  400 
+U 5E8EBF60
+F0 "Sheet5E8EBF5F" 50
+F1 "MUX.sch" 50
+F2 "0" O L 3200 6950 50 
+F3 "1" O L 3200 7050 50 
+F4 "S" O L 3200 7150 50 
+F5 "Q" O R 3900 7000 50 
+$EndSheet
+Text Label 3100 6950 0    50   ~ 0
+B0
+Text Label 3100 7050 0    50   ~ 0
+B1
+Text Label 3100 7150 0    50   ~ 0
+B2
+Wire Wire Line
+	3100 6950 3200 6950
+Wire Wire Line
+	3100 7050 3200 7050
+Wire Wire Line
+	3100 7150 3200 7150
+Wire Wire Line
+	4050 7000 3900 7000
+$Sheet
+S 4050 6900 550  200 
+U 5E570F0F
+F0 "Sheet5E570F0E" 50
+F1 "SLED.sch" 50
+F2 "IN" I L 4050 7000 50 
+$EndSheet
+$Sheet
+S 3650 5600 550  200 
+U 5E587892
+F0 "sheet5E58788F" 50
+F1 "SLED.sch" 50
+F2 "IN" I L 3650 5700 50 
+$EndSheet
+$Sheet
+S 2200 4400 550  200 
+U 5E5B946B
+F0 "sheet5E5B9468" 50
+F1 "SLED.sch" 50
+F2 "IN" I L 2200 4500 50 
+$EndSheet
+$Sheet
+S 6650 5800 550  200 
+U 5E5DEAFA
+F0 "sheet5E5DEAF7" 50
+F1 "SLED.sch" 50
+F2 "IN" I L 6650 5900 50 
+$EndSheet
+$Sheet
+S 9200 5600 550  200 
+U 5E5E587F
+F0 "sheet5E5E587C" 50
+F1 "SLED.sch" 50
+F2 "IN" I L 9200 5700 50 
+$EndSheet
+$Sheet
+S 9050 4850 550  200 
+U 5E5F3DEB
+F0 "sheet5E5F3DE8" 50
+F1 "SLED.sch" 50
+F2 "IN" I L 9050 4950 50 
+$EndSheet
+$Sheet
+S 6000 3350 550  200 
+U 5E614E38
+F0 "sheet5E614E35" 50
+F1 "SLED.sch" 50
+F2 "IN" I L 6000 3450 50 
+$EndSheet
+$Sheet
+S 6000 3850 550  200 
+U 5E619EEC
+F0 "sheet5E619EE9" 50
+F1 "SLED.sch" 50
+F2 "IN" I L 6000 3950 50 
+$EndSheet
+$Sheet
+S 6000 4400 550  200 
+U 5E61EF8A
+F0 "sheet5E61EF87" 50
+F1 "SLED.sch" 50
+F2 "IN" I L 6000 4500 50 
+$EndSheet
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5E6245DC
+P 5800 3450
+AR Path="/5E6245DC" Ref="TP1"  Part="1" 
+AR Path="/5EE11FBA/5E6245DC" Ref="TP?"  Part="1" 
+F 0 "TP1" V 5754 3638 50  0000 L CNN
+F 1 "TestPoint" V 5845 3638 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 6000 3450 50  0001 C CNN
+F 3 "~" H 6000 3450 50  0001 C CNN
+	1    5800 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 3450 6000 3450
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5E62AA5B
+P 5800 3950
+AR Path="/5E62AA5B" Ref="TP2"  Part="1" 
+AR Path="/5EE11FBA/5E62AA5B" Ref="TP?"  Part="1" 
+F 0 "TP2" V 5754 4138 50  0000 L CNN
+F 1 "TestPoint" V 5845 4138 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 6000 3950 50  0001 C CNN
+F 3 "~" H 6000 3950 50  0001 C CNN
+	1    5800 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 3950 6000 3950
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5E62FFD8
+P 5800 4500
+AR Path="/5E62FFD8" Ref="TP5"  Part="1" 
+AR Path="/5EE11FBA/5E62FFD8" Ref="TP?"  Part="1" 
+F 0 "TP5" V 5754 4688 50  0000 L CNN
+F 1 "TestPoint" V 5845 4688 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 6000 4500 50  0001 C CNN
+F 3 "~" H 6000 4500 50  0001 C CNN
+	1    5800 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 4500 6000 4500
+$Sheet
+S 8150 4200 850  150 
+U 5E64FB38
+F0 "Sheet5E64FB37" 50
+F1 "BTN.sch" 50
+F2 "OUT" I R 9000 4300 50 
+$EndSheet
+$Sheet
+S 8150 3550 850  150 
+U 5E668757
+F0 "sheet5E668754" 50
+F1 "BTN.sch" 50
+F2 "OUT" I R 9000 3650 50 
+$EndSheet
+$Sheet
+S 8150 3000 850  150 
+U 5E66A391
+F0 "sheet5E66A38E" 50
+F1 "BTN.sch" 50
+F2 "OUT" I R 9000 3100 50 
+$EndSheet
+$Sheet
+S 4350 2900 550  200 
+U 5E67BDF5
+F0 "sheet5E67BDF1" 50
+F1 "SLED.sch" 50
+F2 "IN" I L 4350 3000 50 
+$EndSheet
+Text Label 1250 7000 0    50   ~ 0
+B0
+Text Label 1250 7150 0    50   ~ 0
+B1
+Wire Wire Line
+	1250 7000 1350 7000
+Wire Wire Line
+	1250 7150 1350 7150
+$EndSCHEMATC

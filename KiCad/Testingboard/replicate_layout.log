@@ -1,0 +1,69 @@
+02-26 14:35:56 replicate_layout.action_replicate_layout 295:Replicate layout plugin version: 46 started
+02-26 14:35:56 replicate_layout.action_replicate_layout 327:Preparing replicator with Q20 as a reference
+02-26 14:35:56 replicate_layout.replicatelayout 201:getting project hierarchy from schematics
+02-26 14:35:56 replicate_layout.replicatelayout 203:Project hierarchy looks like:
+{'5E5F3DEB': ['sheet5E5F3DE8', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\SLED.sch'], '5E5B946B': ['sheet5E5B9468', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\SLED.sch'], '5E900E67': ['sheet5E900E63', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\GateNot.sch'], '5E89C247': ['Sheet5E89C246', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\GateNAND2in.sch'], '5E587892': ['sheet5E58788F', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\SLED.sch'], '5E66A391': ['sheet5E66A38E', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\BTN.sch'], '5E668757': ['sheet5E668754', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\BTN.sch'], '5E8D9C7B': ['sheet5E8D9C76', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\GateNAND2in.sch'], '5E7BEA14': ['Sheet5E7BEA13', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\GateNor.sch'], '5E61EF8A': ['sheet5E61EF87', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\SLED.sch'], '5E570F0F': ['Sheet5E570F0E', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\SLED.sch'], '5E5F123C': ['Sheet5E5F123B', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\Nand3in.sch'], '5E8DADC5': ['sheet5E8DADBF', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\Nand3in.sch'], '5E5DEAFA': ['sheet5E5DEAF7', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\SLED.sch'], '5E838951': ['sheet5E83894D', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\GateNot.sch'], '5E8DA6DA': ['sheet5E8DA6D4', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\Nand3in.sch'], '5E8DB125': ['sheet5E8DB120', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\GateNAND2in.sch'], '5E67BDF5': ['sheet5E67BDF1', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\SLED.sch'], '5E8DACE2': ['sheet5E8DACDC', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\Nand3in.sch'], '5E76514D': ['Sheet5E76514C', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\GateNot.sch'], '5E614E38': ['sheet5E614E35', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\SLED.sch'], '5E8EBF60': ['Sheet5E8EBF5F', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\MUX.sch'], '5E5E587F': ['sheet5E5E587C', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\SLED.sch'], '5E5E2116': ['BoardCell', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\BoardCell.sch'], '5E71CB78': ['Sheet5E71CB77', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\GateNor2in.sch'], '5E619EEC': ['sheet5E619EE9', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\SLED.sch'], '5E64FB38': ['Sheet5E64FB37', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\BTN.sch'], '5E8DAEDF': ['sheet5E8DAED9', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\Nand3in.sch'], '5E834D11': ['Sheet5E834D10', u'C:\\Users\\pschilk\\Google Drive\\QTICTACTOE\\Repo\\Fets_and_Crosses\\KiCad\\Testingboard\\DFF.sch']}
+02-26 14:35:56 replicate_layout.replicatelayout 211:getting a list of all footprints on board
+02-26 14:35:56 replicate_layout.action_replicate_layout 353:Pivot footprint is u'Q20'
+Located on:['Sheet5E71CB77']
+With filenames:[u'GateNor2in.sch']
+With sheet_id:['Sheet5E71CB77']
+02-26 14:35:56 replicate_layout.action_replicate_layout 357:Corresponding footprints are 
+[(u'Q20', ['Sheet5E71CB77'])]
+02-26 14:35:56 replicate_layout.action_replicate_layout 370:Showing dialog
+02-26 14:35:56 replicate_layout.action_replicate_layout 374:Pcbnew position: wx.Point(-9, -9)
+02-26 14:35:56 replicate_layout.action_replicate_layout 380:Display 0: wx.Rect(0, 0, 1920, 1080)
+02-26 14:35:56 replicate_layout.action_replicate_layout 380:Display 1: wx.Rect(2400, 0, 2400, 1350)
+02-26 14:35:56 replicate_layout.action_replicate_layout 384:Toolbar position: wx.Point(1687, 126)
+02-26 14:35:56 replicate_layout.action_replicate_layout 391:Dialog position: wx.Point(1374, 126)
+02-26 14:36:01 replicate_layout.replicatelayout 238:construcing a list of sheets suitable for replication on level:'Sheet5E71CB77', file:u'GateNor2in.sch'
+02-26 14:36:01 replicate_layout.replicatelayout 245:Sheet ids up to the level:['Sheet5E71CB77']
+02-26 14:36:01 replicate_layout.replicatelayout 249:Footprints on the sheets:
+[u'Q20']
+02-26 14:36:01 replicate_layout.replicatelayout 252:Footprints raw sheet ids:
+[u'/5E71CB78/5E7285C2']
+02-26 14:36:01 replicate_layout.replicatelayout 268:All sheets to replicate:
+[['Sheet5E71CB77']]
+02-26 14:36:01 replicate_layout.replicatelayout 273:All sheets to replicate sorted:
+[['Sheet5E71CB77']]
+02-26 14:36:01 replicate_layout.replicatelayout 279:All sheets to replicate sorted and without pivot_sheet:
+[]
+02-26 14:36:04 replicate_layout.replicatelayout 238:construcing a list of sheets suitable for replication on level:'Sheet5E71CB77', file:u'GateNor2in.sch'
+02-26 14:36:04 replicate_layout.replicatelayout 245:Sheet ids up to the level:['Sheet5E71CB77']
+02-26 14:36:04 replicate_layout.replicatelayout 249:Footprints on the sheets:
+[u'Q20']
+02-26 14:36:04 replicate_layout.replicatelayout 252:Footprints raw sheet ids:
+[u'/5E71CB78/5E7285C2']
+02-26 14:36:04 replicate_layout.replicatelayout 268:All sheets to replicate:
+[['Sheet5E71CB77']]
+02-26 14:36:04 replicate_layout.replicatelayout 273:All sheets to replicate sorted:
+[['Sheet5E71CB77']]
+02-26 14:36:04 replicate_layout.replicatelayout 279:All sheets to replicate sorted and without pivot_sheet:
+[]
+02-26 14:36:04 replicate_layout.action_replicate_layout 170:Replicating layout
+02-26 14:36:04 replicate_layout.replicatelayout 959:Starting replication of sheets: []
+on level: ['Sheet5E71CB77']
+with tracks=True, zone=True, text=True, containing=True, remov=False
+02-26 14:36:04 root 250:updating GUI message: 'Preparing for replication'
+02-26 14:36:04 root 255:updating GUI with: 0
+02-26 14:36:04 replicate_layout.replicatelayout 534:Getting the list of pivot footprints
+02-26 14:36:04 replicate_layout.replicatelayout 538:Getting the list of all the remaining footprints
+02-26 14:36:04 replicate_layout.replicatelayout 542:Getting nets local to pivot footprints
+02-26 14:36:04 replicate_layout.replicatelayout 546:Getting pivot bounding box
+02-26 14:36:04 root 255:updating GUI with: 37
+02-26 14:36:04 replicate_layout.replicatelayout 550:Getting pivot tracks
+02-26 14:36:04 replicate_layout.replicatelayout 554:Getting pivot zones
+02-26 14:36:04 root 255:updating GUI with: 62
+02-26 14:36:04 replicate_layout.replicatelayout 558:Getting pivot text items
+02-26 14:36:04 replicate_layout.replicatelayout 562:Getting pivot text items
+02-26 14:36:04 root 250:updating GUI message: 'Replicating footprints'
+02-26 14:36:04 replicate_layout.replicatelayout 568:Replicating footprints
+02-26 14:36:04 root 250:updating GUI message: 'Replicating tracks'
+02-26 14:36:04 replicate_layout.replicatelayout 687:Replicating tracks
+02-26 14:36:04 root 250:updating GUI message: 'Replicating zones'
+02-26 14:36:04 replicate_layout.replicatelayout 738:Replicating zones
+02-26 14:36:04 root 250:updating GUI message: 'Replicating text'
+02-26 14:36:04 replicate_layout.replicatelayout 804:Replicating text
+02-26 14:36:04 root 250:updating GUI message: 'Replicating drawings'
+02-26 14:36:04 replicate_layout.replicatelayout 834:Replicating drawings
+02-26 14:36:04 replicate_layout.action_replicate_layout 190:Replication complete

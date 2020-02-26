@@ -1,0 +1,640 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 30
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 2400 3250 0    50   Input ~ 0
+0
+Text HLabel 2400 3350 0    50   Input ~ 0
+1
+Text HLabel 2400 3450 0    50   Input ~ 0
+2
+Text HLabel 2400 3550 0    50   Input ~ 0
+3
+Text HLabel 2400 3650 0    50   Input ~ 0
+4
+Text HLabel 2400 3750 0    50   Input ~ 0
+5
+Text HLabel 2400 3850 0    50   Input ~ 0
+6
+Text HLabel 2400 3950 0    50   Input ~ 0
+7
+Text HLabel 2400 4050 0    50   Input ~ 0
+8
+Text HLabel 8350 3450 2    50   Output ~ 0
+Q
+Wire Wire Line
+	2400 3250 2650 3250
+Wire Wire Line
+	2400 3350 2650 3350
+Wire Wire Line
+	2400 3450 2650 3450
+Wire Wire Line
+	2400 3550 2650 3550
+Wire Wire Line
+	2400 3650 2650 3650
+Wire Wire Line
+	2400 3750 2650 3750
+Wire Wire Line
+	2400 3850 2650 3850
+Wire Wire Line
+	2400 3950 2650 3950
+Wire Wire Line
+	2400 4050 2650 4050
+Text Label 2650 3250 2    50   ~ 0
+0
+Text Label 2650 3350 2    50   ~ 0
+1
+Text Label 2650 3450 2    50   ~ 0
+2
+Text Label 2650 3550 2    50   ~ 0
+3
+Text Label 2650 3650 2    50   ~ 0
+4
+Text Label 2650 3750 2    50   ~ 0
+5
+Text Label 2650 3850 2    50   ~ 0
+6
+Text Label 2650 3950 2    50   ~ 0
+7
+Text Label 2650 4050 2    50   ~ 0
+8
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5E7C95F1
+P 4450 2750
+AR Path="/5E53AD22/5E550B0F/5E7C95F1" Ref="Q?"  Part="1" 
+AR Path="/5E7C95F1" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C95F1" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C95F1" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C95F1" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C95F1" Ref="Q27"  Part="1" 
+F 0 "Q27" H 4654 2704 50  0000 L CNN
+F 1 "BSS84" H 4654 2795 50  0000 L CNN
+F 2 "LogicQ:SOT-23-P" H 4650 2850 50  0001 C CNN
+F 3 "~" H 4450 2750 50  0001 C CNN
+	1    4450 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5E7C95F7
+P 7450 3700
+AR Path="/5E53AD22/5E550B0F/5E7C95F7" Ref="Q?"  Part="1" 
+AR Path="/5E7C95F7" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C95F7" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C95F7" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C95F7" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C95F7" Ref="Q40"  Part="1" 
+F 0 "Q40" H 7654 3746 50  0000 L CNN
+F 1 "2N7002" H 7654 3655 50  0000 L CNN
+F 2 "LogicQ:SOT-23-N" H 7650 3800 50  0001 C CNN
+F 3 "~" H 7450 3700 50  0001 C CNN
+	1    7450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5E7C95FD
+P 4450 2250
+AR Path="/5E53AD22/5E550B0F/5E7C95FD" Ref="Q?"  Part="1" 
+AR Path="/5E7C95FD" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C95FD" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C95FD" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C95FD" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C95FD" Ref="Q26"  Part="1" 
+F 0 "Q26" H 4654 2204 50  0000 L CNN
+F 1 "BSS84" H 4654 2295 50  0000 L CNN
+F 2 "LogicQ:SOT-23-P" H 4650 2350 50  0001 C CNN
+F 3 "~" H 4450 2250 50  0001 C CNN
+	1    4450 2250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5E7C9603
+P 4450 1750
+AR Path="/5E53AD22/5E550B0F/5E7C9603" Ref="Q?"  Part="1" 
+AR Path="/5E7C9603" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C9603" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C9603" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C9603" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C9603" Ref="Q25"  Part="1" 
+F 0 "Q25" H 4654 1704 50  0000 L CNN
+F 1 "BSS84" H 4654 1795 50  0000 L CNN
+F 2 "LogicQ:SOT-23-P" H 4650 1850 50  0001 C CNN
+F 3 "~" H 4450 1750 50  0001 C CNN
+	1    4450 1750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5E7C9609
+P 5900 2750
+AR Path="/5E53AD22/5E550B0F/5E7C9609" Ref="Q?"  Part="1" 
+AR Path="/5E7C9609" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C9609" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C9609" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C9609" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C9609" Ref="Q33"  Part="1" 
+F 0 "Q33" H 6104 2704 50  0000 L CNN
+F 1 "BSS84" H 6104 2795 50  0000 L CNN
+F 2 "LogicQ:SOT-23-P" H 6100 2850 50  0001 C CNN
+F 3 "~" H 5900 2750 50  0001 C CNN
+	1    5900 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5E7C960F
+P 5900 2250
+AR Path="/5E53AD22/5E550B0F/5E7C960F" Ref="Q?"  Part="1" 
+AR Path="/5E7C960F" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C960F" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C960F" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C960F" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C960F" Ref="Q32"  Part="1" 
+F 0 "Q32" H 6104 2204 50  0000 L CNN
+F 1 "BSS84" H 6104 2295 50  0000 L CNN
+F 2 "LogicQ:SOT-23-P" H 6100 2350 50  0001 C CNN
+F 3 "~" H 5900 2250 50  0001 C CNN
+	1    5900 2250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5E7C9615
+P 5900 1750
+AR Path="/5E53AD22/5E550B0F/5E7C9615" Ref="Q?"  Part="1" 
+AR Path="/5E7C9615" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C9615" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C9615" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C9615" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C9615" Ref="Q31"  Part="1" 
+F 0 "Q31" H 6104 1704 50  0000 L CNN
+F 1 "BSS84" H 6104 1795 50  0000 L CNN
+F 2 "LogicQ:SOT-23-P" H 6100 1850 50  0001 C CNN
+F 3 "~" H 5900 1750 50  0001 C CNN
+	1    5900 1750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5E7C961B
+P 7450 2750
+AR Path="/5E53AD22/5E550B0F/5E7C961B" Ref="Q?"  Part="1" 
+AR Path="/5E7C961B" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C961B" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C961B" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C961B" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C961B" Ref="Q39"  Part="1" 
+F 0 "Q39" H 7654 2704 50  0000 L CNN
+F 1 "BSS84" H 7654 2795 50  0000 L CNN
+F 2 "LogicQ:SOT-23-P" H 7650 2850 50  0001 C CNN
+F 3 "~" H 7450 2750 50  0001 C CNN
+	1    7450 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5E7C9621
+P 7450 2250
+AR Path="/5E53AD22/5E550B0F/5E7C9621" Ref="Q?"  Part="1" 
+AR Path="/5E7C9621" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C9621" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C9621" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C9621" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C9621" Ref="Q38"  Part="1" 
+F 0 "Q38" H 7654 2204 50  0000 L CNN
+F 1 "BSS84" H 7654 2295 50  0000 L CNN
+F 2 "LogicQ:SOT-23-P" H 7650 2350 50  0001 C CNN
+F 3 "~" H 7450 2250 50  0001 C CNN
+	1    7450 2250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5E7C9627
+P 7450 1750
+AR Path="/5E53AD22/5E550B0F/5E7C9627" Ref="Q?"  Part="1" 
+AR Path="/5E7C9627" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C9627" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C9627" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C9627" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C9627" Ref="Q37"  Part="1" 
+F 0 "Q37" H 7654 1704 50  0000 L CNN
+F 1 "BSS84" H 7654 1795 50  0000 L CNN
+F 2 "LogicQ:SOT-23-P" H 7650 1850 50  0001 C CNN
+F 3 "~" H 7450 1750 50  0001 C CNN
+	1    7450 1750
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E7C962D
+P 4550 1450
+AR Path="/5E56BA74/5E5860F5/5E7C962D" Ref="#PWR?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C962D" Ref="#PWR?"  Part="1" 
+AR Path="/5E7BEA14/5E7C962D" Ref="#PWR0156"  Part="1" 
+F 0 "#PWR0156" H 4550 1300 50  0001 C CNN
+F 1 "+5V" H 4565 1623 50  0000 C CNN
+F 2 "" H 4550 1450 50  0001 C CNN
+F 3 "" H 4550 1450 50  0001 C CNN
+	1    4550 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1450 4550 1550
+Wire Wire Line
+	4550 1950 4550 2050
+Wire Wire Line
+	4550 2450 4550 2550
+Wire Wire Line
+	4550 2950 4550 3100
+Wire Wire Line
+	4550 3100 5000 3100
+Wire Wire Line
+	5000 3100 5000 1250
+Wire Wire Line
+	5000 1250 6000 1250
+Wire Wire Line
+	6000 1250 6000 1550
+Wire Wire Line
+	6000 2950 6000 3100
+Wire Wire Line
+	6000 3100 6400 3100
+Wire Wire Line
+	6400 3100 6400 1250
+Wire Wire Line
+	6400 1250 7550 1250
+Wire Wire Line
+	7550 1250 7550 1550
+Wire Wire Line
+	6000 1950 6000 2050
+Wire Wire Line
+	6000 2450 6000 2550
+Wire Wire Line
+	7550 2450 7550 2550
+Wire Wire Line
+	7550 2050 7550 1950
+Wire Wire Line
+	7250 2750 7000 2750
+Wire Wire Line
+	7250 2250 7000 2250
+Wire Wire Line
+	7250 1750 7000 1750
+Wire Wire Line
+	5700 2750 5450 2750
+Wire Wire Line
+	5700 2250 5450 2250
+Wire Wire Line
+	5700 1750 5450 1750
+Text Label 7000 2750 0    50   ~ 0
+0
+Text Label 7000 2250 0    50   ~ 0
+1
+Text Label 7000 1750 0    50   ~ 0
+2
+Text Label 5450 2750 0    50   ~ 0
+3
+Text Label 5450 2250 0    50   ~ 0
+4
+Text Label 5450 1750 0    50   ~ 0
+5
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5E7C9650
+P 5900 3700
+AR Path="/5E53AD22/5E550B0F/5E7C9650" Ref="Q?"  Part="1" 
+AR Path="/5E7C9650" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C9650" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C9650" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C9650" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C9650" Ref="Q34"  Part="1" 
+F 0 "Q34" H 6104 3746 50  0000 L CNN
+F 1 "2N7002" H 6104 3655 50  0000 L CNN
+F 2 "LogicQ:SOT-23-N" H 6100 3800 50  0001 C CNN
+F 3 "~" H 5900 3700 50  0001 C CNN
+	1    5900 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5E7C9656
+P 4450 3700
+AR Path="/5E53AD22/5E550B0F/5E7C9656" Ref="Q?"  Part="1" 
+AR Path="/5E7C9656" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C9656" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C9656" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C9656" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C9656" Ref="Q28"  Part="1" 
+F 0 "Q28" H 4654 3746 50  0000 L CNN
+F 1 "2N7002" H 4654 3655 50  0000 L CNN
+F 2 "LogicQ:SOT-23-N" H 4650 3800 50  0001 C CNN
+F 3 "~" H 4450 3700 50  0001 C CNN
+	1    4450 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3500 7550 3450
+Wire Wire Line
+	4550 3450 4550 3500
+Wire Wire Line
+	4550 3450 6000 3450
+Wire Wire Line
+	6000 3500 6000 3450
+Connection ~ 6000 3450
+Wire Wire Line
+	6000 3450 7550 3450
+Wire Wire Line
+	4550 3900 4550 3950
+Wire Wire Line
+	4550 3950 6000 3950
+Wire Wire Line
+	7550 3950 7550 3900
+Wire Wire Line
+	6000 3900 6000 3950
+Connection ~ 6000 3950
+Wire Wire Line
+	6000 3950 6600 3950
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5E7C9668
+P 7450 4600
+AR Path="/5E53AD22/5E550B0F/5E7C9668" Ref="Q?"  Part="1" 
+AR Path="/5E7C9668" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C9668" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C9668" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C9668" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C9668" Ref="Q41"  Part="1" 
+F 0 "Q41" H 7654 4646 50  0000 L CNN
+F 1 "2N7002" H 7654 4555 50  0000 L CNN
+F 2 "LogicQ:SOT-23-N" H 7650 4700 50  0001 C CNN
+F 3 "~" H 7450 4600 50  0001 C CNN
+	1    7450 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5E7C966E
+P 5900 4600
+AR Path="/5E53AD22/5E550B0F/5E7C966E" Ref="Q?"  Part="1" 
+AR Path="/5E7C966E" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C966E" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C966E" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C966E" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C966E" Ref="Q35"  Part="1" 
+F 0 "Q35" H 6104 4646 50  0000 L CNN
+F 1 "2N7002" H 6104 4555 50  0000 L CNN
+F 2 "LogicQ:SOT-23-N" H 6100 4700 50  0001 C CNN
+F 3 "~" H 5900 4600 50  0001 C CNN
+	1    5900 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5E7C9674
+P 4450 4600
+AR Path="/5E53AD22/5E550B0F/5E7C9674" Ref="Q?"  Part="1" 
+AR Path="/5E7C9674" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C9674" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C9674" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C9674" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C9674" Ref="Q29"  Part="1" 
+F 0 "Q29" H 4654 4646 50  0000 L CNN
+F 1 "2N7002" H 4654 4555 50  0000 L CNN
+F 2 "LogicQ:SOT-23-N" H 4650 4700 50  0001 C CNN
+F 3 "~" H 4450 4600 50  0001 C CNN
+	1    4450 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 4400 7550 4350
+Wire Wire Line
+	4550 4350 4550 4400
+Wire Wire Line
+	4550 4350 6000 4350
+Wire Wire Line
+	6000 4400 6000 4350
+Connection ~ 6000 4350
+Wire Wire Line
+	6000 4350 7550 4350
+Wire Wire Line
+	4550 4800 4550 4850
+Wire Wire Line
+	4550 4850 6000 4850
+Wire Wire Line
+	7550 4850 7550 4800
+Wire Wire Line
+	6000 4800 6000 4850
+Connection ~ 6000 4850
+Wire Wire Line
+	6000 4850 6600 4850
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5E7C9686
+P 7450 5500
+AR Path="/5E53AD22/5E550B0F/5E7C9686" Ref="Q?"  Part="1" 
+AR Path="/5E7C9686" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C9686" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C9686" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C9686" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C9686" Ref="Q42"  Part="1" 
+F 0 "Q42" H 7654 5546 50  0000 L CNN
+F 1 "2N7002" H 7654 5455 50  0000 L CNN
+F 2 "LogicQ:SOT-23-N" H 7650 5600 50  0001 C CNN
+F 3 "~" H 7450 5500 50  0001 C CNN
+	1    7450 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5E7C968C
+P 5900 5500
+AR Path="/5E53AD22/5E550B0F/5E7C968C" Ref="Q?"  Part="1" 
+AR Path="/5E7C968C" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C968C" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C968C" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C968C" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C968C" Ref="Q36"  Part="1" 
+F 0 "Q36" H 6104 5546 50  0000 L CNN
+F 1 "2N7002" H 6104 5455 50  0000 L CNN
+F 2 "LogicQ:SOT-23-N" H 6100 5600 50  0001 C CNN
+F 3 "~" H 5900 5500 50  0001 C CNN
+	1    5900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5E7C9692
+P 4450 5500
+AR Path="/5E53AD22/5E550B0F/5E7C9692" Ref="Q?"  Part="1" 
+AR Path="/5E7C9692" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E7C9692" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E5860F5/5E7C9692" Ref="Q?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C9692" Ref="Q?"  Part="1" 
+AR Path="/5E7BEA14/5E7C9692" Ref="Q30"  Part="1" 
+F 0 "Q30" H 4654 5546 50  0000 L CNN
+F 1 "2N7002" H 4654 5455 50  0000 L CNN
+F 2 "LogicQ:SOT-23-N" H 4650 5600 50  0001 C CNN
+F 3 "~" H 4450 5500 50  0001 C CNN
+	1    4450 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 5300 7550 5250
+Wire Wire Line
+	4550 5250 4550 5300
+Wire Wire Line
+	4550 5250 6000 5250
+Wire Wire Line
+	6000 5300 6000 5250
+Connection ~ 6000 5250
+Wire Wire Line
+	6000 5250 7550 5250
+Wire Wire Line
+	4550 5700 4550 5750
+Wire Wire Line
+	4550 5750 6000 5750
+Wire Wire Line
+	7550 5750 7550 5700
+Wire Wire Line
+	6000 5700 6000 5750
+Connection ~ 6000 5750
+Wire Wire Line
+	6000 5750 6600 5750
+Wire Wire Line
+	7550 5250 8150 5250
+Wire Wire Line
+	8150 5250 8150 4350
+Wire Wire Line
+	8150 4350 7550 4350
+Connection ~ 7550 5250
+Connection ~ 7550 4350
+Wire Wire Line
+	8150 4350 8150 3450
+Wire Wire Line
+	8150 3450 7550 3450
+Connection ~ 8150 4350
+Connection ~ 7550 3450
+$Comp
+L power:GND #PWR?
+U 1 1 5E7C96AD
+P 6600 4050
+AR Path="/5E56BA74/5E5860F5/5E7C96AD" Ref="#PWR?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C96AD" Ref="#PWR?"  Part="1" 
+AR Path="/5E7BEA14/5E7C96AD" Ref="#PWR0157"  Part="1" 
+F 0 "#PWR0157" H 6600 3800 50  0001 C CNN
+F 1 "GND" H 6605 3877 50  0000 C CNN
+F 2 "" H 6600 4050 50  0001 C CNN
+F 3 "" H 6600 4050 50  0001 C CNN
+	1    6600 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4050 6600 3950
+Connection ~ 6600 3950
+Wire Wire Line
+	6600 3950 7550 3950
+$Comp
+L power:GND #PWR?
+U 1 1 5E7C96B6
+P 6600 4950
+AR Path="/5E56BA74/5E5860F5/5E7C96B6" Ref="#PWR?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C96B6" Ref="#PWR?"  Part="1" 
+AR Path="/5E7BEA14/5E7C96B6" Ref="#PWR0158"  Part="1" 
+F 0 "#PWR0158" H 6600 4700 50  0001 C CNN
+F 1 "GND" H 6605 4777 50  0000 C CNN
+F 2 "" H 6600 4950 50  0001 C CNN
+F 3 "" H 6600 4950 50  0001 C CNN
+	1    6600 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4950 6600 4850
+$Comp
+L power:GND #PWR?
+U 1 1 5E7C96BD
+P 6600 5850
+AR Path="/5E56BA74/5E5860F5/5E7C96BD" Ref="#PWR?"  Part="1" 
+AR Path="/5E56BA74/5E685B3F/5E685DD7/5E7C96BD" Ref="#PWR?"  Part="1" 
+AR Path="/5E7BEA14/5E7C96BD" Ref="#PWR0159"  Part="1" 
+F 0 "#PWR0159" H 6600 5600 50  0001 C CNN
+F 1 "GND" H 6605 5677 50  0000 C CNN
+F 2 "" H 6600 5850 50  0001 C CNN
+F 3 "" H 6600 5850 50  0001 C CNN
+	1    6600 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 5850 6600 5750
+Connection ~ 6600 5750
+Wire Wire Line
+	6600 5750 7550 5750
+Connection ~ 6600 4850
+Wire Wire Line
+	6600 4850 7550 4850
+Wire Wire Line
+	7550 2950 7550 3450
+Wire Wire Line
+	8350 3450 8150 3450
+Connection ~ 8150 3450
+Text Label 4000 2750 0    50   ~ 0
+6
+Wire Wire Line
+	4250 2750 4000 2750
+Wire Wire Line
+	4250 2250 4000 2250
+Wire Wire Line
+	7250 5500 7000 5500
+Wire Wire Line
+	5700 5500 5450 5500
+Wire Wire Line
+	4250 5500 4000 5500
+Wire Wire Line
+	7250 4600 7000 4600
+Wire Wire Line
+	5700 4600 5450 4600
+Wire Wire Line
+	4250 4600 4000 4600
+Text Label 7000 5500 0    50   ~ 0
+0
+Text Label 5450 5500 0    50   ~ 0
+1
+Text Label 4000 5500 0    50   ~ 0
+2
+Text Label 7000 4600 0    50   ~ 0
+3
+Text Label 5450 4600 0    50   ~ 0
+4
+Text Label 4000 4600 0    50   ~ 0
+5
+Text Label 7000 3700 0    50   ~ 0
+6
+Wire Wire Line
+	7250 3700 7000 3700
+Text Label 5450 3700 0    50   ~ 0
+7
+Wire Wire Line
+	5700 3700 5450 3700
+Text Label 4000 3700 0    50   ~ 0
+8
+Wire Wire Line
+	4250 3700 4000 3700
+Wire Wire Line
+	4250 1750 4000 1750
+Text Label 4000 1750 0    50   ~ 0
+8
+Text Label 4000 2250 0    50   ~ 0
+7
+$EndSCHEMATC
