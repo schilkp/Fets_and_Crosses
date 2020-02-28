@@ -56,3 +56,4 @@ for i = 1:length(mem)
 end
 
 MakeLogiSimROM
+MakeBinaryFile
