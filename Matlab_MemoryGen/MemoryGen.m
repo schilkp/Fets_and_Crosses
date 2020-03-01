@@ -32,7 +32,7 @@
 
 
 %Whole Memory Map
-mem = uint8(zeros(2^18,1));
+mem = uint8(zeros(2^19,1));
 
 %Iterate over ever address:
 for i = 1:length(mem)
