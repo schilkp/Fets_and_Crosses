@@ -35,7 +35,7 @@
 mem = uint8(zeros(2^19,1));
 
 %Iterate over ever address:
-for i = 1:length(mem)
+for i = 1:2^18
     adr = i - 1; % Actual Address in Chip starts at 0
     
     %Decode Address to coresponding Board state
