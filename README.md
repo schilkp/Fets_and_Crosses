@@ -13,7 +13,7 @@ Full Logisim Simulation is completed.
 
 I decided that before I commited to the whole PCB, I wanted to test the
 different subsections/gates. I created a test-pcb which is currently being
-manufactured (see branch TestingBoard)
+manufactured (see branches TestingBoard_v0.1 and TestingBoard_v0.0)
 
 ## Features
 - Players vs Player and Player vs AI
@@ -39,6 +39,6 @@ address coresponding to a valid game state (See Matlab_MemoryGen).
 	
 **Matlab_MemoryGen:**
 	Matlab code used to generate contents of AI's ROM. 
-	Run MemoryGen.m
+	Run MemoryGen.m to generate. Run MakeBinaryFile.m / MakeLogiSimROM.m to write generated memory to file
 
 
