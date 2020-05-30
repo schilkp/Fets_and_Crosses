@@ -1,0 +1,234 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 167 215
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 950  700  1750 1100
+U 5E5534A8
+F0 "Clock" 50
+F1 "Clock.sch" 50
+$EndSheet
+$Sheet
+S 2800 4800 950  500 
+U 5ED0A83C
+F0 "SM_Input" 50
+F1 "SM_Input.sch" 50
+F2 "P1" I L 2800 4900 50 
+F3 "P2" I L 2800 5000 50 
+F4 "MOVE_OK" I L 2800 5100 50 
+F5 "INPUT_CODE_0" O R 3750 4900 50 
+F6 "INPUT_CODE_1" O R 3750 5000 50 
+F7 "IS_CPU" I L 2800 5200 50 
+$EndSheet
+$Sheet
+S 5050 4600 1500 500 
+U 5ED0A860
+F0 "SM_Transition" 50
+F1 "SM_Transition.sch" 50
+F2 "INPUT_CODE_0" I L 5050 4900 50 
+F3 "INPUT_CODE_1" I L 5050 5000 50 
+F4 "STATE_CODE_0" I R 6550 4700 50 
+F5 "STATE_CODE_1" I R 6550 4800 50 
+F6 "NEW_STATE_CODE_0" I L 5050 4700 50 
+F7 "NEW_STATE_CODE_1" I L 5050 4800 50 
+$EndSheet
+$Sheet
+S 7700 2800 1250 600 
+U 5ED0A895
+F0 "SM_Output.sch" 50
+F1 "SM_Output.sch" 50
+F2 "STATE_CODE_0" I L 7700 2900 50 
+F3 "STATE_CODE_1" I L 7700 3000 50 
+F4 "START_TURN" O R 8950 2900 50 
+F5 "P1_TURN" O R 8950 3000 50 
+F6 "P2_TURN" O R 8950 3100 50 
+F7 "P1_WRT" O R 8950 3200 50 
+F8 "P2_WRT" O R 8950 3300 50 
+$EndSheet
+Wire Wire Line
+	5050 4900 3750 4900
+Wire Wire Line
+	3750 5000 5050 5000
+Wire Wire Line
+	6550 4700 6950 4700
+Wire Wire Line
+	6950 4700 6950 2900
+Wire Wire Line
+	6950 2900 7700 2900
+Wire Wire Line
+	7700 3000 7000 3000
+Wire Wire Line
+	7000 3000 7000 4800
+Wire Wire Line
+	7000 4800 6550 4800
+Text HLabel 1100 4150 0    50   Input ~ 0
+P1
+Text HLabel 1100 4650 0    50   Input ~ 0
+P2
+Text HLabel 2700 5100 0    50   Input ~ 0
+MOVE_OK
+Text HLabel 2700 5200 0    50   Input ~ 0
+IS_CPU
+Wire Wire Line
+	2400 4900 2800 4900
+Wire Wire Line
+	2700 5100 2800 5100
+Wire Wire Line
+	2800 5200 2700 5200
+Wire Wire Line
+	5050 4800 3850 4800
+Wire Wire Line
+	3850 4800 3850 3400
+Wire Wire Line
+	3850 3400 4600 3400
+Wire Wire Line
+	5050 4700 3900 4700
+Wire Wire Line
+	3900 4700 3900 2850
+Wire Wire Line
+	3900 2850 4600 2850
+Text HLabel 4500 5850 0    50   Input ~ 0
+RESET
+Text HLabel 9050 2900 2    50   Output ~ 0
+START_TURN
+Text HLabel 10650 3550 2    50   Output ~ 0
+P1_TURN
+Text HLabel 10650 4050 2    50   Output ~ 0
+P2_TURN
+Text HLabel 9050 3200 2    50   Output ~ 0
+P1_WRT
+Text HLabel 9050 3300 2    50   Output ~ 0
+P2_WRT
+Wire Wire Line
+	9050 2900 8950 2900
+Wire Wire Line
+	9050 3200 8950 3200
+Wire Wire Line
+	9050 3300 8950 3300
+Text Notes 1500 4300 0    100  ~ 20
+&
+$Sheet
+S 1300 4050 550  300 
+U 5F3DAC37
+F0 "sheet5F3DAC31" 50
+F1 "Gate_AND2in.sch" 50
+F2 "A" I L 1300 4150 50 
+F3 "B" I L 1300 4250 50 
+F4 "Q" O R 1850 4200 50 
+$EndSheet
+$Sheet
+S 1950 6400 550  200 
+U 5F3DB0C6
+F0 "sheet5F3DB0C2" 50
+F1 "Gate_NOT.sch" 50
+F2 "A" I L 1950 6500 50 
+F3 "Q" O R 2500 6500 50 
+$EndSheet
+Text Notes 2200 6550 0    100  ~ 20
+!
+Text HLabel 1750 6500 0    50   Input ~ 0
+GAME_OVER
+Wire Wire Line
+	1750 6500 1950 6500
+Text Notes 1500 4800 0    100  ~ 20
+&
+$Sheet
+S 1300 4550 550  300 
+U 5F3DDAA5
+F0 "sheet5F3DDA9F" 50
+F1 "Gate_AND2in.sch" 50
+F2 "A" I L 1300 4650 50 
+F3 "B" I L 1300 4750 50 
+F4 "Q" O R 1850 4700 50 
+$EndSheet
+Wire Wire Line
+	1300 4250 1200 4250
+Wire Wire Line
+	1200 4250 1200 4750
+Wire Wire Line
+	1200 6100 3100 6100
+Wire Wire Line
+	3100 6100 3100 6500
+Wire Wire Line
+	3100 6500 2500 6500
+Wire Wire Line
+	2400 4900 2400 4200
+Wire Wire Line
+	2400 4200 1850 4200
+Wire Wire Line
+	1850 4700 2300 4700
+Wire Wire Line
+	2300 4700 2300 5000
+Wire Wire Line
+	2300 5000 2800 5000
+Wire Wire Line
+	1300 4750 1200 4750
+Connection ~ 1200 4750
+Wire Wire Line
+	1200 4750 1200 6100
+Wire Wire Line
+	1300 4650 1100 4650
+Wire Wire Line
+	1100 4150 1300 4150
+Text Notes 10200 3650 0    100  ~ 20
+&
+$Sheet
+S 10000 3400 550  300 
+U 5F3E2E1E
+F0 "sheet5F3E2E17" 50
+F1 "Gate_AND2in.sch" 50
+F2 "A" I L 10000 3500 50 
+F3 "B" I L 10000 3600 50 
+F4 "Q" O R 10550 3550 50 
+$EndSheet
+Text Notes 10200 4150 0    100  ~ 20
+&
+$Sheet
+S 10000 3900 550  300 
+U 5F3E2E24
+F0 "sheet5F3E2E18" 50
+F1 "Gate_AND2in.sch" 50
+F2 "A" I L 10000 4000 50 
+F3 "B" I L 10000 4100 50 
+F4 "Q" O R 10550 4050 50 
+$EndSheet
+Wire Wire Line
+	10650 3550 10550 3550
+Wire Wire Line
+	10550 4050 10650 4050
+Wire Wire Line
+	10000 3500 9850 3500
+Wire Wire Line
+	9850 3500 9850 3000
+Wire Wire Line
+	8950 3000 9850 3000
+Wire Wire Line
+	9750 3100 9750 4000
+Wire Wire Line
+	9750 4000 10000 4000
+Wire Wire Line
+	8950 3100 9750 3100
+Wire Wire Line
+	10000 3600 9650 3600
+Wire Wire Line
+	9650 3600 9650 4100
+Wire Wire Line
+	9650 4100 10000 4100
+Wire Wire Line
+	9650 4100 9650 6100
+Wire Wire Line
+	9650 6100 3100 6100
+Connection ~ 9650 4100
+Connection ~ 3100 6100
+$EndSCHEMATC
