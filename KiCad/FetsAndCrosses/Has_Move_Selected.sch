@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 67 215
+Sheet 176 400
 Title ""
 Date ""
 Rev ""
@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1700 800  0    50   Input ~ 0
-Move0
 Text Notes 2150 1450 3    100  ~ 20
 II
 $Sheet
@@ -200,42 +198,8 @@ Wire Wire Line
 Connection ~ 2050 9300
 Wire Wire Line
 	2050 9300 2350 9300
-Wire Wire Line
-	2150 900  1700 900 
 Connection ~ 2150 900 
-Wire Wire Line
-	2050 800  1700 800 
 Connection ~ 2050 800 
-Wire Wire Line
-	1700 2100 2050 2100
-Wire Wire Line
-	1700 3300 2050 3300
-Wire Wire Line
-	1700 4500 2050 4500
-Wire Wire Line
-	1700 5700 2050 5700
-Wire Wire Line
-	1700 6900 2050 6900
-Wire Wire Line
-	1700 8100 2050 8100
-Wire Wire Line
-	1700 9300 2050 9300
-Text HLabel 1700 9300 0    50   Input ~ 0
-Move8
-Text HLabel 1700 8100 0    50   Input ~ 0
-Move7
-Text HLabel 1700 6900 0    50   Input ~ 0
-Move6
-Text HLabel 1700 5700 0    50   Input ~ 0
-Move5
-Text HLabel 1700 4500 0    50   Input ~ 0
-Move4
-Text HLabel 1700 3300 0    50   Input ~ 0
-Move3
-Text HLabel 1700 2100 0    50   Input ~ 0
-Move2
-Text HLabel 1700 900  0    50   Input ~ 0
-Move1
 $Sheet
 S 5550 1950 550  300 
 U 5EDF7337
@@ -425,4 +389,64 @@ F10 "Q" O R 5050 2050 50
 $EndSheet
 Text Notes 4700 2150 0    100  ~ 20
 &
+Entry Wire Line
+	1200 700  1300 800 
+Entry Wire Line
+	1200 800  1300 900 
+Entry Wire Line
+	1200 2000 1300 2100
+Entry Wire Line
+	1200 4400 1300 4500
+Entry Wire Line
+	1200 5600 1300 5700
+Entry Wire Line
+	1200 6800 1300 6900
+Entry Wire Line
+	1200 8000 1300 8100
+Entry Wire Line
+	1200 9200 1300 9300
+Wire Bus Line
+	1200 650  1100 650 
+Text HLabel 1100 650  0    50   Input ~ 0
+Move[0..8]
+Text Label 1300 800  0    50   ~ 0
+Move0
+Text Label 1300 900  0    50   ~ 0
+Move1
+Text Label 1300 2100 0    50   ~ 0
+Move2
+Text Label 1300 4500 0    50   ~ 0
+Move4
+Text Label 1300 5700 0    50   ~ 0
+Move5
+Text Label 1300 6900 0    50   ~ 0
+Move6
+Text Label 1300 8100 0    50   ~ 0
+Move7
+Text Label 1300 9300 0    50   ~ 0
+Move8
+Text Label 1300 3300 0    50   ~ 0
+Move3
+Entry Wire Line
+	1200 3200 1300 3300
+Wire Wire Line
+	1300 9300 2050 9300
+Wire Wire Line
+	1300 8100 2050 8100
+Wire Wire Line
+	1300 6900 2050 6900
+Wire Wire Line
+	1300 5700 2050 5700
+Wire Wire Line
+	1300 4500 2050 4500
+Wire Wire Line
+	1300 3300 2050 3300
+Wire Wire Line
+	1300 2100 2050 2100
+Wire Wire Line
+	1300 800  2050 800 
+Wire Wire Line
+	1300 900  2150 900 
+Wire Bus Line
+	1200 650  1200 9200
 $EndSCHEMATC

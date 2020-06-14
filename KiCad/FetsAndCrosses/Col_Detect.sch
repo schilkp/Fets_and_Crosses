@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 54 215
+Sheet 147 400
 Title ""
 Date ""
 Rev ""
@@ -121,113 +121,41 @@ F11 "Q" O R 9050 2100 50
 $EndSheet
 Text Notes 8700 2150 0    100  ~ 20
 &
-Text HLabel 1450 1250 0    50   Input ~ 0
-Board0
-Text HLabel 1450 1350 0    50   Input ~ 0
-Board1
-Text HLabel 1450 1450 0    50   Input ~ 0
-Board2
-Text HLabel 1450 1550 0    50   Input ~ 0
-Board3
-Text HLabel 1450 1650 0    50   Input ~ 0
-Board4
-Text HLabel 1450 1750 0    50   Input ~ 0
-Board5
-Text HLabel 1450 1850 0    50   Input ~ 0
-Board6
-Text HLabel 1450 1950 0    50   Input ~ 0
-Board7
-Text HLabel 1450 2050 0    50   Input ~ 0
-Board8
-Text HLabel 1450 2350 0    50   Input ~ 0
-Move0
-Text HLabel 1450 2450 0    50   Input ~ 0
-Move1
-Text HLabel 1450 2550 0    50   Input ~ 0
-Move2
-Text HLabel 1450 2650 0    50   Input ~ 0
-Move3
-Text HLabel 1450 2750 0    50   Input ~ 0
-Move4
-Text HLabel 1450 2850 0    50   Input ~ 0
-Move5
-Text HLabel 1450 2950 0    50   Input ~ 0
-Move6
-Text HLabel 1450 3050 0    50   Input ~ 0
-Move7
-Text HLabel 1450 3150 0    50   Input ~ 0
-Move8
-Wire Wire Line
-	1450 1250 1700 1250
-Wire Wire Line
-	1450 1350 1700 1350
-Wire Wire Line
-	1450 1450 1700 1450
-Wire Wire Line
-	1450 1550 1700 1550
-Wire Wire Line
-	1450 1650 1700 1650
-Wire Wire Line
-	1450 1750 1700 1750
-Wire Wire Line
-	1450 1850 1700 1850
-Wire Wire Line
-	1450 1950 1700 1950
-Wire Wire Line
-	1450 2050 1700 2050
-Wire Wire Line
-	1450 2350 1700 2350
-Wire Wire Line
-	1450 2450 1700 2450
-Wire Wire Line
-	1450 2550 1700 2550
-Wire Wire Line
-	1450 2650 1700 2650
-Wire Wire Line
-	1450 2750 1700 2750
-Wire Wire Line
-	1450 2850 1700 2850
-Wire Wire Line
-	1450 2950 1700 2950
-Wire Wire Line
-	1450 3050 1700 3050
-Wire Wire Line
-	1450 3150 1700 3150
-Text Label 1700 1250 2    50   ~ 0
+Text Label 2150 1200 2    50   ~ 0
 B0
-Text Label 1700 1350 2    50   ~ 0
+Text Label 2150 1300 2    50   ~ 0
 B1
-Text Label 1700 1450 2    50   ~ 0
+Text Label 2150 1400 2    50   ~ 0
 B2
-Text Label 1700 1550 2    50   ~ 0
+Text Label 2150 1500 2    50   ~ 0
 B3
-Text Label 1700 1650 2    50   ~ 0
+Text Label 2150 1600 2    50   ~ 0
 B4
-Text Label 1700 1750 2    50   ~ 0
+Text Label 2150 1700 2    50   ~ 0
 B5
-Text Label 1700 1850 2    50   ~ 0
+Text Label 2150 1800 2    50   ~ 0
 B6
-Text Label 1700 1950 2    50   ~ 0
+Text Label 2150 1900 2    50   ~ 0
 B7
-Text Label 1700 2050 2    50   ~ 0
+Text Label 2150 2000 2    50   ~ 0
 B8
-Text Label 1700 2350 2    50   ~ 0
+Text Label 2150 2200 2    50   ~ 0
 M0
-Text Label 1700 2450 2    50   ~ 0
+Text Label 2150 2300 2    50   ~ 0
 M1
-Text Label 1700 2550 2    50   ~ 0
+Text Label 2150 2400 2    50   ~ 0
 M2
-Text Label 1700 2650 2    50   ~ 0
+Text Label 2150 2500 2    50   ~ 0
 M3
-Text Label 1700 2750 2    50   ~ 0
+Text Label 2150 2600 2    50   ~ 0
 M4
-Text Label 1700 2850 2    50   ~ 0
+Text Label 2150 2700 2    50   ~ 0
 M5
-Text Label 1700 2950 2    50   ~ 0
+Text Label 2150 2800 2    50   ~ 0
 M6
-Text Label 1700 3050 2    50   ~ 0
+Text Label 2150 2900 2    50   ~ 0
 M7
-Text Label 1700 3150 2    50   ~ 0
+Text Label 2150 3000 2    50   ~ 0
 M8
 Wire Wire Line
 	3350 1300 3100 1300
@@ -386,4 +314,124 @@ Text HLabel 9200 2100 2    50   Output ~ 0
 OK
 Wire Wire Line
 	9200 2100 9050 2100
+Wire Wire Line
+	1450 2000 2150 2000
+Wire Wire Line
+	1450 1900 2150 1900
+Wire Wire Line
+	1450 1800 2150 1800
+Wire Wire Line
+	1450 1700 2150 1700
+Wire Wire Line
+	1450 1600 2150 1600
+Wire Wire Line
+	1450 1500 2150 1500
+Wire Wire Line
+	1450 1400 2150 1400
+Wire Wire Line
+	1450 1300 2150 1300
+Wire Wire Line
+	1450 1200 2150 1200
+Entry Wire Line
+	1350 1900 1450 2000
+Entry Wire Line
+	1350 1800 1450 1900
+Entry Wire Line
+	1350 1700 1450 1800
+Entry Wire Line
+	1350 1600 1450 1700
+Entry Wire Line
+	1350 1500 1450 1600
+Entry Wire Line
+	1350 1400 1450 1500
+Entry Wire Line
+	1350 1300 1450 1400
+Entry Wire Line
+	1350 1200 1450 1300
+Entry Wire Line
+	1350 1100 1450 1200
+Wire Bus Line
+	1250 1100 1350 1100
+Text Label 1450 1200 0    50   ~ 0
+Board0
+Text Label 1450 1300 0    50   ~ 0
+Board1
+Text Label 1450 1400 0    50   ~ 0
+Board2
+Text Label 1450 1500 0    50   ~ 0
+Board3
+Text Label 1450 1600 0    50   ~ 0
+Board4
+Text Label 1450 1700 0    50   ~ 0
+Board5
+Text Label 1450 1800 0    50   ~ 0
+Board6
+Text Label 1450 1900 0    50   ~ 0
+Board7
+Text Label 1450 2000 0    50   ~ 0
+Board8
+Text HLabel 1250 1100 0    50   Input ~ 0
+Board[0..8]
+Wire Wire Line
+	1450 2200 2150 2200
+Wire Wire Line
+	1450 2300 2150 2300
+Wire Wire Line
+	1450 2400 2150 2400
+Wire Wire Line
+	1450 2500 2150 2500
+Wire Wire Line
+	1450 2600 2150 2600
+Wire Wire Line
+	1450 2700 2150 2700
+Wire Wire Line
+	1450 2800 2150 2800
+Wire Wire Line
+	1450 2900 2150 2900
+Wire Wire Line
+	1450 3000 2150 3000
+Entry Wire Line
+	1350 2100 1450 2200
+Entry Wire Line
+	1350 2200 1450 2300
+Entry Wire Line
+	1350 2300 1450 2400
+Entry Wire Line
+	1350 2400 1450 2500
+Entry Wire Line
+	1350 2500 1450 2600
+Entry Wire Line
+	1350 2600 1450 2700
+Entry Wire Line
+	1350 2700 1450 2800
+Entry Wire Line
+	1350 2800 1450 2900
+Entry Wire Line
+	1350 2900 1450 3000
+Wire Bus Line
+	1350 2100 1250 2100
+Text HLabel 1250 2100 0    50   Input ~ 0
+Move[0..8]
+Text Label 1450 2200 0    50   ~ 0
+Move0
+Text Label 1450 2300 0    50   ~ 0
+Move1
+Text Label 1450 2400 0    50   ~ 0
+Move2
+Text Label 1450 2500 0    50   ~ 0
+Move3
+Text Label 1450 2600 0    50   ~ 0
+Move4
+Text Label 1450 2700 0    50   ~ 0
+Move5
+Text Label 1450 2800 0    50   ~ 0
+Move6
+Text Label 1450 2900 0    50   ~ 0
+Move7
+Text Label 1450 3000 0    50   ~ 0
+Move8
+Wire Bus Line
+	1350 2100 1350 2900
+Wire Bus Line
+	1350 1100 1350 1900
 $EndSCHEMATC

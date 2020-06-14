@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 29 215
+Sheet 18 400
 Title ""
 Date ""
 Rev ""
@@ -139,42 +139,6 @@ Wire Wire Line
 	6450 1450 6750 1450
 Wire Wire Line
 	6450 1350 6750 1350
-Text HLabel 1400 1350 0    50   Input ~ 0
-Board0
-Text HLabel 1400 1450 0    50   Input ~ 0
-Board1
-Text HLabel 1400 1550 0    50   Input ~ 0
-Board2
-Text HLabel 1400 1650 0    50   Input ~ 0
-Board3
-Text HLabel 1400 1750 0    50   Input ~ 0
-Board4
-Text HLabel 1400 1850 0    50   Input ~ 0
-Board5
-Text HLabel 1400 1950 0    50   Input ~ 0
-Board6
-Text HLabel 1400 2050 0    50   Input ~ 0
-Board7
-Text HLabel 1400 2150 0    50   Input ~ 0
-Board8
-Wire Wire Line
-	1400 1350 1800 1350
-Wire Wire Line
-	1400 1450 1800 1450
-Wire Wire Line
-	1400 1550 1800 1550
-Wire Wire Line
-	1400 1650 1800 1650
-Wire Wire Line
-	1400 1750 1800 1750
-Wire Wire Line
-	1400 1850 1800 1850
-Wire Wire Line
-	1400 1950 1800 1950
-Wire Wire Line
-	1400 2050 1800 2050
-Wire Wire Line
-	1400 2150 1800 2150
 $Sheet
 S 9000 1250 550  900 
 U 5ED1C9D1
@@ -260,24 +224,6 @@ Wire Wire Line
 	9550 1700 10000 1700
 Text HLabel 10000 1700 2    50   Output ~ 0
 Is_Win
-Text Label 1800 1350 2    50   ~ 0
-0
-Text Label 1800 1450 2    50   ~ 0
-1
-Text Label 1800 1550 2    50   ~ 0
-2
-Text Label 1800 1650 2    50   ~ 0
-3
-Text Label 1800 1750 2    50   ~ 0
-4
-Text Label 1800 1850 2    50   ~ 0
-5
-Text Label 1800 1950 2    50   ~ 0
-6
-Text Label 1800 2050 2    50   ~ 0
-7
-Text Label 1800 2150 2    50   ~ 0
-8
 Text Label 3150 1350 0    50   ~ 0
 0
 Text Label 3150 1450 0    50   ~ 0
@@ -346,4 +292,82 @@ Text Label 3950 3250 0    50   ~ 0
 8
 Text Notes 4000 1000 0    50   ~ 0
 Checks if a Player has won by AND-ing all Rows, Cols, and Diags individually
+Wire Wire Line
+	1600 2100 2300 2100
+Wire Wire Line
+	1600 2000 2300 2000
+Wire Wire Line
+	1600 1900 2300 1900
+Wire Wire Line
+	1600 1800 2300 1800
+Wire Wire Line
+	1600 1700 2300 1700
+Wire Wire Line
+	1600 1600 2300 1600
+Wire Wire Line
+	1600 1500 2300 1500
+Wire Wire Line
+	1600 1400 2300 1400
+Wire Wire Line
+	1600 1300 2300 1300
+Entry Wire Line
+	1500 2000 1600 2100
+Entry Wire Line
+	1500 1900 1600 2000
+Entry Wire Line
+	1500 1800 1600 1900
+Entry Wire Line
+	1500 1700 1600 1800
+Entry Wire Line
+	1500 1600 1600 1700
+Entry Wire Line
+	1500 1500 1600 1600
+Entry Wire Line
+	1500 1400 1600 1500
+Entry Wire Line
+	1500 1300 1600 1400
+Entry Wire Line
+	1500 1200 1600 1300
+Wire Bus Line
+	1400 1200 1500 1200
+Text Label 2300 2100 2    50   ~ 0
+8
+Text Label 2300 2000 2    50   ~ 0
+7
+Text Label 2300 1900 2    50   ~ 0
+6
+Text Label 2300 1800 2    50   ~ 0
+5
+Text Label 2300 1700 2    50   ~ 0
+4
+Text Label 2300 1600 2    50   ~ 0
+3
+Text Label 2300 1500 2    50   ~ 0
+2
+Text Label 2300 1400 2    50   ~ 0
+1
+Text Label 2300 1300 2    50   ~ 0
+0
+Text Label 1600 1300 0    50   ~ 0
+Board0
+Text Label 1600 1400 0    50   ~ 0
+Board1
+Text Label 1600 1500 0    50   ~ 0
+Board2
+Text Label 1600 1600 0    50   ~ 0
+Board3
+Text Label 1600 1700 0    50   ~ 0
+Board4
+Text Label 1600 1800 0    50   ~ 0
+Board5
+Text Label 1600 1900 0    50   ~ 0
+Board6
+Text Label 1600 2000 0    50   ~ 0
+Board7
+Text Label 1600 2100 0    50   ~ 0
+Board8
+Text HLabel 1400 1200 0    50   Input ~ 0
+Board[0..8]
+Wire Bus Line
+	1500 1200 1500 2000
 $EndSCHEMATC

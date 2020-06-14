@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 169 215
+Sheet 131 400
 Title ""
 Date ""
 Rev ""
@@ -203,9 +203,9 @@ F0 "Sheet5E700BB0" 50
 F1 "Gate_DFF.sch" 50
 F2 "D" I L 8200 2100 50 
 F3 "CLK" I L 8200 2200 50 
-F4 "R" I L 8200 2300 50 
-F5 "Q" O R 8750 2100 50 
-F6 "~Q" O R 8750 2300 50 
+F4 "Q" O R 8750 2100 50 
+F5 "~Q" O R 8750 2300 50 
+F6 "~R" I L 8200 2300 50 
 $EndSheet
 Text Notes 8400 1100 0    100  ~ 20
 MUX

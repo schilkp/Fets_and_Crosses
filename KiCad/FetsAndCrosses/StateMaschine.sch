@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 167 215
+Sheet 170 400
 Title ""
 Date ""
 Rev ""
@@ -69,7 +69,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 3000 7000 3000
 Wire Wire Line
-	7000 3000 7000 4800
+	7000 3000 7000 3400
 Wire Wire Line
 	7000 4800 6550 4800
 Text HLabel 1100 4150 0    50   Input ~ 0
@@ -91,14 +91,10 @@ Wire Wire Line
 Wire Wire Line
 	3850 4800 3850 3400
 Wire Wire Line
-	3850 3400 4600 3400
-Wire Wire Line
 	5050 4700 3900 4700
 Wire Wire Line
-	3900 4700 3900 2850
-Wire Wire Line
-	3900 2850 4600 2850
-Text HLabel 4500 5850 0    50   Input ~ 0
+	3900 4700 3900 2650
+Text HLabel 1750 6950 0    50   Input ~ 0
 RESET
 Text HLabel 9050 2900 2    50   Output ~ 0
 START_TURN
@@ -231,4 +227,78 @@ Wire Wire Line
 	9650 6100 3100 6100
 Connection ~ 9650 4100
 Connection ~ 3100 6100
+$Sheet
+S 4800 3300 550  400 
+U 5EE53826
+F0 "sheet5EE5381F" 50
+F1 "Gate_DFF.sch" 50
+F2 "D" I L 4800 3400 50 
+F3 "CLK" I L 4800 3500 50 
+F4 "Q" O R 5350 3400 50 
+F5 "~Q" O R 5350 3600 50 
+F6 "~R" I L 4800 3600 50 
+$EndSheet
+Text Notes 5050 3550 0    100  ~ 20
+D
+$Sheet
+S 4800 2550 550  400 
+U 5EE545E4
+F0 "sheet5EE545DD" 50
+F1 "Gate_DFF.sch" 50
+F2 "D" I L 4800 2650 50 
+F3 "CLK" I L 4800 2750 50 
+F4 "Q" O R 5350 2650 50 
+F5 "~Q" O R 5350 2850 50 
+F6 "~R" I L 4800 2850 50 
+$EndSheet
+Text Notes 5050 2800 0    100  ~ 20
+D
+Wire Wire Line
+	3900 2650 4800 2650
+Wire Wire Line
+	3850 3400 4800 3400
+Wire Wire Line
+	4800 3500 4700 3500
+Wire Wire Line
+	4700 3500 4700 2750
+Wire Wire Line
+	4700 2750 4800 2750
+Wire Wire Line
+	4700 2750 4700 1200
+Wire Wire Line
+	4700 1200 2900 1200
+Connection ~ 4700 2750
+Wire Wire Line
+	4800 3600 4600 3600
+Wire Wire Line
+	4600 3600 4600 2850
+Wire Wire Line
+	4600 2850 4800 2850
+Wire Wire Line
+	4600 3600 4600 6950
+Connection ~ 4600 3600
+$Sheet
+S 1950 6850 550  200 
+U 5EE5F94B
+F0 "sheet5EE5F947" 50
+F1 "Gate_NOT.sch" 50
+F2 "A" I L 1950 6950 50 
+F3 "Q" O R 2500 6950 50 
+$EndSheet
+Text Notes 2200 7000 0    100  ~ 20
+!
+Wire Wire Line
+	2500 6950 4600 6950
+Wire Wire Line
+	1750 6950 1950 6950
+Wire Wire Line
+	6950 2900 6950 2650
+Wire Wire Line
+	6950 2650 5350 2650
+Connection ~ 6950 2900
+Wire Wire Line
+	5350 3400 7000 3400
+Connection ~ 7000 3400
+Wire Wire Line
+	7000 3400 7000 4800
 $EndSCHEMATC

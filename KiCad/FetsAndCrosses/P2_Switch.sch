@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 215
+Sheet 85 400
 Title ""
 Date ""
 Rev ""
@@ -13,117 +13,45 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1400 1750 0    50   Input ~ 0
-PLR_MOVE_0
-Text HLabel 1400 1850 0    50   Input ~ 0
-PLR_MOVE_1
-Text HLabel 1400 1950 0    50   Input ~ 0
-PLR_MOVE_2
-Text HLabel 1400 2050 0    50   Input ~ 0
-PLR_MOVE_3
-Text HLabel 1400 2150 0    50   Input ~ 0
-PLR_MOVE_4
-Text HLabel 1400 2250 0    50   Input ~ 0
-PLR_MOVE_5
-Text HLabel 1400 2350 0    50   Input ~ 0
-PLR_MOVE_6
-Text HLabel 1400 2450 0    50   Input ~ 0
-PLR_MOVE_7
-Text HLabel 1400 2550 0    50   Input ~ 0
-PLR_MOVE_8
-Text HLabel 1400 2800 0    50   Input ~ 0
-CPU_MOVE_0
-Text HLabel 1400 2900 0    50   Input ~ 0
-CPU_MOVE_1
-Text HLabel 1400 3000 0    50   Input ~ 0
-CPU_MOVE_2
-Text HLabel 1400 3100 0    50   Input ~ 0
-CPU_MOVE_3
-Text HLabel 1400 3200 0    50   Input ~ 0
-CPU_MOVE_4
-Text HLabel 1400 3300 0    50   Input ~ 0
-CPU_MOVE_5
-Text HLabel 1400 3400 0    50   Input ~ 0
-CPU_MOVE_6
-Text HLabel 1400 3500 0    50   Input ~ 0
-CPU_MOVE_7
-Text HLabel 1400 3600 0    50   Input ~ 0
-CPU_MOVE_8
 Text HLabel 1400 4600 0    50   Input ~ 0
 IS_CPU
 Wire Wire Line
-	1400 1750 1800 1750
-Wire Wire Line
-	1400 1850 1800 1850
-Wire Wire Line
-	1400 1950 1800 1950
-Wire Wire Line
-	1400 2050 1800 2050
-Wire Wire Line
-	1400 2150 1800 2150
-Wire Wire Line
-	1400 2250 1800 2250
-Wire Wire Line
-	1400 2350 1800 2350
-Wire Wire Line
-	1400 2450 1800 2450
-Wire Wire Line
-	1400 2550 1800 2550
-Wire Wire Line
-	1400 2800 1800 2800
-Wire Wire Line
-	1400 2900 1800 2900
-Wire Wire Line
-	1400 3000 1800 3000
-Wire Wire Line
-	1400 3100 1800 3100
-Wire Wire Line
-	1400 3200 1800 3200
-Wire Wire Line
-	1400 3300 1800 3300
-Wire Wire Line
-	1400 3400 1800 3400
-Wire Wire Line
-	1400 3500 1800 3500
-Wire Wire Line
-	1400 3600 1800 3600
-Wire Wire Line
 	1400 4600 1800 4600
-Text Label 1800 1750 2    50   ~ 0
+Text Label 2000 1750 2    50   ~ 0
 P_0
-Text Label 1800 1850 2    50   ~ 0
+Text Label 2000 1850 2    50   ~ 0
 P_1
-Text Label 1800 1950 2    50   ~ 0
+Text Label 2000 1950 2    50   ~ 0
 P_2
-Text Label 1800 2050 2    50   ~ 0
+Text Label 2000 2050 2    50   ~ 0
 P_3
-Text Label 1800 2150 2    50   ~ 0
+Text Label 2000 2150 2    50   ~ 0
 P_4
-Text Label 1800 2250 2    50   ~ 0
+Text Label 2000 2250 2    50   ~ 0
 P_5
-Text Label 1800 2350 2    50   ~ 0
+Text Label 2000 2350 2    50   ~ 0
 P_6
-Text Label 1800 2450 2    50   ~ 0
+Text Label 2000 2450 2    50   ~ 0
 P_7
-Text Label 1800 2550 2    50   ~ 0
+Text Label 2000 2550 2    50   ~ 0
 P_8
-Text Label 1800 2800 2    50   ~ 0
+Text Label 2000 2800 2    50   ~ 0
 C_0
-Text Label 1800 2900 2    50   ~ 0
+Text Label 2000 2900 2    50   ~ 0
 C_1
-Text Label 1800 3000 2    50   ~ 0
+Text Label 2000 3000 2    50   ~ 0
 C_2
-Text Label 1800 3100 2    50   ~ 0
+Text Label 2000 3100 2    50   ~ 0
 C_3
-Text Label 1800 3200 2    50   ~ 0
+Text Label 2000 3200 2    50   ~ 0
 C_4
-Text Label 1800 3300 2    50   ~ 0
+Text Label 2000 3300 2    50   ~ 0
 C_5
-Text Label 1800 3400 2    50   ~ 0
+Text Label 2000 3400 2    50   ~ 0
 C_6
-Text Label 1800 3500 2    50   ~ 0
+Text Label 2000 3500 2    50   ~ 0
 C_7
-Text Label 1800 3600 2    50   ~ 0
+Text Label 2000 3600 2    50   ~ 0
 C_8
 Text Label 1800 4600 2    50   ~ 0
 IS_CPU
@@ -352,59 +280,23 @@ F6 "~SEL" I L 7200 3900 50
 $EndSheet
 Wire Wire Line
 	3350 2750 2950 2750
-Text HLabel 9750 1900 2    50   Output ~ 0
-OUT_0
-Text HLabel 9750 2000 2    50   Output ~ 0
-OUT_1
-Text HLabel 9750 2100 2    50   Output ~ 0
-OUT_2
-Text HLabel 9750 2200 2    50   Output ~ 0
-OUT_3
-Text HLabel 9750 2300 2    50   Output ~ 0
-OUT_4
-Text HLabel 9750 2400 2    50   Output ~ 0
-OUT_5
-Text HLabel 9750 2500 2    50   Output ~ 0
-OUT_6
-Text HLabel 9750 2600 2    50   Output ~ 0
-OUT_7
-Text HLabel 9750 2700 2    50   Output ~ 0
-OUT_8
-Wire Wire Line
-	9750 1900 9550 1900
-Wire Wire Line
-	9750 2000 9550 2000
-Wire Wire Line
-	9750 2100 9550 2100
-Wire Wire Line
-	9750 2200 9550 2200
-Wire Wire Line
-	9750 2300 9550 2300
-Wire Wire Line
-	9750 2400 9550 2400
-Wire Wire Line
-	9750 2500 9550 2500
-Wire Wire Line
-	9750 2600 9550 2600
-Wire Wire Line
-	9750 2700 9550 2700
-Text Label 9550 1900 0    50   ~ 0
+Text Label 9400 1850 0    50   ~ 0
 0
-Text Label 9550 2000 0    50   ~ 0
+Text Label 9400 1950 0    50   ~ 0
 1
-Text Label 9550 2100 0    50   ~ 0
+Text Label 9400 2050 0    50   ~ 0
 2
-Text Label 9550 2200 0    50   ~ 0
+Text Label 9400 2150 0    50   ~ 0
 3
-Text Label 9550 2300 0    50   ~ 0
+Text Label 9400 2250 0    50   ~ 0
 4
-Text Label 9550 2400 0    50   ~ 0
+Text Label 9400 2350 0    50   ~ 0
 5
-Text Label 9550 2500 0    50   ~ 0
+Text Label 9400 2450 0    50   ~ 0
 6
-Text Label 9550 2600 0    50   ~ 0
+Text Label 9400 2550 0    50   ~ 0
 7
-Text Label 9550 2700 0    50   ~ 0
+Text Label 9400 2650 0    50   ~ 0
 8
 Wire Wire Line
 	4150 1950 4350 1950
@@ -492,4 +384,184 @@ Text Label 6800 3900 0    50   ~ 0
 ~IS_CPU
 Wire Wire Line
 	6800 3900 7200 3900
+Wire Wire Line
+	1300 1750 2000 1750
+Wire Wire Line
+	1300 1850 2000 1850
+Wire Wire Line
+	1300 1950 2000 1950
+Wire Wire Line
+	1300 2050 2000 2050
+Wire Wire Line
+	1300 2150 2000 2150
+Wire Wire Line
+	1300 2250 2000 2250
+Wire Wire Line
+	1300 2350 2000 2350
+Wire Wire Line
+	1300 2450 2000 2450
+Wire Wire Line
+	1300 2550 2000 2550
+Entry Wire Line
+	1200 1650 1300 1750
+Entry Wire Line
+	1200 1750 1300 1850
+Entry Wire Line
+	1200 1850 1300 1950
+Entry Wire Line
+	1200 1950 1300 2050
+Entry Wire Line
+	1200 2050 1300 2150
+Entry Wire Line
+	1200 2150 1300 2250
+Entry Wire Line
+	1200 2250 1300 2350
+Entry Wire Line
+	1200 2350 1300 2450
+Entry Wire Line
+	1200 2450 1300 2550
+Wire Bus Line
+	1200 1650 1100 1650
+Text HLabel 1100 1650 0    50   Input ~ 0
+Move[0..8]
+Text Label 1300 1750 0    50   ~ 0
+Move0
+Text Label 1300 1850 0    50   ~ 0
+Move1
+Text Label 1300 1950 0    50   ~ 0
+Move2
+Text Label 1300 2050 0    50   ~ 0
+Move3
+Text Label 1300 2150 0    50   ~ 0
+Move4
+Text Label 1300 2250 0    50   ~ 0
+Move5
+Text Label 1300 2350 0    50   ~ 0
+Move6
+Text Label 1300 2450 0    50   ~ 0
+Move7
+Text Label 1300 2550 0    50   ~ 0
+Move8
+Wire Wire Line
+	1300 2800 2000 2800
+Wire Wire Line
+	1300 2900 2000 2900
+Wire Wire Line
+	1300 3000 2000 3000
+Wire Wire Line
+	1300 3200 2000 3200
+Wire Wire Line
+	1300 3300 2000 3300
+Wire Wire Line
+	1300 3400 2000 3400
+Wire Wire Line
+	1300 3500 2000 3500
+Wire Wire Line
+	1300 3600 2000 3600
+Entry Wire Line
+	1200 2700 1300 2800
+Entry Wire Line
+	1200 2800 1300 2900
+Entry Wire Line
+	1200 2900 1300 3000
+Entry Wire Line
+	1200 3000 1300 3100
+Entry Wire Line
+	1200 3100 1300 3200
+Entry Wire Line
+	1200 3200 1300 3300
+Entry Wire Line
+	1200 3300 1300 3400
+Entry Wire Line
+	1200 3400 1300 3500
+Entry Wire Line
+	1200 3500 1300 3600
+Wire Bus Line
+	1200 2700 1100 2700
+Text HLabel 1100 2700 0    50   Input ~ 0
+CPU[0..8]
+Wire Wire Line
+	1300 3100 2000 3100
+Text Label 1300 2800 0    50   ~ 0
+CPU0
+Text Label 1300 2900 0    50   ~ 0
+CPU1
+Text Label 1300 3000 0    50   ~ 0
+CPU2
+Text Label 1300 3100 0    50   ~ 0
+CPU3
+Text Label 1300 3200 0    50   ~ 0
+CPU4
+Text Label 1300 3300 0    50   ~ 0
+CPU5
+Text Label 1300 3400 0    50   ~ 0
+CPU6
+Text Label 1300 3500 0    50   ~ 0
+CPU7
+Text Label 1300 3600 0    50   ~ 0
+CPU8
+Entry Wire Line
+	10400 2750 10300 2650
+Entry Wire Line
+	10400 2650 10300 2550
+Entry Wire Line
+	10400 2550 10300 2450
+Entry Wire Line
+	10400 2450 10300 2350
+Entry Wire Line
+	10400 2350 10300 2250
+Entry Wire Line
+	10400 2250 10300 2150
+Entry Wire Line
+	10400 2150 10300 2050
+Entry Wire Line
+	10400 2050 10300 1950
+Entry Wire Line
+	10400 1950 10300 1850
+Text HLabel 10550 1800 2    50   Input ~ 0
+P2Move[0..8]
+Wire Bus Line
+	10400 1800 10550 1800
+Text Label 10300 1850 2    50   ~ 0
+P2Move0
+Text Label 10300 1950 2    50   ~ 0
+P2Move1
+Text Label 10300 2050 2    50   ~ 0
+P2Move2
+Text Label 10300 2150 2    50   ~ 0
+P2Move3
+Text Label 10300 2250 2    50   ~ 0
+P2Move4
+Text Label 10300 2350 2    50   ~ 0
+P2Move5
+Text Label 10300 2450 2    50   ~ 0
+P2Move6
+Text Label 10300 2550 2    50   ~ 0
+P2Move7
+Text Label 10300 2650 2    50   ~ 0
+P2Move8
+Wire Wire Line
+	9400 1850 10300 1850
+Wire Wire Line
+	9400 1950 10300 1950
+Wire Wire Line
+	9400 2050 10300 2050
+Wire Wire Line
+	9400 2150 10300 2150
+Wire Wire Line
+	9400 2250 10300 2250
+Wire Wire Line
+	9400 2350 10300 2350
+Wire Wire Line
+	9400 2450 10300 2450
+Wire Wire Line
+	9400 2550 10300 2550
+Wire Wire Line
+	9400 2650 10300 2650
+Wire Bus Line
+	1200 1650 1200 2450
+Wire Bus Line
+	1200 2700 1200 3500
+Wire Bus Line
+	10400 1800 10400 2750
 $EndSCHEMATC

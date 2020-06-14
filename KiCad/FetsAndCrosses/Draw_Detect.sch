@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 42 215
+Sheet 29 400
 Title ""
 Date ""
 Rev ""
@@ -13,42 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1850 950  0    50   Input ~ 0
-BoardMem_P1_0
-Text HLabel 1850 2100 0    50   Input ~ 0
-BoardMem_P2_0
-Text HLabel 1850 1050 0    50   Input ~ 0
-BoardMem_P1_1
-Text HLabel 1850 1150 0    50   Input ~ 0
-BoardMem_P1_2
-Text HLabel 1850 1250 0    50   Input ~ 0
-BoardMem_P1_3
-Text HLabel 1850 1350 0    50   Input ~ 0
-BoardMem_P1_4
-Text HLabel 1850 1450 0    50   Input ~ 0
-BoardMem_P1_5
-Text HLabel 1850 1550 0    50   Input ~ 0
-BoardMem_P1_6
-Text HLabel 1850 1650 0    50   Input ~ 0
-BoardMem_P1_7
-Text HLabel 1850 1750 0    50   Input ~ 0
-BoardMem_P1_8
-Text HLabel 1850 2200 0    50   Input ~ 0
-BoardMem_P2_1
-Text HLabel 1850 2300 0    50   Input ~ 0
-BoardMem_P2_2
-Text HLabel 1850 2400 0    50   Input ~ 0
-BoardMem_P2_3
-Text HLabel 1850 2500 0    50   Input ~ 0
-BoardMem_P2_4
-Text HLabel 1850 2600 0    50   Input ~ 0
-BoardMem_P2_5
-Text HLabel 1850 2700 0    50   Input ~ 0
-BoardMem_P2_6
-Text HLabel 1850 2800 0    50   Input ~ 0
-BoardMem_P2_7
-Text HLabel 1850 2900 0    50   Input ~ 0
-BoardMem_P2_8
 $Sheet
 S 3550 1000 550  300 
 U 5EDAE94F
@@ -202,42 +166,6 @@ Wire Wire Line
 	7050 1150 6900 1150
 Text Label 7050 1150 2    50   ~ 0
 2
-Wire Wire Line
-	1850 950  2200 950 
-Wire Wire Line
-	1850 1050 2200 1050
-Wire Wire Line
-	1850 1150 2200 1150
-Wire Wire Line
-	1850 1250 2200 1250
-Wire Wire Line
-	1850 1350 2200 1350
-Wire Wire Line
-	1850 1450 2200 1450
-Wire Wire Line
-	1850 1550 2200 1550
-Wire Wire Line
-	1850 1650 2200 1650
-Wire Wire Line
-	1850 1750 2200 1750
-Wire Wire Line
-	1850 2100 2200 2100
-Wire Wire Line
-	1850 2200 2200 2200
-Wire Wire Line
-	1850 2300 2200 2300
-Wire Wire Line
-	1850 2400 2200 2400
-Wire Wire Line
-	1850 2500 2200 2500
-Wire Wire Line
-	1850 2600 2200 2600
-Wire Wire Line
-	1850 2700 2200 2700
-Wire Wire Line
-	1850 2800 2200 2800
-Wire Wire Line
-	1850 2900 2200 2900
 Text Label 2200 950  2    50   ~ 0
 P1_0
 Text Label 2200 1050 2    50   ~ 0
@@ -386,4 +314,124 @@ Wire Wire Line
 	9000 2000 9350 2000
 Text HLabel 9350 2000 2    50   Output ~ 0
 Is_Draw
+Text HLabel 1200 750  0    50   Input ~ 0
+Board_P1_[0..8]
+Text HLabel 1200 1900 0    50   Input ~ 0
+Board_P2_[0..8]
+Wire Wire Line
+	1450 950  2200 950 
+Wire Wire Line
+	1450 1050 2200 1050
+Wire Wire Line
+	1450 1150 2200 1150
+Wire Wire Line
+	1450 1250 2200 1250
+Wire Wire Line
+	1450 1350 2200 1350
+Wire Wire Line
+	1450 1450 2200 1450
+Wire Wire Line
+	1450 1550 2200 1550
+Wire Wire Line
+	1450 1650 2200 1650
+Wire Wire Line
+	1450 1750 2200 1750
+Entry Wire Line
+	1350 850  1450 950 
+Entry Wire Line
+	1350 950  1450 1050
+Entry Wire Line
+	1350 1050 1450 1150
+Entry Wire Line
+	1350 1150 1450 1250
+Entry Wire Line
+	1350 1250 1450 1350
+Entry Wire Line
+	1350 1350 1450 1450
+Entry Wire Line
+	1350 1450 1450 1550
+Entry Wire Line
+	1350 1550 1450 1650
+Entry Wire Line
+	1350 1650 1450 1750
+Text Label 1450 950  0    50   ~ 0
+Board_P1_0
+Text Label 1450 1050 0    50   ~ 0
+Board_P1_1
+Text Label 1450 1150 0    50   ~ 0
+Board_P1_2
+Text Label 1450 1250 0    50   ~ 0
+Board_P1_3
+Text Label 1450 1350 0    50   ~ 0
+Board_P1_4
+Text Label 1450 1450 0    50   ~ 0
+Board_P1_5
+Text Label 1450 1550 0    50   ~ 0
+Board_P1_6
+Text Label 1450 1650 0    50   ~ 0
+Board_P1_7
+Text Label 1450 1750 0    50   ~ 0
+Board_P1_8
+Wire Bus Line
+	1200 750  1350 750 
+Entry Wire Line
+	1350 2000 1450 2100
+Entry Wire Line
+	1350 2100 1450 2200
+Entry Wire Line
+	1350 2200 1450 2300
+Entry Wire Line
+	1350 2300 1450 2400
+Entry Wire Line
+	1350 2400 1450 2500
+Entry Wire Line
+	1350 2500 1450 2600
+Entry Wire Line
+	1350 2600 1450 2700
+Entry Wire Line
+	1350 2700 1450 2800
+Entry Wire Line
+	1350 2800 1450 2900
+Wire Bus Line
+	1200 1900 1350 1900
+Wire Wire Line
+	1450 2100 2200 2100
+Wire Wire Line
+	1450 2200 2200 2200
+Wire Wire Line
+	1450 2300 2200 2300
+Wire Wire Line
+	1450 2400 2200 2400
+Wire Wire Line
+	1450 2500 2200 2500
+Wire Wire Line
+	1450 2600 2200 2600
+Wire Wire Line
+	1450 2700 2200 2700
+Wire Wire Line
+	1450 2800 2200 2800
+Wire Wire Line
+	1450 2900 2200 2900
+Text Label 1450 2100 0    50   ~ 0
+Board_P2_0
+Text Label 1450 2200 0    50   ~ 0
+Board_P2_1
+Text Label 1450 2300 0    50   ~ 0
+Board_P2_2
+Text Label 1450 2400 0    50   ~ 0
+Board_P2_3
+Text Label 1450 2500 0    50   ~ 0
+Board_P2_4
+Text Label 1450 2600 0    50   ~ 0
+Board_P2_5
+Text Label 1450 2700 0    50   ~ 0
+Board_P2_6
+Text Label 1450 2800 0    50   ~ 0
+Board_P2_7
+Text Label 1450 2900 0    50   ~ 0
+Board_P2_8
+Wire Bus Line
+	1350 750  1350 1650
+Wire Bus Line
+	1350 1900 1350 2800
 $EndSCHEMATC
