@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 373 400
+Sheet 373 389
 Title "Fets and Crosses"
 Date ""
 Rev ""
@@ -85,10 +85,6 @@ F1 "UI_BoardLEDCell.sch" 50
 F2 "P1" I L 9800 2750 50 
 F3 "P2" I L 9800 2850 50 
 $EndSheet
-Text Notes 7900 1200 0    100  ~ 20
-Board Display
-Text Notes 700  1050 0    100  ~ 20
-Player Move Selection 
 $Sheet
 S 700  1250 850  1000
 U 5E5734B3
@@ -104,36 +100,16 @@ F8 "MovSel_6" O R 1550 1950 50
 F9 "MovSel_8" O R 1550 2150 50 
 F10 "MovSel_7" O R 1550 2050 50 
 $EndSheet
-Text Notes 950  3000 0    100  ~ 20
-Action Buttons
 $Sheet
 S 950  3150 850  500 
 U 5E6A228F
-F0 "UI_ActionBTNs.sch" 50
-F1 "UI_ActionBTNs.sch" 50
+F0 "UI_Setup.sch" 50
+F1 "UI_Setup.sch" 50
 F2 "Reset" O R 1800 3250 50 
-F3 "P1Move" O R 1800 3350 50 
-F4 "P2Move" O R 1800 3450 50 
-F5 "P2_isCPU" O R 1800 3550 50 
+F3 "P2_isComputer" O R 1800 3350 50 
+F4 "P2_Starts" O R 1800 3450 50 
+F5 "Computer2_selected" O R 1800 3550 50 
 $EndSheet
-Text HLabel 2000 3250 2    50   Output ~ 0
-Reset
-Text HLabel 2000 3350 2    50   Output ~ 0
-P1Move
-Text HLabel 2000 3450 2    50   Output ~ 0
-P2Move
-Text HLabel 2000 3550 2    50   Output ~ 0
-P2_isCPU
-Wire Wire Line
-	2000 3250 1800 3250
-Wire Wire Line
-	2000 3350 1800 3350
-Wire Wire Line
-	2000 3450 1800 3450
-Wire Wire Line
-	2000 3550 1800 3550
-Text Notes 7500 3700 0    100  ~ 20
-GameState Display
 $Sheet
 S 7650 3900 800  800 
 U 5E55477D
@@ -143,10 +119,21 @@ F2 "GameOver" I L 7650 4000 50
 F3 "P1won" I L 7650 4100 50 
 F4 "P2won" I L 7650 4200 50 
 F5 "Draw" I L 7650 4300 50 
-F6 "Start" I L 7650 4400 50 
-F7 "P1Turn" I L 7650 4500 50 
-F8 "P2Turn" I L 7650 4600 50 
+F6 "P1Turn" I L 7650 4500 50 
+F7 "P2Turn" I L 7650 4600 50 
 $EndSheet
+Text Notes 7900 1200 0    100  ~ 20
+Board Display
+Text Notes 700  1050 0    100  ~ 20
+Player Move Selection 
+Text Notes 1200 3000 0    100  ~ 20
+Setup
+Text HLabel 2000 3250 2    50   Output ~ 0
+Reset
+Text HLabel 2000 3350 2    50   Output ~ 0
+P2_isComputer
+Text Notes 7500 3700 0    100  ~ 20
+GameState Display
 Text HLabel 7550 4000 0    50   Input ~ 0
 GameOver
 Text HLabel 7550 4100 0    50   Input ~ 0
@@ -155,106 +142,14 @@ Text HLabel 7550 4200 0    50   Input ~ 0
 P2won
 Text HLabel 7550 4300 0    50   Input ~ 0
 Draw
-Text HLabel 7550 4400 0    50   Input ~ 0
-Start
 Text HLabel 7550 4500 0    50   Input ~ 0
 P1Turn
 Text HLabel 7550 4600 0    50   Input ~ 0
 P2Turn
-Wire Wire Line
-	7550 4000 7650 4000
-Wire Wire Line
-	7550 4100 7650 4100
-Wire Wire Line
-	7550 4200 7650 4200
-Wire Wire Line
-	7550 4300 7650 4300
-Wire Wire Line
-	7550 4400 7650 4400
-Wire Wire Line
-	7550 4500 7650 4500
-Wire Wire Line
-	7550 4600 7650 4600
-Entry Wire Line
-	3800 1750 3900 1850
-Entry Wire Line
-	3800 1650 3900 1750
-Entry Wire Line
-	3800 1550 3900 1650
-Entry Wire Line
-	3800 1450 3900 1550
-Entry Wire Line
-	3800 1350 3900 1450
-Entry Wire Line
-	3800 1250 3900 1350
-Entry Wire Line
-	3800 1150 3900 1250
-Entry Wire Line
-	3800 1050 3900 1150
-Entry Wire Line
-	3800 950  3900 1050
-Wire Bus Line
-	3700 950  3800 950 
 Text HLabel 3700 950  0    50   Input ~ 0
 Board_P1_[0..8]
-Wire Wire Line
-	3900 1050 5200 1050
-Wire Wire Line
-	3900 1150 5200 1150
-Wire Wire Line
-	3900 1250 5200 1250
-Wire Wire Line
-	3900 1350 5200 1350
-Wire Wire Line
-	3900 1450 5200 1450
-Wire Wire Line
-	3900 1550 5200 1550
-Wire Wire Line
-	3900 1650 5200 1650
-Wire Wire Line
-	3900 1750 5200 1750
-Wire Wire Line
-	3900 1850 5200 1850
-Entry Wire Line
-	3800 2900 3900 3000
-Entry Wire Line
-	3800 2800 3900 2900
-Entry Wire Line
-	3800 2700 3900 2800
-Entry Wire Line
-	3800 2600 3900 2700
-Entry Wire Line
-	3800 2500 3900 2600
-Entry Wire Line
-	3800 2400 3900 2500
-Entry Wire Line
-	3800 2300 3900 2400
-Entry Wire Line
-	3800 2200 3900 2300
-Entry Wire Line
-	3800 2100 3900 2200
-Wire Bus Line
-	3700 2100 3800 2100
 Text HLabel 3700 2100 0    50   Input ~ 0
 Board_P2_[0..8]
-Wire Wire Line
-	3900 2200 5200 2200
-Wire Wire Line
-	3900 2300 5200 2300
-Wire Wire Line
-	3900 2400 5200 2400
-Wire Wire Line
-	3900 2500 5200 2500
-Wire Wire Line
-	3900 2600 5200 2600
-Wire Wire Line
-	3900 2700 5200 2700
-Wire Wire Line
-	3900 2800 5200 2800
-Wire Wire Line
-	3900 2900 5200 2900
-Wire Wire Line
-	3900 3000 5200 3000
 Text Label 3900 1050 0    50   ~ 0
 Board_P1_0
 Text Label 3900 1150 0    50   ~ 0
@@ -291,42 +186,6 @@ Text Label 3900 2900 0    50   ~ 0
 Board_P2_7
 Text Label 3900 3000 0    50   ~ 0
 Board_P2_8
-Wire Wire Line
-	5900 1650 6050 1650
-Wire Wire Line
-	5900 1750 6050 1750
-Wire Wire Line
-	5900 2300 6050 2300
-Wire Wire Line
-	5900 2200 6050 2200
-Wire Wire Line
-	5900 2850 6050 2850
-Wire Wire Line
-	5900 2750 6050 2750
-Wire Wire Line
-	7750 1650 7900 1650
-Wire Wire Line
-	7750 1750 7900 1750
-Wire Wire Line
-	7750 2300 7900 2300
-Wire Wire Line
-	7750 2200 7900 2200
-Wire Wire Line
-	7750 2850 7900 2850
-Wire Wire Line
-	7750 2750 7900 2750
-Wire Wire Line
-	9650 1650 9800 1650
-Wire Wire Line
-	9650 1750 9800 1750
-Wire Wire Line
-	9650 2300 9800 2300
-Wire Wire Line
-	9650 2200 9800 2200
-Wire Wire Line
-	9650 2750 9800 2750
-Wire Wire Line
-	9650 2850 9800 2850
 Text Label 5200 1050 2    50   ~ 0
 P1_0
 Text Label 5200 1150 2    50   ~ 0
@@ -399,26 +258,6 @@ Text Label 7750 2850 2    50   ~ 0
 P2_7
 Text Label 9650 2850 2    50   ~ 0
 P2_8
-Entry Wire Line
-	2050 2250 1950 2150
-Entry Wire Line
-	2050 2150 1950 2050
-Entry Wire Line
-	2050 2050 1950 1950
-Entry Wire Line
-	2050 1950 1950 1850
-Entry Wire Line
-	2050 1850 1950 1750
-Entry Wire Line
-	2050 1750 1950 1650
-Entry Wire Line
-	2050 1650 1950 1550
-Entry Wire Line
-	2050 1550 1950 1450
-Entry Wire Line
-	2050 1450 1950 1350
-Wire Bus Line
-	2050 2250 2150 2250
 Text HLabel 2150 2250 2    50   Output ~ 0
 Move[0..8]
 Text Label 1950 2150 2    50   ~ 0
@@ -439,6 +278,104 @@ Text Label 1950 1450 2    50   ~ 0
 Move7
 Text Label 1950 1350 2    50   ~ 0
 Move8
+Text HLabel 2000 3450 2    50   Output ~ 0
+P2_Starts
+Text HLabel 2000 3550 2    50   Output ~ 0
+Computer2_selected
+Wire Wire Line
+	2000 3250 1800 3250
+Wire Wire Line
+	2000 3450 1800 3450
+Wire Wire Line
+	7550 4000 7650 4000
+Wire Wire Line
+	7550 4100 7650 4100
+Wire Wire Line
+	7550 4200 7650 4200
+Wire Wire Line
+	7550 4300 7650 4300
+Wire Wire Line
+	7550 4500 7650 4500
+Wire Wire Line
+	7550 4600 7650 4600
+Wire Bus Line
+	3700 950  3800 950 
+Wire Wire Line
+	3900 1050 5200 1050
+Wire Wire Line
+	3900 1150 5200 1150
+Wire Wire Line
+	3900 1250 5200 1250
+Wire Wire Line
+	3900 1350 5200 1350
+Wire Wire Line
+	3900 1450 5200 1450
+Wire Wire Line
+	3900 1550 5200 1550
+Wire Wire Line
+	3900 1650 5200 1650
+Wire Wire Line
+	3900 1750 5200 1750
+Wire Wire Line
+	3900 1850 5200 1850
+Wire Bus Line
+	3700 2100 3800 2100
+Wire Wire Line
+	3900 2200 5200 2200
+Wire Wire Line
+	3900 2300 5200 2300
+Wire Wire Line
+	3900 2400 5200 2400
+Wire Wire Line
+	3900 2500 5200 2500
+Wire Wire Line
+	3900 2600 5200 2600
+Wire Wire Line
+	3900 2700 5200 2700
+Wire Wire Line
+	3900 2800 5200 2800
+Wire Wire Line
+	3900 2900 5200 2900
+Wire Wire Line
+	3900 3000 5200 3000
+Wire Wire Line
+	5900 1650 6050 1650
+Wire Wire Line
+	5900 1750 6050 1750
+Wire Wire Line
+	5900 2300 6050 2300
+Wire Wire Line
+	5900 2200 6050 2200
+Wire Wire Line
+	5900 2850 6050 2850
+Wire Wire Line
+	5900 2750 6050 2750
+Wire Wire Line
+	7750 1650 7900 1650
+Wire Wire Line
+	7750 1750 7900 1750
+Wire Wire Line
+	7750 2300 7900 2300
+Wire Wire Line
+	7750 2200 7900 2200
+Wire Wire Line
+	7750 2850 7900 2850
+Wire Wire Line
+	7750 2750 7900 2750
+Wire Wire Line
+	9650 1650 9800 1650
+Wire Wire Line
+	9650 1750 9800 1750
+Wire Wire Line
+	9650 2300 9800 2300
+Wire Wire Line
+	9650 2200 9800 2200
+Wire Wire Line
+	9650 2750 9800 2750
+Wire Wire Line
+	9650 2850 9800 2850
+Wire Bus Line
+	2050 2250 2150 2250
 Wire Wire Line
 	1550 1350 1950 1350
 Wire Wire Line
@@ -457,6 +394,64 @@ Wire Wire Line
 	1550 2050 1950 2050
 Wire Wire Line
 	1550 2150 1950 2150
+Wire Wire Line
+	2000 3350 1800 3350
+Wire Wire Line
+	1800 3550 2000 3550
+Entry Wire Line
+	3800 1750 3900 1850
+Entry Wire Line
+	3800 1650 3900 1750
+Entry Wire Line
+	3800 1550 3900 1650
+Entry Wire Line
+	3800 1450 3900 1550
+Entry Wire Line
+	3800 1350 3900 1450
+Entry Wire Line
+	3800 1250 3900 1350
+Entry Wire Line
+	3800 1150 3900 1250
+Entry Wire Line
+	3800 1050 3900 1150
+Entry Wire Line
+	3800 950  3900 1050
+Entry Wire Line
+	3800 2900 3900 3000
+Entry Wire Line
+	3800 2800 3900 2900
+Entry Wire Line
+	3800 2700 3900 2800
+Entry Wire Line
+	3800 2600 3900 2700
+Entry Wire Line
+	3800 2500 3900 2600
+Entry Wire Line
+	3800 2400 3900 2500
+Entry Wire Line
+	3800 2300 3900 2400
+Entry Wire Line
+	3800 2200 3900 2300
+Entry Wire Line
+	3800 2100 3900 2200
+Entry Wire Line
+	2050 2250 1950 2150
+Entry Wire Line
+	2050 2150 1950 2050
+Entry Wire Line
+	2050 2050 1950 1950
+Entry Wire Line
+	2050 1950 1950 1850
+Entry Wire Line
+	2050 1850 1950 1750
+Entry Wire Line
+	2050 1750 1950 1650
+Entry Wire Line
+	2050 1650 1950 1550
+Entry Wire Line
+	2050 1550 1950 1450
+Entry Wire Line
+	2050 1450 1950 1350
 Wire Bus Line
 	3800 2100 3800 2900
 Wire Bus Line

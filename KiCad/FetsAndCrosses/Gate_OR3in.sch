@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 80 400
+Sheet 80 389
 Title ""
 Date ""
 Rev ""
@@ -23,8 +23,6 @@ F3 "A" I L 4400 2950 50
 F4 "B" I L 4400 3050 50 
 F5 "C" I L 4400 3150 50 
 $EndSheet
-Text Notes 4600 3150 0    100  ~ 20
-~II
 $Sheet
 S 5400 2950 550  200 
 U 5ED2645F
@@ -33,16 +31,20 @@ F1 "Gate_NOT.sch" 50
 F2 "A" I L 5400 3050 50 
 F3 "Q" O R 5950 3050 50 
 $EndSheet
+Text Notes 4600 3150 0    100  ~ 20
+~II
 Text Notes 5650 3100 0    100  ~ 20
 !
-Wire Wire Line
-	5400 3050 4950 3050
 Text HLabel 4300 2950 0    50   Input ~ 0
 A
 Text HLabel 4300 3050 0    50   Input ~ 0
 B
 Text HLabel 4300 3150 0    50   Input ~ 0
 C
+Text HLabel 6300 3050 2    50   Output ~ 0
+Q
+Wire Wire Line
+	5400 3050 4950 3050
 Wire Wire Line
 	4300 2950 4400 2950
 Wire Wire Line
@@ -51,6 +53,4 @@ Wire Wire Line
 	4300 3150 4400 3150
 Wire Wire Line
 	5950 3050 6300 3050
-Text HLabel 6300 3050 2    50   Output ~ 0
-Q
 $EndSCHEMATC

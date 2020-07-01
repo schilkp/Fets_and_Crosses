@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 131 400
+Sheet 159 435
 Title ""
 Date ""
 Rev ""
@@ -14,14 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5550 750  550  200 
+S 3000 -1050 550  200 
 U 5E56C714
 F0 "sheet5E56C70C" 50
 F1 "Gate_NOT.sch" 50
-F2 "A" I L 5550 850 50 
-F3 "Q" O R 6100 850 50 
+F2 "A" I L 3000 -950 50 
+F3 "Q" O R 3550 -950 50 
 $EndSheet
-Text Notes 5800 900  0    100  ~ 20
+Text Notes 3250 -900 0    100  ~ 20
 !
 $Comp
 L Device:Q_PMOS_GSD Q?
@@ -29,8 +29,8 @@ U 1 1 5E56C71B
 P 1700 2250
 AR Path="/5E53AD22/5E550B0F/5E56C71B" Ref="Q?"  Part="1" 
 AR Path="/5E56C71B" Ref="Q?"  Part="1" 
-AR Path="/5E56BA74/5E56C71B" Ref="Q1"  Part="1" 
-F 0 "Q1" H 1904 2204 50  0000 L CNN
+AR Path="/5E56BA74/5E56C71B" Ref="Q?"  Part="1" 
+F 0 "Q?" H 1904 2204 50  0000 L CNN
 F 1 "BSS84" H 1904 2295 50  0000 L CNN
 F 2 "" H 1900 2350 50  0001 C CNN
 F 3 "~" H 1700 2250 50  0001 C CNN
@@ -43,8 +43,8 @@ U 1 1 5E56C721
 P 1700 3100
 AR Path="/5E53AD22/5E550B0F/5E56C721" Ref="Q?"  Part="1" 
 AR Path="/5E56C721" Ref="Q?"  Part="1" 
-AR Path="/5E56BA74/5E56C721" Ref="Q2"  Part="1" 
-F 0 "Q2" H 1904 3146 50  0000 L CNN
+AR Path="/5E56BA74/5E56C721" Ref="Q?"  Part="1" 
+F 0 "Q?" H 1904 3146 50  0000 L CNN
 F 1 "2N7002" H 1904 3055 50  0000 L CNN
 F 2 "" H 1900 3200 50  0001 C CNN
 F 3 "~" H 1700 3100 50  0001 C CNN
@@ -53,16 +53,16 @@ F 3 "~" H 1700 3100 50  0001 C CNN
 $EndComp
 Text Notes 4150 1500 0    100  ~ 20
 ~&
-Text Notes 4150 2050 0    100  ~ 20
+Text Notes 3850 -100 0    100  ~ 20
 &
 $Sheet
-S 3950 1800 550  300 
+S 3650 -350 550  300 
 U 5E56C728
 F0 "sheet5E56C70D" 50
 F1 "Gate_AND2in.sch" 50
-F2 "A" I L 3950 1900 50 
-F3 "B" I L 3950 2000 50 
-F4 "Q" O R 4500 1950 50 
+F2 "A" I L 3650 -250 50 
+F3 "B" I L 3650 -150 50 
+F4 "Q" O R 4200 -200 50 
 $EndSheet
 $Sheet
 S 5500 1250 550  300 
@@ -74,13 +74,13 @@ F3 "A" I L 5500 1350 50
 F4 "B" I L 5500 1450 50 
 $EndSheet
 $Sheet
-S 5500 1800 550  300 
+S 4750 -400 550  300 
 U 5E56C732
 F0 "sheet5E56C70F" 50
 F1 "Gate_OR2in.sch" 50
-F2 "A" I L 5500 1900 50 
-F3 "B" I L 5500 2000 50 
-F4 "Q" O R 6050 1950 50 
+F2 "A" I L 4750 -300 50 
+F3 "B" I L 4750 -200 50 
+F4 "Q" O R 5300 -250 50 
 $EndSheet
 $Sheet
 S 3950 1250 550  300 
@@ -93,7 +93,7 @@ F4 "B" I L 3950 1450 50
 $EndSheet
 Text Notes 5700 1500 0    100  ~ 20
 ~II
-Text Notes 5700 2050 0    100  ~ 20
+Text Notes 4950 -150 0    100  ~ 20
 II
 $Sheet
 S 3950 2450 550  400 
@@ -253,16 +253,16 @@ $EndSheet
 Text Notes 5700 6600 0    100  ~ 20
 ~II
 $Sheet
-S 3950 3100 550  400 
+S 2600 -150 550  400 
 U 5EE528F8
 F0 "Sheet5EE528F7" 50
 F1 "Gate_AND3in.sch" 50
-F2 "A" I L 3950 3200 50 
-F3 "B" I L 3950 3300 50 
-F4 "C" I L 3950 3400 50 
-F5 "Q" O R 4500 3300 50 
+F2 "A" I L 2600 -50 50 
+F3 "B" I L 2600 50  50 
+F4 "C" I L 2600 150 50 
+F5 "Q" O R 3150 50  50 
 $EndSheet
-Text Notes 4150 3350 0    100  ~ 20
+Text Notes 2800 100  0    100  ~ 20
 &
 $Sheet
 S 3750 5200 550  900 
@@ -291,5 +291,19 @@ F3 "1" I L 8200 1100 50
 F4 "Q" O R 9000 1100 50 
 F5 "SEL" I L 8200 1200 50 
 F6 "~SEL" I L 8200 1300 50 
+$EndSheet
+Text Notes 8450 3400 0    100  ~ 20
+D
+$Sheet
+S 8200 3150 550  450 
+U 5F218196
+F0 "sheet5F21818F" 50
+F1 "Gate_DFF_with_set.sch" 50
+F2 "D" I L 8200 3250 50 
+F3 "CLK" I L 8200 3350 50 
+F4 "Q" O R 8750 3250 50 
+F5 "~Q" O R 8750 3450 50 
+F6 "~R" I L 8200 3450 50 
+F7 "~S" I L 8200 3550 50 
 $EndSheet
 $EndSCHEMATC

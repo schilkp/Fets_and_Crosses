@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 214 400
+Sheet 386 338
 Title ""
 Date ""
 Rev ""
@@ -72,120 +72,120 @@ Wire Wire Line
 	7600 2150 7300 2150
 Connection ~ 7600 2150
 Entry Wire Line
-	3200 2100 3300 2200
+	3850 2150 3950 2250
 Entry Wire Line
-	3200 2000 3300 2100
+	3850 2050 3950 2150
 Entry Wire Line
-	3200 1900 3300 2000
+	3850 1950 3950 2050
 Entry Wire Line
-	3200 1800 3300 1900
+	3850 1850 3950 1950
 Entry Wire Line
-	3200 1700 3300 1800
+	3850 1750 3950 1850
 Entry Wire Line
-	3200 1600 3300 1700
+	3850 1650 3950 1750
 Entry Wire Line
-	3200 1500 3300 1600
+	3850 1550 3950 1650
 Entry Wire Line
-	3200 1400 3300 1500
+	3850 1450 3950 1550
 Entry Wire Line
-	3200 1300 3300 1400
+	3850 1350 3950 1450
 Wire Bus Line
-	3100 1300 3200 1300
-Text HLabel 3100 1300 0    50   Input ~ 0
+	3750 1350 3850 1350
+Text HLabel 3750 1350 0    50   Input ~ 0
 Board_P1_[0..8]
 Wire Wire Line
-	3300 1400 4600 1400
+	3950 1450 5250 1450
 Wire Wire Line
-	3300 1500 4600 1500
+	3950 1550 5250 1550
 Wire Wire Line
-	3300 1600 4600 1600
+	3950 1650 5250 1650
 Wire Wire Line
-	3300 1700 4600 1700
+	3950 1750 5250 1750
 Wire Wire Line
-	3300 1800 4600 1800
+	3950 1850 5250 1850
 Wire Wire Line
-	3300 1900 4600 1900
+	3950 1950 5250 1950
 Wire Wire Line
-	3300 2000 4600 2000
+	3950 2050 5250 2050
 Wire Wire Line
-	3300 2100 4600 2100
+	3950 2150 5250 2150
 Wire Wire Line
-	3300 2200 4600 2200
+	3950 2250 5250 2250
 Entry Wire Line
-	3200 3250 3300 3350
+	3850 3050 3950 3150
 Entry Wire Line
-	3200 3150 3300 3250
+	3850 2950 3950 3050
 Entry Wire Line
-	3200 3050 3300 3150
+	3850 2850 3950 2950
 Entry Wire Line
-	3200 2950 3300 3050
+	3850 2750 3950 2850
 Entry Wire Line
-	3200 2850 3300 2950
+	3850 2650 3950 2750
 Entry Wire Line
-	3200 2750 3300 2850
+	3850 2550 3950 2650
 Entry Wire Line
-	3200 2650 3300 2750
+	3850 2450 3950 2550
 Entry Wire Line
-	3200 2550 3300 2650
+	3850 2350 3950 2450
 Entry Wire Line
-	3200 2450 3300 2550
+	3850 2250 3950 2350
 Wire Bus Line
-	3100 2450 3200 2450
-Text HLabel 3100 2450 0    50   Input ~ 0
+	3750 2250 3850 2250
+Text HLabel 3750 2250 0    50   Input ~ 0
 Board_P2_[0..8]
 Wire Wire Line
-	3300 2550 4600 2550
+	3950 2350 5250 2350
 Wire Wire Line
-	3300 2650 4600 2650
+	3950 2450 5250 2450
 Wire Wire Line
-	3300 2750 4600 2750
+	3950 2550 5250 2550
 Wire Wire Line
-	3300 2850 4600 2850
+	3950 2650 5250 2650
 Wire Wire Line
-	3300 2950 4600 2950
+	3950 2750 5250 2750
 Wire Wire Line
-	3300 3050 4600 3050
+	3950 2850 5250 2850
 Wire Wire Line
-	3300 3150 4600 3150
+	3950 2950 5250 2950
 Wire Wire Line
-	3300 3250 4600 3250
+	3950 3050 5250 3050
 Wire Wire Line
-	3300 3350 4600 3350
-Text Label 3300 1400 0    50   ~ 0
+	3950 3150 5250 3150
+Text Label 3950 1450 0    50   ~ 0
 Board_P1_0
-Text Label 3300 1500 0    50   ~ 0
+Text Label 3950 1550 0    50   ~ 0
 Board_P1_1
-Text Label 3300 1600 0    50   ~ 0
+Text Label 3950 1650 0    50   ~ 0
 Board_P1_2
-Text Label 3300 1700 0    50   ~ 0
+Text Label 3950 1750 0    50   ~ 0
 Board_P1_3
-Text Label 3300 1800 0    50   ~ 0
+Text Label 3950 1850 0    50   ~ 0
 Board_P1_4
-Text Label 3300 1900 0    50   ~ 0
+Text Label 3950 1950 0    50   ~ 0
 Board_P1_5
-Text Label 3300 2000 0    50   ~ 0
+Text Label 3950 2050 0    50   ~ 0
 Board_P1_6
-Text Label 3300 2100 0    50   ~ 0
+Text Label 3950 2150 0    50   ~ 0
 Board_P1_7
-Text Label 3300 2200 0    50   ~ 0
+Text Label 3950 2250 0    50   ~ 0
 Board_P1_8
-Text Label 3300 2550 0    50   ~ 0
+Text Label 3950 2350 0    50   ~ 0
 Board_P2_0
-Text Label 3300 2650 0    50   ~ 0
+Text Label 3950 2450 0    50   ~ 0
 Board_P2_1
-Text Label 3300 2750 0    50   ~ 0
+Text Label 3950 2550 0    50   ~ 0
 Board_P2_2
-Text Label 3300 2850 0    50   ~ 0
+Text Label 3950 2650 0    50   ~ 0
 Board_P2_3
-Text Label 3300 2950 0    50   ~ 0
+Text Label 3950 2750 0    50   ~ 0
 Board_P2_4
-Text Label 3300 3050 0    50   ~ 0
+Text Label 3950 2850 0    50   ~ 0
 Board_P2_5
-Text Label 3300 3150 0    50   ~ 0
+Text Label 3950 2950 0    50   ~ 0
 Board_P2_6
-Text Label 3300 3250 0    50   ~ 0
+Text Label 3950 3050 0    50   ~ 0
 Board_P2_7
-Text Label 3300 3350 0    50   ~ 0
+Text Label 3950 3150 0    50   ~ 0
 Board_P2_8
 Wire Wire Line
 	8850 2250 8150 2250
@@ -268,10 +268,21 @@ Wire Wire Line
 	8150 2550 8150 2250
 Wire Wire Line
 	8700 3300 9150 3300
+$Comp
+L Memory_Flash:SST39SF040 U?
+U 1 1 5EFD2A0F
+P 6700 2650
+F 0 "U?" H 6700 4131 50  0000 C CNN
+F 1 "SST39SF040" H 6700 4040 50  0000 C CNN
+F 2 "" H 6700 2950 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf" H 6700 2950 50  0001 C CNN
+	1    6700 2650
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	8950 1550 8950 2350
 Wire Bus Line
-	3200 2450 3200 3250
+	3850 2250 3850 3050
 Wire Bus Line
-	3200 1300 3200 2100
+	3850 1350 3850 2150
 $EndSCHEMATC

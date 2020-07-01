@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 69 400
+Sheet 6 389
 Title ""
 Date ""
 Rev ""
@@ -13,16 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2850 4750 0    50   Input ~ 0
-D
-Text HLabel 2850 3750 0    50   Input ~ 0
-CLK
-Text HLabel 2800 2750 0    50   Input ~ 0
-~R
-Text HLabel 6150 2450 2    50   Output ~ 0
-Q
-Text HLabel 6150 3750 2    50   Output ~ 0
-~Q
 $Sheet
 S 3500 2550 550  400 
 U 5EFA4EFC
@@ -33,10 +23,6 @@ F3 "B" I L 3500 2750 50
 F4 "C" I L 3500 2850 50 
 F5 "Q" O R 4050 2750 50 
 $EndSheet
-Text Notes 3700 2800 0    100  ~ 20
-~&
-Text Notes 5150 2550 0    100  ~ 20
-~&
 $Sheet
 S 4950 2300 550  300 
 U 5EFA5582
@@ -56,8 +42,6 @@ F3 "B" I L 3500 3750 50
 F4 "C" I L 3500 3850 50 
 F5 "Q" O R 4050 3750 50 
 $EndSheet
-Text Notes 3700 3800 0    100  ~ 20
-~&
 $Sheet
 S 3500 4450 550  400 
 U 5EFA5AFB
@@ -68,8 +52,6 @@ F3 "B" I L 3500 4650 50
 F4 "C" I L 3500 4750 50 
 F5 "Q" O R 4050 4650 50 
 $EndSheet
-Text Notes 3700 4700 0    100  ~ 20
-~&
 $Sheet
 S 4950 3550 550  400 
 U 5EFA5CAD
@@ -80,10 +62,6 @@ F3 "B" I L 4950 3750 50
 F4 "C" I L 4950 3850 50 
 F5 "Q" O R 5500 3750 50 
 $EndSheet
-Text Notes 5150 3800 0    100  ~ 20
-~&
-Text Notes 3700 1850 0    100  ~ 20
-~&
 $Sheet
 S 3500 1600 550  300 
 U 5EFA601F
@@ -93,6 +71,28 @@ F2 "Q" O R 4050 1750 50
 F3 "A" I L 3500 1700 50 
 F4 "B" I L 3500 1800 50 
 $EndSheet
+Text HLabel 2850 4750 0    50   Input ~ 0
+D
+Text HLabel 2850 3750 0    50   Input ~ 0
+CLK
+Text HLabel 2800 2750 0    50   Input ~ 0
+~R
+Text HLabel 6150 2450 2    50   Output ~ 0
+Q
+Text HLabel 6150 3750 2    50   Output ~ 0
+~Q
+Text Notes 3700 2800 0    100  ~ 20
+~&
+Text Notes 5150 2550 0    100  ~ 20
+~&
+Text Notes 3700 3800 0    100  ~ 20
+~&
+Text Notes 3700 4700 0    100  ~ 20
+~&
+Text Notes 5150 3800 0    100  ~ 20
+~&
+Text Notes 3700 1850 0    100  ~ 20
+~&
 Wire Wire Line
 	2850 4750 3500 4750
 Wire Wire Line
@@ -121,7 +121,6 @@ Wire Wire Line
 	3050 3850 3050 1700
 Wire Wire Line
 	3050 1700 3500 1700
-Connection ~ 3350 3850
 Wire Wire Line
 	2850 3750 3200 3750
 Wire Wire Line
@@ -138,7 +137,6 @@ Wire Wire Line
 	3200 3750 3200 2850
 Wire Wire Line
 	3200 2850 3500 2850
-Connection ~ 3200 3750
 Wire Wire Line
 	3200 3750 3500 3750
 Wire Wire Line
@@ -147,12 +145,10 @@ Wire Wire Line
 	2950 2750 2950 3200
 Wire Wire Line
 	2950 4650 3500 4650
-Connection ~ 2950 2750
 Wire Wire Line
 	2950 2750 3500 2750
 Wire Wire Line
 	4950 3850 4450 3850
-Connection ~ 4450 3850
 Wire Wire Line
 	4450 3850 4450 4350
 Wire Wire Line
@@ -161,7 +157,6 @@ Wire Wire Line
 	4550 3750 4550 3200
 Wire Wire Line
 	4550 3200 2950 3200
-Connection ~ 2950 3200
 Wire Wire Line
 	2950 3200 2950 4650
 Wire Wire Line
@@ -186,22 +181,18 @@ Wire Wire Line
 	4650 2500 4950 2500
 Wire Wire Line
 	6150 2450 6000 2450
-Connection ~ 6000 2450
 Wire Wire Line
 	6150 3750 5900 3750
-Connection ~ 5900 3750
 Wire Wire Line
 	4450 2400 4950 2400
 Wire Wire Line
 	4450 2400 4450 2750
-Connection ~ 4450 2750
 Wire Wire Line
 	4450 2400 3350 2400
 Wire Wire Line
 	3350 2400 3350 1800
 Wire Wire Line
 	3350 1800 3500 1800
-Connection ~ 4450 2400
 Wire Wire Line
 	4050 1750 4400 1750
 Wire Wire Line
@@ -212,4 +203,13 @@ Wire Wire Line
 	3200 2250 3200 2650
 Wire Wire Line
 	3200 2650 3500 2650
+Connection ~ 3350 3850
+Connection ~ 3200 3750
+Connection ~ 2950 2750
+Connection ~ 4450 3850
+Connection ~ 2950 3200
+Connection ~ 6000 2450
+Connection ~ 5900 3750
+Connection ~ 4450 2750
+Connection ~ 4450 2400
 $EndSCHEMATC

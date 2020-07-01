@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name PLCC-32_11.4x14.0mm_P1.27mm_SMD-Socket)(type KiCad)(uri ${KIPRJMOD}/PLCC-32_11.4x14.0mm_P1.27mm_SMD-Socket.pretty)(options "")(descr ""))
+  (lib (name LogicQ)(type KiCad)(uri ${KIPRJMOD}/LogicQ.pretty)(options "")(descr ""))
+  (lib (name DPDT_4mm_2.5mm_TH)(type KiCad)(uri ${KIPRJMOD}/DPDT_4mm_2.5mm_TH.pretty)(options "")(descr ""))
+)
