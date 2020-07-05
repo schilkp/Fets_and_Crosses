@@ -3,12 +3,12 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 29 389
+Sheet 138 389
 Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Date "2020-07-05"
+Rev "v0.0"
+Comp "Philipp Schilk"
+Comment1 "c"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -204,21 +204,21 @@ Text Label 4600 1950 0    50   ~ 0
 P1_4
 Text Label 4600 2050 0    50   ~ 0
 P2_4
-Text Label 6000 2050 0    50   ~ 0
-P1_5
 Text Label 6000 1950 0    50   ~ 0
+P1_5
+Text Label 6000 2050 0    50   ~ 0
 P2_5
-Text Label 3200 2900 0    50   ~ 0
-P1_6
 Text Label 3200 2800 0    50   ~ 0
+P1_6
+Text Label 3200 2900 0    50   ~ 0
 P2_6
-Text Label 4600 2900 0    50   ~ 0
-P1_7
 Text Label 4600 2800 0    50   ~ 0
+P1_7
+Text Label 4600 2900 0    50   ~ 0
 P2_7
-Text Label 6000 2900 0    50   ~ 0
-P1_8
 Text Label 6000 2800 0    50   ~ 0
+P1_8
+Text Label 6000 2900 0    50   ~ 0
 P2_8
 Text Label 8050 1600 0    50   ~ 0
 0
@@ -319,21 +319,21 @@ Wire Wire Line
 Wire Wire Line
 	4950 2050 4600 2050
 Wire Wire Line
-	6350 2050 6000 2050
-Wire Wire Line
 	6350 1950 6000 1950
 Wire Wire Line
-	3550 2900 3200 2900
+	6350 2050 6000 2050
 Wire Wire Line
 	3550 2800 3200 2800
 Wire Wire Line
-	4950 2900 4600 2900
+	3550 2900 3200 2900
 Wire Wire Line
 	4950 2800 4600 2800
 Wire Wire Line
-	6350 2900 6000 2900
+	4950 2900 4600 2900
 Wire Wire Line
 	6350 2800 6000 2800
+Wire Wire Line
+	6350 2900 6000 2900
 Wire Wire Line
 	8450 1600 8050 1600
 Wire Wire Line
@@ -394,10 +394,6 @@ Wire Wire Line
 	1450 2800 2200 2800
 Wire Wire Line
 	1450 2900 2200 2900
-Wire Bus Line
-	1350 750  1350 1650
-Wire Bus Line
-	1350 1900 1350 2800
 Entry Wire Line
 	1350 850  1450 950 
 Entry Wire Line
@@ -434,4 +430,8 @@ Entry Wire Line
 	1350 2700 1450 2800
 Entry Wire Line
 	1350 2800 1450 2900
+Wire Bus Line
+	1350 750  1350 1650
+Wire Bus Line
+	1350 1900 1350 2800
 $EndSCHEMATC

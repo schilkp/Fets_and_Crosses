@@ -3,12 +3,12 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 389
+Sheet 124 389
 Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Date "2020-07-05"
+Rev "v0.0"
+Comp "Philipp Schilk"
+Comment1 "c"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -68,14 +68,10 @@ Text HLabel 3000 1100 0    50   Input ~ 0
 Board_P1_[0..8]
 Text HLabel 3000 2600 0    50   Input ~ 0
 Board_P2_[0..8]
-Text Label 4000 1100 2    50   ~ 0
+Text Label 4650 1100 2    50   ~ 0
 Board_P1_[0..8]
-Text Label 4000 2600 2    50   ~ 0
+Text Label 4650 2600 2    50   ~ 0
 Board_P2_[0..8]
-Text Label 4300 1100 0    50   ~ 0
-Board[0..8]
-Text Label 4300 2600 0    50   ~ 0
-Board[0..8]
 Wire Wire Line
 	8350 1100 6000 1100
 Wire Wire Line

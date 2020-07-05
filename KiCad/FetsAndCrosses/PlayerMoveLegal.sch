@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 193 389
 Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Date "2020-07-05"
+Rev "v0.0"
+Comp "Philipp Schilk"
+Comment1 "c"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -69,10 +69,6 @@ Text Label 3200 750  2    50   ~ 0
 Board_P1_[0..8]
 Text Label 3250 3000 2    50   ~ 0
 Board_P2_[0..8]
-Text Label 3500 750  0    50   ~ 0
-Board[0..8]
-Text Label 3550 3000 0    50   ~ 0
-Board[0..8]
 Wire Wire Line
 	5200 750  8500 750 
 Wire Wire Line

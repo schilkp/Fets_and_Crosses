@@ -3,12 +3,12 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 147 389
+Sheet 194 389
 Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Date "2020-07-05"
+Rev "v0.0"
+Comp "Philipp Schilk"
+Comment1 "c"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -394,10 +394,6 @@ Wire Wire Line
 	1450 3000 2150 3000
 Wire Bus Line
 	1350 2100 1250 2100
-Wire Bus Line
-	1350 2100 1350 2900
-Wire Bus Line
-	1350 1100 1350 1900
 Entry Wire Line
 	1350 1900 1450 2000
 Entry Wire Line
@@ -434,4 +430,8 @@ Entry Wire Line
 	1350 2800 1450 2900
 Entry Wire Line
 	1350 2900 1450 3000
+Wire Bus Line
+	1350 2100 1350 2900
+Wire Bus Line
+	1350 1100 1350 1900
 $EndSCHEMATC

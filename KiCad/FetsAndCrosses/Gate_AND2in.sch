@@ -3,12 +3,12 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 25 389
+Sheet 245 389
 Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Date "2020-07-05"
+Rev "v0.0"
+Comp "Philipp Schilk"
+Comment1 "c"
 Comment2 ""
 Comment3 ""
 Comment4 ""

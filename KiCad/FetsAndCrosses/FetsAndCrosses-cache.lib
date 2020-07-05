@@ -1,22 +1,46 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic_Conn_01x02
+# BarrelPolarity_BarrelPolarity_CenterNeg
 #
-DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
+DEF BarrelPolarity_BarrelPolarity_CenterNeg G 0 40 Y Y 1 F N
+F0 "G" 0 300 50 H V C CNN
+F1 "BarrelPolarity_BarrelPolarity_CenterNeg" 0 200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 0 100 901 -901 0 1 12 N 0 100 0 -100
+C 0 0 50 0 1 12 N
+C 200 0 50 0 1 12 N
+C -200 0 50 1 1 12 N
+P 2 0 1 12 -200 25 -200 -25 N
+P 2 0 1 12 -175 0 -225 0 N
+P 2 0 1 12 -150 0 -100 0 N
+P 2 0 1 12 50 0 150 0 N
+P 2 0 1 12 175 0 225 0 N
+ENDDRAW
+ENDDEF
+#
+# Connector_Barrel_Jack
+#
+DEF Connector_Barrel_Jack J 0 40 Y Y 1 F N
+F0 "J" 0 210 50 H V C CNN
+F1 "Connector_Barrel_Jack" 0 -200 50 H V C CNN
+F2 "" 50 -40 50 H I C CNN
+F3 "" 50 -40 50 H I C CNN
+ALIAS Jack-DC
 $FPLIST
- Connector*:*_1x??_*
+ BarrelJack*
 $ENDFPLIST
 DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 50 50 -150 1 1 10 f
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+A -130 100 25 901 -901 0 1 10 F -130 125 -130 75
+A -130 100 25 901 -901 0 1 10 N -130 125 -130 75
+S -200 150 200 -150 0 1 10 f
+S 145 125 -130 75 0 1 10 F
+P 2 0 1 10 200 100 150 100 N
+P 6 0 1 10 -150 -100 -100 -100 -50 -50 0 -100 100 -100 200 -100 N
+X ~ 1 300 100 100 L 50 50 1 1 P
+X ~ 2 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -151,6 +175,21 @@ DRAW
 S -30 70 30 -70 0 1 8 N
 X ~ 1 0 100 30 D 50 50 1 1 P
 X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #

@@ -5,10 +5,10 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 223 389
 Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Date "2020-07-05"
+Rev "v0.0"
+Comp "Philipp Schilk"
+Comment1 "c"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -413,8 +413,6 @@ Wire Wire Line
 	1300 800  2050 800 
 Wire Wire Line
 	1300 900  2150 900 
-Wire Bus Line
-	1200 650  1200 9200
 Entry Wire Line
 	1200 700  1300 800 
 Entry Wire Line
@@ -449,4 +447,8 @@ Connection ~ 2150 9200
 Connection ~ 2050 9300
 Connection ~ 2150 900 
 Connection ~ 2050 800 
+Text Notes 5750 2200 0    100  ~ 20
+&
+Wire Bus Line
+	1200 650  1200 9200
 $EndSCHEMATC

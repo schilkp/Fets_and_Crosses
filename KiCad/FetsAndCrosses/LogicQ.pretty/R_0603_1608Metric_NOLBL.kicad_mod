@@ -1,4 +1,4 @@
-(module R_0603_1608Metric_NOLBL (layer F.Cu) (tedit 5E331A2D)
+(module R_0603_1608Metric_NOLBL (layer F.Cu) (tedit 5EFF2EB4)
   (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
   (tags resistor)
   (attr smd)
@@ -21,6 +21,7 @@
   (fp_text user %R (at 0 0) (layer F.Fab)
     (effects (font (size 0.4 0.4) (thickness 0.06)))
   )
+  (fp_line (start 0 -0.5) (end 0 0.5) (layer F.SilkS) (width 0.12))
   (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl

@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 373 389
 Title "Fets and Crosses"
-Date ""
-Rev ""
+Date "2020-07-05"
+Rev "v0.0"
 Comp "Philipp Schilk"
-Comment1 ""
+Comment1 "c"
 Comment2 ""
 Comment3 ""
 Comment4 ""

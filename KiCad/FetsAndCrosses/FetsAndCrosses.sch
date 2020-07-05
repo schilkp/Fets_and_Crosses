@@ -5,10 +5,10 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 389
 Title "Fets and Crosses"
-Date ""
-Rev ""
+Date "2020-07-05"
+Rev "v0.0"
 Comp "Philipp Schilk"
-Comment1 "A Tic-Tac-Toe implementation built from CMOS Logic"
+Comment1 "c"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -120,17 +120,6 @@ F1 "Clock.sch" 50
 F2 "CLOCK" O R 6450 6050 50 
 $EndSheet
 $Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 5EFEB67B
-P 1650 9850
-F 0 "J1" H 1568 9525 50  0000 C CNN
-F 1 "Conn_01x02" H 1568 9616 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 1650 9850 50  0001 C CNN
-F 3 "~" H 1650 9850 50  0001 C CNN
-	1    1650 9850
-	-1   0    0    1   
-$EndComp
-$Comp
 L Regulator_Linear:L7805 U1
 U 1 1 5EFEBADC
 P 2850 9750
@@ -147,7 +136,7 @@ U 1 1 5EFEC151
 P 3500 9950
 F 0 "C2" H 3592 9996 50  0000 L CNN
 F 1 "0u1" H 3592 9905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3500 9950 50  0001 C CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 3500 9950 50  0001 C CNN
 F 3 "~" H 3500 9950 50  0001 C CNN
 	1    3500 9950
 	1    0    0    -1  
@@ -158,7 +147,7 @@ U 1 1 5EFEC7FC
 P 2200 9950
 F 0 "C1" H 2292 9996 50  0000 L CNN
 F 1 "0u1" H 2292 9905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2200 9950 50  0001 C CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 2200 9950 50  0001 C CNN
 F 3 "~" H 2200 9950 50  0001 C CNN
 	1    2200 9950
 	1    0    0    -1  
@@ -169,7 +158,7 @@ U 1 1 5EFEF993
 P 4050 9950
 F 0 "C3" H 4141 9996 50  0000 L CNN
 F 1 "10u" H 4141 9905 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 4050 9950 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U" H 4050 9950 50  0001 C CNN
 F 3 "~" H 4050 9950 50  0001 C CNN
 	1    4050 9950
 	1    0    0    -1  
@@ -218,13 +207,9 @@ F 3 "~" H 3450 10250 50  0001 C CNN
 	1    3450 10250
 	-1   0    0    1   
 $EndComp
-Text Label 8300 2600 0    50   ~ 0
-Board[0..8]
-Text Label 8300 3350 0    50   ~ 0
-Board[0..8]
-Text Label 9450 2600 2    50   ~ 0
+Text Label 8950 2600 2    50   ~ 0
 Board_P1_[0..8]
-Text Label 9450 3350 2    50   ~ 0
+Text Label 8950 3350 2    50   ~ 0
 Board_P2_[0..8]
 Text Label 5900 3350 0    50   ~ 0
 P2Move[0..8]
@@ -239,8 +224,6 @@ Wire Bus Line
 Wire Bus Line
 	8250 2600 9750 2600
 Wire Bus Line
-	9850 3350 9850 3550
-Wire Bus Line
 	8250 3350 9850 3350
 Wire Bus Line
 	10650 2700 9850 2700
@@ -252,10 +235,6 @@ Wire Bus Line
 	10650 3450 9750 3450
 Wire Bus Line
 	9750 3450 9750 2600
-Wire Bus Line
-	10650 3550 9850 3550
-Wire Bus Line
-	9850 3550 9850 4250
 Wire Bus Line
 	7250 7050 4700 7050
 Wire Bus Line
@@ -423,11 +402,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 10200 1900 10200
 Wire Wire Line
-	1900 10200 1900 9850
-Wire Wire Line
-	1900 9850 1850 9850
-Wire Wire Line
-	1850 9750 2200 9750
+	1900 10200 1900 9950
 Wire Wire Line
 	2200 9850 2200 9750
 Wire Wire Line
@@ -455,7 +430,6 @@ Wire Wire Line
 Connection ~ 9850 3350
 Connection ~ 9750 2600
 Connection ~ 9750 3450
-Connection ~ 9850 3550
 Connection ~ 9450 6950
 Connection ~ 9750 4150
 Connection ~ 9850 4250
@@ -475,4 +449,435 @@ Connection ~ 4050 9750
 Connection ~ 4050 10200
 Connection ~ 2300 9750
 Connection ~ 3450 10200
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F0306F9
+P 2100 10950
+F 0 "H2" H 2200 10996 50  0000 L CNN
+F 1 "MountingHole" H 2200 10905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2100 10950 50  0001 C CNN
+F 3 "~" H 2100 10950 50  0001 C CNN
+	1    2100 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F030EF4
+P 2100 10700
+F 0 "H1" H 2200 10746 50  0000 L CNN
+F 1 "MountingHole" H 2200 10655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2100 10700 50  0001 C CNN
+F 3 "~" H 2100 10700 50  0001 C CNN
+	1    2100 10700
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	9850 3350 9850 3550
+Wire Bus Line
+	10650 3550 9850 3550
+Connection ~ 9850 3550
+Wire Bus Line
+	9850 3550 9850 4250
+$Comp
+L Connector:Barrel_Jack J1
+U 1 1 5F02A7FD
+P 1450 9850
+F 0 "J1" H 1221 9808 50  0000 R CNN
+F 1 "9Vdc" H 1221 9899 50  0000 R CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1500 9810 50  0001 C CNN
+F 3 "~" H 1500 9810 50  0001 C CNN
+	1    1450 9850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1750 9950 1900 9950
+Wire Wire Line
+	1750 9750 2200 9750
+$Comp
+L BarrelPolarity:BarrelPolarity_CenterNeg G1
+U 1 1 5F036EF3
+P 1500 9200
+F 0 "G1" H 1781 9246 50  0000 L CNN
+F 1 "BarrelPolarity_CenterNeg" H 1781 9155 50  0000 L CNN
+F 2 "BarrelPolarity_3mm:BarrelPolarity_3mm_CenterNeg" H 1500 9200 50  0001 C CNN
+F 3 "" H 1500 9200 50  0001 C CNN
+	1    1500 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 5F03BB93
+P 4550 9950
+F 0 "C9" H 4642 9996 50  0000 L CNN
+F 1 "0u1" H 4642 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 4550 9950 50  0001 C CNN
+F 3 "~" H 4550 9950 50  0001 C CNN
+	1    4550 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 5F03C379
+P 4900 9950
+F 0 "C10" H 4992 9996 50  0000 L CNN
+F 1 "0u1" H 4992 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 4900 9950 50  0001 C CNN
+F 3 "~" H 4900 9950 50  0001 C CNN
+	1    4900 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 5F03C6E6
+P 5250 9950
+F 0 "C11" H 5342 9996 50  0000 L CNN
+F 1 "0u1" H 5342 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 5250 9950 50  0001 C CNN
+F 3 "~" H 5250 9950 50  0001 C CNN
+	1    5250 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C12
+U 1 1 5F047376
+P 5600 9950
+F 0 "C12" H 5692 9996 50  0000 L CNN
+F 1 "0u1" H 5692 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 5600 9950 50  0001 C CNN
+F 3 "~" H 5600 9950 50  0001 C CNN
+	1    5600 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 5F04737C
+P 5950 9950
+F 0 "C13" H 6042 9996 50  0000 L CNN
+F 1 "0u1" H 6042 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 5950 9950 50  0001 C CNN
+F 3 "~" H 5950 9950 50  0001 C CNN
+	1    5950 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C14
+U 1 1 5F047382
+P 6300 9950
+F 0 "C14" H 6392 9996 50  0000 L CNN
+F 1 "0u1" H 6392 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 6300 9950 50  0001 C CNN
+F 3 "~" H 6300 9950 50  0001 C CNN
+	1    6300 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C15
+U 1 1 5F04D268
+P 6650 9950
+F 0 "C15" H 6742 9996 50  0000 L CNN
+F 1 "0u1" H 6742 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 6650 9950 50  0001 C CNN
+F 3 "~" H 6650 9950 50  0001 C CNN
+	1    6650 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C16
+U 1 1 5F04D26E
+P 7000 9950
+F 0 "C16" H 7092 9996 50  0000 L CNN
+F 1 "0u1" H 7092 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 7000 9950 50  0001 C CNN
+F 3 "~" H 7000 9950 50  0001 C CNN
+	1    7000 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C17
+U 1 1 5F04D274
+P 7350 9950
+F 0 "C17" H 7442 9996 50  0000 L CNN
+F 1 "0u1" H 7442 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 7350 9950 50  0001 C CNN
+F 3 "~" H 7350 9950 50  0001 C CNN
+	1    7350 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C18
+U 1 1 5F04D27A
+P 7700 9950
+F 0 "C18" H 7792 9996 50  0000 L CNN
+F 1 "0u1" H 7792 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 7700 9950 50  0001 C CNN
+F 3 "~" H 7700 9950 50  0001 C CNN
+	1    7700 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C19
+U 1 1 5F04D280
+P 8050 9950
+F 0 "C19" H 8142 9996 50  0000 L CNN
+F 1 "0u1" H 8142 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 8050 9950 50  0001 C CNN
+F 3 "~" H 8050 9950 50  0001 C CNN
+	1    8050 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C20
+U 1 1 5F04D286
+P 8400 9950
+F 0 "C20" H 8492 9996 50  0000 L CNN
+F 1 "0u1" H 8492 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 8400 9950 50  0001 C CNN
+F 3 "~" H 8400 9950 50  0001 C CNN
+	1    8400 9950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 10200 4550 10200
+Wire Wire Line
+	8400 10200 8400 10050
+Wire Wire Line
+	8400 9750 8400 9850
+Wire Wire Line
+	8050 9850 8050 9750
+Connection ~ 8050 9750
+Wire Wire Line
+	8050 9750 8400 9750
+Wire Wire Line
+	7700 9850 7700 9750
+Connection ~ 7700 9750
+Wire Wire Line
+	7700 9750 8050 9750
+Wire Wire Line
+	7350 9850 7350 9750
+Wire Wire Line
+	4050 9750 4550 9750
+Connection ~ 7350 9750
+Wire Wire Line
+	7350 9750 7700 9750
+Wire Wire Line
+	7000 9850 7000 9750
+Connection ~ 7000 9750
+Wire Wire Line
+	7000 9750 7350 9750
+Wire Wire Line
+	6650 9850 6650 9750
+Connection ~ 6650 9750
+Wire Wire Line
+	6650 9750 7000 9750
+Wire Wire Line
+	6300 9850 6300 9750
+Connection ~ 6300 9750
+Wire Wire Line
+	6300 9750 6650 9750
+Wire Wire Line
+	5950 9850 5950 9750
+Connection ~ 5950 9750
+Wire Wire Line
+	5950 9750 6300 9750
+Wire Wire Line
+	5600 9850 5600 9750
+Connection ~ 5600 9750
+Wire Wire Line
+	5600 9750 5950 9750
+Wire Wire Line
+	5250 9850 5250 9750
+Connection ~ 5250 9750
+Wire Wire Line
+	5250 9750 5600 9750
+Wire Wire Line
+	4900 9850 4900 9750
+Connection ~ 4900 9750
+Wire Wire Line
+	4900 9750 5250 9750
+Wire Wire Line
+	4550 9850 4550 9750
+Connection ~ 4550 9750
+Wire Wire Line
+	4550 9750 4900 9750
+Wire Wire Line
+	4550 10050 4550 10200
+Connection ~ 4550 10200
+Wire Wire Line
+	4550 10200 4900 10200
+Wire Wire Line
+	4900 10050 4900 10200
+Connection ~ 4900 10200
+Wire Wire Line
+	4900 10200 5250 10200
+Wire Wire Line
+	5250 10050 5250 10200
+Connection ~ 5250 10200
+Wire Wire Line
+	5250 10200 5600 10200
+Wire Wire Line
+	5600 10050 5600 10200
+Connection ~ 5600 10200
+Wire Wire Line
+	5600 10200 5950 10200
+Wire Wire Line
+	5950 10050 5950 10200
+Connection ~ 5950 10200
+Wire Wire Line
+	5950 10200 6300 10200
+Wire Wire Line
+	6300 10050 6300 10200
+Connection ~ 6300 10200
+Wire Wire Line
+	6300 10200 6650 10200
+Wire Wire Line
+	6650 10050 6650 10200
+Connection ~ 6650 10200
+Wire Wire Line
+	6650 10200 7000 10200
+Wire Wire Line
+	7000 10050 7000 10200
+Connection ~ 7000 10200
+Wire Wire Line
+	7350 10050 7350 10200
+Wire Wire Line
+	7000 10200 7350 10200
+Connection ~ 7350 10200
+Wire Wire Line
+	7350 10200 7700 10200
+Wire Wire Line
+	7700 10050 7700 10200
+Connection ~ 7700 10200
+Wire Wire Line
+	7700 10200 8050 10200
+Wire Wire Line
+	8050 10050 8050 10200
+Connection ~ 8050 10200
+Wire Wire Line
+	8050 10200 8400 10200
+$Comp
+L Device:C_Small C21
+U 1 1 5F124EEE
+P 8750 9950
+F 0 "C21" H 8842 9996 50  0000 L CNN
+F 1 "0u1" H 8842 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 8750 9950 50  0001 C CNN
+F 3 "~" H 8750 9950 50  0001 C CNN
+	1    8750 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C22
+U 1 1 5F124EF4
+P 9100 9950
+F 0 "C22" H 9192 9996 50  0000 L CNN
+F 1 "0u1" H 9192 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 9100 9950 50  0001 C CNN
+F 3 "~" H 9100 9950 50  0001 C CNN
+	1    9100 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C23
+U 1 1 5F124EFA
+P 9450 9950
+F 0 "C23" H 9542 9996 50  0000 L CNN
+F 1 "0u1" H 9542 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 9450 9950 50  0001 C CNN
+F 3 "~" H 9450 9950 50  0001 C CNN
+	1    9450 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C24
+U 1 1 5F124F00
+P 9800 9950
+F 0 "C24" H 9892 9996 50  0000 L CNN
+F 1 "0u1" H 9892 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 9800 9950 50  0001 C CNN
+F 3 "~" H 9800 9950 50  0001 C CNN
+	1    9800 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C25
+U 1 1 5F124F06
+P 10150 9950
+F 0 "C25" H 10242 9996 50  0000 L CNN
+F 1 "0u1" H 10242 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 10150 9950 50  0001 C CNN
+F 3 "~" H 10150 9950 50  0001 C CNN
+	1    10150 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C26
+U 1 1 5F124F0C
+P 10500 9950
+F 0 "C26" H 10592 9996 50  0000 L CNN
+F 1 "0u1" H 10592 9905 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 10500 9950 50  0001 C CNN
+F 3 "~" H 10500 9950 50  0001 C CNN
+	1    10500 9950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 10200 10500 10050
+Wire Wire Line
+	10500 9750 10500 9850
+Wire Wire Line
+	10150 9850 10150 9750
+Connection ~ 10150 9750
+Wire Wire Line
+	10150 9750 10500 9750
+Wire Wire Line
+	9800 9850 9800 9750
+Connection ~ 9800 9750
+Wire Wire Line
+	9800 9750 10150 9750
+Wire Wire Line
+	9450 9850 9450 9750
+Connection ~ 9450 9750
+Wire Wire Line
+	9450 9750 9800 9750
+Wire Wire Line
+	9100 9850 9100 9750
+Connection ~ 9100 9750
+Wire Wire Line
+	9100 9750 9450 9750
+Wire Wire Line
+	8750 9850 8750 9750
+Connection ~ 8750 9750
+Wire Wire Line
+	8750 9750 9100 9750
+Wire Wire Line
+	8400 9750 8750 9750
+Wire Wire Line
+	8400 10200 8750 10200
+Connection ~ 8750 10200
+Wire Wire Line
+	8750 10200 9100 10200
+Wire Wire Line
+	9100 10050 9100 10200
+Connection ~ 9100 10200
+Wire Wire Line
+	9450 10050 9450 10200
+Wire Wire Line
+	9100 10200 9450 10200
+Connection ~ 9450 10200
+Wire Wire Line
+	9450 10200 9800 10200
+Wire Wire Line
+	9800 10050 9800 10200
+Connection ~ 9800 10200
+Wire Wire Line
+	9800 10200 10150 10200
+Wire Wire Line
+	10150 10050 10150 10200
+Connection ~ 10150 10200
+Wire Wire Line
+	10150 10200 10500 10200
+Connection ~ 8400 9750
+Wire Wire Line
+	8750 10050 8750 10200
+Connection ~ 8400 10200
 $EndSCHEMATC

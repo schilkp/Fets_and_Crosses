@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 386 389
 Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Date "2020-07-05"
+Rev "v0.0"
+Comp "Philipp Schilk"
+Comment1 "c"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -67,7 +67,7 @@ U 1 1 5F038A7F
 P 6550 1200
 F 0 "C5" V 6321 1200 50  0000 C CNN
 F 1 "0u1" V 6412 1200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6550 1200 50  0001 C CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 6550 1200 50  0001 C CNN
 F 3 "~" H 6550 1200 50  0001 C CNN
 	1    6550 1200
 	0    1    1    0   
