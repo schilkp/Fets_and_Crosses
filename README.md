@@ -20,7 +20,7 @@ Full Logisim Simulation is completed, PCB v0.0 is finished.
 ## Release & Schematic viewing
 See Github releases for all production files, schematics, etc...
 
-I included a Schematic pdf for archiving purposes, but that is probably to wrong way to learn about
+I included a Schematic pdf for archiving purposes, but that is probably the wrong way to learn about
 this project. Because the different gates and sub-circuits are each used many times throughout the 
 design, the pdf is almost 400 pages long.
 
@@ -39,7 +39,7 @@ There you will also find a overview of the schematic project under 'Navigate Sch
 
 All logic implemented in standard CMOS logic using discrete transistors.
 
-The only exception to this is the Computer-opponent: To reduce complexity to the point of feasability,
+The only exception to this is the Computer-opponent: To reduce complexity to the point of feasibility,
 for now, this is implemented with a ROM IC. The optimal move is programmed into each
 address corresponding to a valid game state (See Matlab_MemoryGen).
 
