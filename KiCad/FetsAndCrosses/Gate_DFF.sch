@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 290 389
+Sheet 290 360
 Title ""
 Date "2020-07-05"
 Rev "v0.0"

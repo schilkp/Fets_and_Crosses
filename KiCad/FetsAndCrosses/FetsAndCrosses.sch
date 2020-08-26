@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 389
+Sheet 1 360
 Title "Fets and Crosses"
 Date "2020-07-05"
 Rev "v0.0"
@@ -115,7 +115,7 @@ $EndSheet
 $Sheet
 S 5200 5800 1250 650 
 U 5F18A492
-F0 "sheet5F18A490" 50
+F0 "Clock" 50
 F1 "Clock.sch" 50
 F2 "CLOCK" O R 6450 6050 50 
 $EndSheet

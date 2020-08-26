@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 373 389
+Sheet 344 360
 Title "Fets and Crosses"
 Date "2020-07-05"
 Rev "v0.0"

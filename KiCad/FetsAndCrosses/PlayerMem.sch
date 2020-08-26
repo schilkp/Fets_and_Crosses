@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 262 389
+Sheet 2 360
 Title ""
 Date "2020-07-05"
 Rev "v0.0"
@@ -22,14 +22,6 @@ F2 "A" I L 2600 3550 50
 F3 "Q" O R 3150 3550 50 
 $EndSheet
 $Sheet
-S 2600 3850 550  200 
-U 5F15E596
-F0 "sheet5F15E592" 50
-F1 "Gate_NOT.sch" 50
-F2 "A" I L 2600 3950 50 
-F3 "Q" O R 3150 3950 50 
-$EndSheet
-$Sheet
 S 4250 1150 550  600 
 U 5EFB6D23
 F0 "Sheet5EFB6D22" 50
@@ -39,7 +31,6 @@ F3 "CLK" I L 4250 1350 50
 F4 "~R" I L 4250 1450 50 
 F5 "OUT" I R 4800 1250 50 
 F6 "EN" I L 4250 1550 50 
-F7 "~EN" I L 4250 1650 50 
 $EndSheet
 $Sheet
 S 5900 1150 550  600 
@@ -51,7 +42,6 @@ F3 "CLK" I L 5900 1350 50
 F4 "~R" I L 5900 1450 50 
 F5 "OUT" I R 6450 1250 50 
 F6 "EN" I L 5900 1550 50 
-F7 "~EN" I L 5900 1650 50 
 $EndSheet
 $Sheet
 S 7550 1150 550  600 
@@ -63,7 +53,6 @@ F3 "CLK" I L 7550 1350 50
 F4 "~R" I L 7550 1450 50 
 F5 "OUT" I R 8100 1250 50 
 F6 "EN" I L 7550 1550 50 
-F7 "~EN" I L 7550 1650 50 
 $EndSheet
 $Sheet
 S 4250 2250 550  600 
@@ -75,7 +64,6 @@ F3 "CLK" I L 4250 2450 50
 F4 "~R" I L 4250 2550 50 
 F5 "OUT" I R 4800 2350 50 
 F6 "EN" I L 4250 2650 50 
-F7 "~EN" I L 4250 2750 50 
 $EndSheet
 $Sheet
 S 5900 2250 550  600 
@@ -87,7 +75,6 @@ F3 "CLK" I L 5900 2450 50
 F4 "~R" I L 5900 2550 50 
 F5 "OUT" I R 6450 2350 50 
 F6 "EN" I L 5900 2650 50 
-F7 "~EN" I L 5900 2750 50 
 $EndSheet
 $Sheet
 S 7550 2250 550  600 
@@ -99,7 +86,6 @@ F3 "CLK" I L 7550 2450 50
 F4 "~R" I L 7550 2550 50 
 F5 "OUT" I R 8100 2350 50 
 F6 "EN" I L 7550 2650 50 
-F7 "~EN" I L 7550 2750 50 
 $EndSheet
 $Sheet
 S 4250 3350 550  600 
@@ -111,7 +97,6 @@ F3 "CLK" I L 4250 3550 50
 F4 "~R" I L 4250 3650 50 
 F5 "OUT" I R 4800 3450 50 
 F6 "EN" I L 4250 3750 50 
-F7 "~EN" I L 4250 3850 50 
 $EndSheet
 $Sheet
 S 5900 3350 550  600 
@@ -123,7 +108,6 @@ F3 "CLK" I L 5900 3550 50
 F4 "~R" I L 5900 3650 50 
 F5 "OUT" I R 6450 3450 50 
 F6 "EN" I L 5900 3750 50 
-F7 "~EN" I L 5900 3850 50 
 $EndSheet
 $Sheet
 S 7550 3350 550  600 
@@ -135,7 +119,6 @@ F3 "CLK" I L 7550 3550 50
 F4 "~R" I L 7550 3650 50 
 F5 "OUT" I R 8100 3450 50 
 F6 "EN" I L 7550 3750 50 
-F7 "~EN" I L 7550 3850 50 
 $EndSheet
 Text HLabel 2300 3250 0    50   Input ~ 0
 CLK
@@ -223,84 +206,62 @@ Text Label 3500 3550 2    50   ~ 0
 ~R
 Text Label 2600 3250 2    50   ~ 0
 CLK
-Text HLabel 2250 3950 0    50   Input ~ 0
+Text HLabel 2350 3900 0    50   Input ~ 0
 WRT_EN
-Text Label 2550 3950 2    50   ~ 0
+Text Label 2700 3900 2    50   ~ 0
 WRT_EN
-Text Notes 2800 4000 0    100  ~ 20
-!
-Text Label 3500 3950 2    50   ~ 0
-~WRT_EN
 Text Label 3850 1350 0    50   ~ 0
 CLK
 Text Label 3850 1450 0    50   ~ 0
 ~R
-Text Label 3850 1650 0    50   ~ 0
-~WRT_EN
 Text Label 3850 1550 0    50   ~ 0
 WRT_EN
 Text Label 5500 1350 0    50   ~ 0
 CLK
 Text Label 5500 1450 0    50   ~ 0
 ~R
-Text Label 5500 1650 0    50   ~ 0
-~WRT_EN
 Text Label 5500 1550 0    50   ~ 0
 WRT_EN
 Text Label 7150 1350 0    50   ~ 0
 CLK
 Text Label 7150 1450 0    50   ~ 0
 ~R
-Text Label 7150 1650 0    50   ~ 0
-~WRT_EN
 Text Label 7150 1550 0    50   ~ 0
 WRT_EN
 Text Label 3850 2450 0    50   ~ 0
 CLK
 Text Label 3850 2550 0    50   ~ 0
 ~R
-Text Label 3850 2750 0    50   ~ 0
-~WRT_EN
 Text Label 3850 2650 0    50   ~ 0
 WRT_EN
 Text Label 5500 2450 0    50   ~ 0
 CLK
 Text Label 5500 2550 0    50   ~ 0
 ~R
-Text Label 5500 2750 0    50   ~ 0
-~WRT_EN
 Text Label 5500 2650 0    50   ~ 0
 WRT_EN
 Text Label 7150 2450 0    50   ~ 0
 CLK
 Text Label 7150 2550 0    50   ~ 0
 ~R
-Text Label 7150 2750 0    50   ~ 0
-~WRT_EN
 Text Label 7150 2650 0    50   ~ 0
 WRT_EN
 Text Label 3850 3550 0    50   ~ 0
 CLK
 Text Label 3850 3650 0    50   ~ 0
 ~R
-Text Label 3850 3850 0    50   ~ 0
-~WRT_EN
 Text Label 3850 3750 0    50   ~ 0
 WRT_EN
 Text Label 5500 3550 0    50   ~ 0
 CLK
 Text Label 5500 3650 0    50   ~ 0
 ~R
-Text Label 5500 3850 0    50   ~ 0
-~WRT_EN
 Text Label 5500 3750 0    50   ~ 0
 WRT_EN
 Text Label 7150 3550 0    50   ~ 0
 CLK
 Text Label 7150 3650 0    50   ~ 0
 ~R
-Text Label 7150 3850 0    50   ~ 0
-~WRT_EN
 Text Label 7150 3750 0    50   ~ 0
 WRT_EN
 Text Label 3850 1250 0    50   ~ 0
@@ -386,15 +347,11 @@ Wire Wire Line
 Wire Wire Line
 	2300 3250 2600 3250
 Wire Wire Line
-	2250 3950 2600 3950
-Wire Wire Line
-	3150 3950 3500 3950
+	2350 3900 2700 3900
 Wire Wire Line
 	4250 1450 3850 1450
 Wire Wire Line
 	3850 1550 4250 1550
-Wire Wire Line
-	3850 1650 4250 1650
 Wire Wire Line
 	4250 1350 3850 1350
 Wire Wire Line
@@ -406,8 +363,6 @@ Wire Wire Line
 Wire Wire Line
 	5500 1550 5900 1550
 Wire Wire Line
-	5500 1650 5900 1650
-Wire Wire Line
 	5900 1350 5500 1350
 Wire Wire Line
 	5900 1250 5500 1250
@@ -417,8 +372,6 @@ Wire Wire Line
 	7550 1450 7150 1450
 Wire Wire Line
 	7150 1550 7550 1550
-Wire Wire Line
-	7150 1650 7550 1650
 Wire Wire Line
 	7550 1350 7150 1350
 Wire Wire Line
@@ -430,8 +383,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 2650 4250 2650
 Wire Wire Line
-	3850 2750 4250 2750
-Wire Wire Line
 	4250 2450 3850 2450
 Wire Wire Line
 	4250 2350 3850 2350
@@ -441,8 +392,6 @@ Wire Wire Line
 	5900 2550 5500 2550
 Wire Wire Line
 	5500 2650 5900 2650
-Wire Wire Line
-	5500 2750 5900 2750
 Wire Wire Line
 	5900 2450 5500 2450
 Wire Wire Line
@@ -454,8 +403,6 @@ Wire Wire Line
 Wire Wire Line
 	7150 2650 7550 2650
 Wire Wire Line
-	7150 2750 7550 2750
-Wire Wire Line
 	7550 2450 7150 2450
 Wire Wire Line
 	7550 2350 7150 2350
@@ -465,8 +412,6 @@ Wire Wire Line
 	4250 3650 3850 3650
 Wire Wire Line
 	3850 3750 4250 3750
-Wire Wire Line
-	3850 3850 4250 3850
 Wire Wire Line
 	4250 3550 3850 3550
 Wire Wire Line
@@ -478,8 +423,6 @@ Wire Wire Line
 Wire Wire Line
 	5500 3750 5900 3750
 Wire Wire Line
-	5500 3850 5900 3850
-Wire Wire Line
 	5900 3550 5500 3550
 Wire Wire Line
 	5900 3450 5500 3450
@@ -489,8 +432,6 @@ Wire Wire Line
 	7550 3650 7150 3650
 Wire Wire Line
 	7150 3750 7550 3750
-Wire Wire Line
-	7150 3850 7550 3850
 Wire Wire Line
 	7550 3550 7150 3550
 Wire Wire Line

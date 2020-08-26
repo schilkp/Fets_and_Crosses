@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 138 389
+Sheet 110 360
 Title ""
 Date "2020-07-05"
 Rev "v0.0"
@@ -73,15 +73,6 @@ F1 "Gate_NOR2in.sch" 50
 F2 "Q" O R 6900 2000 50 
 F3 "A" I L 6350 1950 50 
 F4 "B" I L 6350 2050 50 
-$EndSheet
-$Sheet
-S 3550 2700 550  300 
-U 5EDB1A8F
-F0 "sheet5EDB1A88" 50
-F1 "Gate_NOR2in.sch" 50
-F2 "Q" O R 4100 2850 50 
-F3 "A" I L 3550 2800 50 
-F4 "B" I L 3550 2900 50 
 $EndSheet
 $Sheet
 S 4950 2700 550  300 
@@ -431,7 +422,16 @@ Entry Wire Line
 Entry Wire Line
 	1350 2800 1450 2900
 Wire Bus Line
-	1350 750  1350 1650
-Wire Bus Line
 	1350 1900 1350 2800
+Wire Bus Line
+	1350 750  1350 1650
+$Sheet
+S 3550 2700 550  300 
+U 5EDB1A8F
+F0 "sheet5EDB1A88" 50
+F1 "Gate_NOR2in.sch" 50
+F2 "Q" O R 4100 2850 50 
+F3 "A" I L 3550 2800 50 
+F4 "B" I L 3550 2900 50 
+$EndSheet
 $EndSCHEMATC
