@@ -7,9 +7,9 @@ built almost completely from discrete transistors.
 Why? *Because.*
 
 ## Status
-Waiting for PCB v0.0
+Waiting for PCB v0.1
 
-Full Logisim Simulation is completed, PCB v0.0 is finished.
+Full Logisim Simulation is completed.
 
 ## Features
 - Players vs Player and Player vs Computer
