@@ -5,13 +5,13 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 360
 Title "Fets and Crosses"
-Date "2020-07-05"
-Rev "v0.0"
+Date "2020-08-28"
+Rev "v0.1"
 Comp "Philipp Schilk"
-Comment1 "c"
+Comment1 "Tic-Tac-Toe implementation from discrete-transistor CMOS logic"
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "https://github.com/TheSchilk/Fets_and_Crosses"
 $EndDescr
 $Sheet
 S 7200 2500 1050 500 
@@ -881,10 +881,10 @@ Wire Wire Line
 	8750 10050 8750 10200
 Connection ~ 8400 10200
 $Comp
-L Device:C_Small C?
+L Device:C_Small C27
 U 1 1 5F52D30B
 P 4900 10500
-F 0 "C?" H 4992 10546 50  0000 L CNN
+F 0 "C27" H 4992 10546 50  0000 L CNN
 F 1 "0u1" H 4992 10455 50  0000 L CNN
 F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 4900 10500 50  0001 C CNN
 F 3 "~" H 4900 10500 50  0001 C CNN
@@ -892,10 +892,10 @@ F 3 "~" H 4900 10500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C28
 U 1 1 5F52D311
 P 5250 10500
-F 0 "C?" H 5342 10546 50  0000 L CNN
+F 0 "C28" H 5342 10546 50  0000 L CNN
 F 1 "0u1" H 5342 10455 50  0000 L CNN
 F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 5250 10500 50  0001 C CNN
 F 3 "~" H 5250 10500 50  0001 C CNN
@@ -903,10 +903,10 @@ F 3 "~" H 5250 10500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C29
 U 1 1 5F52D317
 P 5600 10500
-F 0 "C?" H 5692 10546 50  0000 L CNN
+F 0 "C29" H 5692 10546 50  0000 L CNN
 F 1 "0u1" H 5692 10455 50  0000 L CNN
 F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 5600 10500 50  0001 C CNN
 F 3 "~" H 5600 10500 50  0001 C CNN
@@ -914,10 +914,10 @@ F 3 "~" H 5600 10500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C30
 U 1 1 5F52D31D
 P 5950 10500
-F 0 "C?" H 6042 10546 50  0000 L CNN
+F 0 "C30" H 6042 10546 50  0000 L CNN
 F 1 "0u1" H 6042 10455 50  0000 L CNN
 F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 5950 10500 50  0001 C CNN
 F 3 "~" H 5950 10500 50  0001 C CNN
