@@ -3,15 +3,15 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 149 360
-Title ""
-Date "2020-07-05"
-Rev "v0.0"
+Sheet 149 362
+Title "Fets and Crosses"
+Date "2020-09-15"
+Rev "v0.2"
 Comp "Philipp Schilk"
-Comment1 "c"
+Comment1 "Tic-Tac-Toe implementation from discrete-transistor CMOS logic"
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "https://github.com/TheSchilk/Fets_and_Crosses"
 $EndDescr
 $Sheet
 S 5750 2550 550  450 

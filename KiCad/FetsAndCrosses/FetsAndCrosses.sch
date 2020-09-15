@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 360
+Sheet 1 362
 Title "Fets and Crosses"
-Date "2020-08-28"
-Rev "v0.1"
+Date "2020-09-15"
+Rev "v0.2"
 Comp "Philipp Schilk"
 Comment1 "Tic-Tac-Toe implementation from discrete-transistor CMOS logic"
 Comment2 ""
@@ -158,7 +158,7 @@ U 1 1 5EFEF993
 P 4050 9950
 F 0 "C3" H 4141 9996 50  0000 L CNN
 F 1 "10u" H 4141 9905 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U" H 4050 9950 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 4050 9950 50  0001 C CNN
 F 3 "~" H 4050 9950 50  0001 C CNN
 	1    4050 9950
 	1    0    0    -1  
@@ -777,10 +777,10 @@ F 3 "~" H 9100 9950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C23
-U 1 1 5F124EFA
+L Device:C_Small C24
+U 1 1 5F124F00
 P 9450 9950
-F 0 "C23" H 9542 9996 50  0000 L CNN
+F 0 "C24" H 9542 9996 50  0000 L CNN
 F 1 "0u1" H 9542 9905 50  0000 L CNN
 F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 9450 9950 50  0001 C CNN
 F 3 "~" H 9450 9950 50  0001 C CNN
@@ -788,10 +788,10 @@ F 3 "~" H 9450 9950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C24
-U 1 1 5F124F00
+L Device:C_Small C25
+U 1 1 5F124F06
 P 9800 9950
-F 0 "C24" H 9892 9996 50  0000 L CNN
+F 0 "C25" H 9892 9996 50  0000 L CNN
 F 1 "0u1" H 9892 9905 50  0000 L CNN
 F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 9800 9950 50  0001 C CNN
 F 3 "~" H 9800 9950 50  0001 C CNN
@@ -799,36 +799,20 @@ F 3 "~" H 9800 9950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C25
-U 1 1 5F124F06
+L Device:C_Small C26
+U 1 1 5F124F0C
 P 10150 9950
-F 0 "C25" H 10242 9996 50  0000 L CNN
+F 0 "C26" H 10242 9996 50  0000 L CNN
 F 1 "0u1" H 10242 9905 50  0000 L CNN
 F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 10150 9950 50  0001 C CNN
 F 3 "~" H 10150 9950 50  0001 C CNN
 	1    10150 9950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C26
-U 1 1 5F124F0C
-P 10500 9950
-F 0 "C26" H 10592 9996 50  0000 L CNN
-F 1 "0u1" H 10592 9905 50  0000 L CNN
-F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 10500 9950 50  0001 C CNN
-F 3 "~" H 10500 9950 50  0001 C CNN
-	1    10500 9950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	10500 10200 10500 10050
+	10150 10200 10150 10050
 Wire Wire Line
-	10500 9750 10500 9850
-Wire Wire Line
-	10150 9850 10150 9750
-Connection ~ 10150 9750
-Wire Wire Line
-	10150 9750 10500 9750
+	10150 9750 10150 9850
 Wire Wire Line
 	9800 9850 9800 9750
 Connection ~ 9800 9750
@@ -836,14 +820,10 @@ Wire Wire Line
 	9800 9750 10150 9750
 Wire Wire Line
 	9450 9850 9450 9750
-Connection ~ 9450 9750
 Wire Wire Line
 	9450 9750 9800 9750
 Wire Wire Line
 	9100 9850 9100 9750
-Connection ~ 9100 9750
-Wire Wire Line
-	9100 9750 9450 9750
 Wire Wire Line
 	8750 9850 8750 9750
 Connection ~ 8750 9750
@@ -858,12 +838,8 @@ Wire Wire Line
 	8750 10200 9100 10200
 Wire Wire Line
 	9100 10050 9100 10200
-Connection ~ 9100 10200
 Wire Wire Line
 	9450 10050 9450 10200
-Wire Wire Line
-	9100 10200 9450 10200
-Connection ~ 9450 10200
 Wire Wire Line
 	9450 10200 9800 10200
 Wire Wire Line
@@ -871,11 +847,6 @@ Wire Wire Line
 Connection ~ 9800 10200
 Wire Wire Line
 	9800 10200 10150 10200
-Wire Wire Line
-	10150 10050 10150 10200
-Connection ~ 10150 10200
-Wire Wire Line
-	10150 10200 10500 10200
 Connection ~ 8400 9750
 Wire Wire Line
 	8750 10050 8750 10200
@@ -972,4 +943,12 @@ Connection ~ 4900 10750
 Connection ~ 4700 10200
 Wire Wire Line
 	4700 10200 4900 10200
+Wire Wire Line
+	9100 9750 9450 9750
+Connection ~ 9100 9750
+Connection ~ 9450 9750
+Wire Wire Line
+	9450 10200 9100 10200
+Connection ~ 9450 10200
+Connection ~ 9100 10200
 $EndSCHEMATC

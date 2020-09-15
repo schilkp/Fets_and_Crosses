@@ -3,15 +3,15 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 54 360
-Title ""
-Date "2020-07-05"
-Rev "v0.0"
+Sheet 4 362
+Title "Fets and Crosses"
+Date "2020-09-15"
+Rev "v0.2"
 Comp "Philipp Schilk"
-Comment1 "c"
+Comment1 "Tic-Tac-Toe implementation from discrete-transistor CMOS logic"
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "https://github.com/TheSchilk/Fets_and_Crosses"
 $EndDescr
 $Sheet
 S 5100 2300 550  400 
@@ -35,18 +35,11 @@ OUT
 Wire Wire Line
 	5650 1950 6050 1950
 Wire Wire Line
-	6050 1950 6050 2400
-Wire Wire Line
-	6050 2400 5650 2400
-Wire Wire Line
-	6050 2400 6650 2400
-Wire Wire Line
 	4950 2500 5100 2500
 Wire Wire Line
 	4950 2600 5100 2600
 Wire Wire Line
 	4550 2400 5100 2400
-Connection ~ 6050 2400
 $Sheet
 S 5100 1750 550  300 
 U 5F46F15C
@@ -87,4 +80,10 @@ Wire Wire Line
 	3650 1400 3850 1400
 Wire Wire Line
 	3650 1500 3850 1500
+Wire Wire Line
+	5650 2400 6650 2400
+Wire Wire Line
+	6050 1950 6050 2600
+Wire Wire Line
+	6050 2600 5650 2600
 $EndSCHEMATC
