@@ -1,3 +1,9 @@
+# v0.2
+    - Fixed Mem Cell
+    - Fixed 'Draw' LED
+    - Changed Capacitor
+    - Fixed Button Order (AGAIN)
+
 # v0.1
     - Fixed broken/shorting MUXes
     - Fixed Small silkscreen errors
