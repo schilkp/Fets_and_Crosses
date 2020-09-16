@@ -7,7 +7,8 @@ built almost completely from discrete transistors.
 Why? *Because.*
 
 ## Status
-Waiting for PCB v0.1
+Waiting for PCB v0.2
+V0.1 was tested, had some mistakes. Fairly confident v0.2 will work.
 
 Full Logisim Simulation is completed.
 
