@@ -6,11 +6,7 @@ built almost completely from discrete transistors.
 
 Why? *Because.*
 
-## Status
-Waiting for PCB v0.2
-V0.1 was tested, had some mistakes. Fairly confident v0.2 will work.
-
-Full Logisim Simulation is completed.
+![PCB Render](Doc/pcb_render.png)
 
 ## Features
 - Players vs Player and Player vs Computer
@@ -19,13 +15,13 @@ Full Logisim Simulation is completed.
 - Shiny LEDs
 
 ## Release & Schematic viewing
-See Github releases for all production files, schematics, etc...
+See [Github releases](https://wwww.github.com/TheSchilk/Fets_and_Crosses/releases/) for all production files, schematics, etc...
 
 I included a Schematic pdf for archiving purposes, but that is probably the wrong way to learn about
 this project. Because the different gates and sub-circuits are each used many times throughout the 
 design, the pdf is almost 400 pages long.
 
-It is much  easier to open up the KiCad project itself, which allows for a much more natural navigation
+It is much  easier to open up the KiCad project itself, which allows for better navigation
 of the hierachical schematic.
 
 See [here](https://kicad-pcb.org/download/) for the download.
