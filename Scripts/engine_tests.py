@@ -1,7 +1,9 @@
-import engine
 import board
 import pdb
 import copy
+import Engines.engine_naive
+
+dut_respond = Engines.engine_naive.respond
 
 def engine_test(b, turn, history, logging):
 
@@ -35,7 +37,7 @@ def engine_test(b, turn, history, logging):
         # Engine's turn:
 
         # Let engine determine move:
-        move = engine.respond(b, 2)
+        move = dut_respond(b,2)
 
         # Make sure that is a legal move:
         if b.get_i(move) != 0:
@@ -61,13 +63,15 @@ log = {
 
 
 # Test with player starting: 
+print('Testing with player starting....')
 b = board.board()
 engine_test(b,1,"",log)
 
+print('Testing with engine starting....')
 # Test with engine starting:
 b = board.board()
 engine_test(b,2,"",log)
 
-print('Finished games: ' + str(log['finished']))
-print('Good: ' + str(log['success']))
-print('Error, engine lost: ' + str(log['error']))
+print('Finished Games: ' + str(log['finished']))
+print('Engine Win/Draw:' + str(log['success']))
+print('Engine Loss:' + str(log['error']))

@@ -1,5 +1,7 @@
 from board import board
-import engine
+import Engines.engine_naive
+
+dut_respond = Engines.engine_naive.respond
 
 def get_int(prompt, int_range):
     i = 0
@@ -39,7 +41,7 @@ while True:
         continue
 
     if turn == 2:
-        b.set_i(engine.respond(b,2),2)
+        b.set_i(dut_respond(b,2),2)
         turn = 1
         continue
 

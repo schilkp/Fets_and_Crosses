@@ -44,14 +44,12 @@ def respond(b, current_player):
     for d in b.diags:
         if line_count_player(b.get_d(d),opponent) == 2 and line_count_player(b.get_d(d),0) == 1:
             return b.diag_index[d][line_get_empty_index(b.get_d(d))]
-
+    
     # Play center, if empty: 1 cell
-
     if b.get_i(4) == 0:
         return 4
 
     # Play Opposite Corner if possible: 4 cells
-        
     if b.get_i(0) == 0 and b.get_i(8) == opponent:
         return 0
     
@@ -63,7 +61,6 @@ def respond(b, current_player):
     
     if b.get_i(6) == 0 and b.get_i(2) == opponent:
         return 6
-
 
     # Play Corner if possible: 4 cells
     if b.get_i(0) == 0:
