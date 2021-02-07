@@ -1,16 +1,15 @@
-import board
+import Utils.board
 import copy
-import pdb
 
 def min_max(b, current_player, history):
     # print(history)
 
     # Check if the game is over
     if b.game_over():
-        return -1, b.outcome()
+        return -1, b.game_state()
     
     # Otherwise, find best move:
-    moves = board.line_list_empty_index(b.board)
+    moves = Utils.board.line_list_empty_index(b.board)
 
     if current_player == 1:
         opponent = 2
@@ -32,7 +31,8 @@ def min_max(b, current_player, history):
         # If it is not a win, keep track and keep iteratring:
         results[move] = outcome
    
-    # Find the best result:
+    # Now find the most desirable result out of all the possible results generated
+    # (These will only be losses and draws)
     final_move, final_outcome = results.popitem() 
     
     for move, outcome in results.items():
@@ -43,8 +43,15 @@ def min_max(b, current_player, history):
 
     return final_move, final_outcome
 
-def respond(b, current_player):
-    move, outcome = min_max(b, current_player, "> ")
-    return move
+class engine_minmax:
+    def __init__(self):
+        pass
+
+    def __str__(self):
+        return "engine_minmax"
+
+    def respond(self, b, current_player):
+        move, outcome = min_max(b, current_player, "> ")
+        return move
 
 

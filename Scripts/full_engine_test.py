@@ -1,17 +1,16 @@
-import board
+import Utils.board as board
 import pdb
 import copy
-import Engines.engine_naive
-import Engines.engine_minmax
+from Utils.select_engine import select_engine
 
-dut_respond = Engines.engine_minmax.respond
+engine = select_engine()
 
 def engine_test(b, turn, history, logging):
 
     # Check if game is over
     if b.game_over():
         logging['finished'] += 1
-        if b.outcome() == 1:
+        if b.game_state() == 1:
             logging['error'] += 1
             logging['error_hists'].append(history)
             print('Error, Engine lost:' + history)
@@ -38,7 +37,7 @@ def engine_test(b, turn, history, logging):
         # Engine's turn:
 
         # Let engine determine move:
-        move = dut_respond(b,2)
+        move = engine.respond(b,2)
 
         # Make sure that is a legal move:
         if b.get_i(move) != 0:

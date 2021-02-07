@@ -1,24 +1,11 @@
-from board import board
-import Engines.engine_naive
-import Engines.engine_minmax
-
-dut_respond = Engines.engine_minmax.respond
-
-def get_int(prompt, int_range):
-    i = 0
-    while True:
-        try:
-            i = int(input(prompt))
-            if i in int_range:
-                break
-        except ValueError:
-            pass
-    return i
-    
-
+from Utils.board import board
+from Utils.get_int import get_int
+from Utils.select_engine import select_engine
 
 # Setup board
 b = board()
+
+engine = select_engine();
 
 # engine is always player 2. Select who goes first?
 turn = get_int("Who starts (Player=1,Engine=2):",range(1,3))
@@ -27,7 +14,7 @@ turn = get_int("Who starts (Player=1,Engine=2):",range(1,3))
 while True:
     if b.game_over():
         print("Game Over!")
-        print("Winner: "+str(b.outcome()))
+        print("Winner: "+str(b.game_state()))
         break
 
     print(b)
@@ -42,7 +29,7 @@ while True:
         continue
 
     if turn == 2:
-        b.set_i(dut_respond(b,2),2)
+        b.set_i(engine.respond(b,2),2)
         turn = 1
         continue
 
