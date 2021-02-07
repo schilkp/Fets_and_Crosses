@@ -1,7 +1,8 @@
 from board import board
 import Engines.engine_naive
+import Engines.engine_minmax
 
-dut_respond = Engines.engine_naive.respond
+dut_respond = Engines.engine_minmax.respond
 
 def get_int(prompt, int_range):
     i = 0

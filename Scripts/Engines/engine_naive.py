@@ -6,7 +6,7 @@ import pdb
 #   Win if possible
 #   Block if possible
 #   Center if possible
-#   ? Opposite Corner ?
+#   Opposite Corner
 #   Corner if possible
 #   Side if possible
 

@@ -2,8 +2,9 @@ import board
 import pdb
 import copy
 import Engines.engine_naive
+import Engines.engine_minmax
 
-dut_respond = Engines.engine_naive.respond
+dut_respond = Engines.engine_minmax.respond
 
 def engine_test(b, turn, history, logging):
 
