@@ -73,5 +73,5 @@ b = board.board()
 engine_test(b,2,"",log)
 
 print('Finished Games: ' + str(log['finished']))
-print('Engine Win/Draw:' + str(log['success']))
+print('Engine Win/Draw: ' + str(log['success']))
 print('Engine Loss:' + str(log['error']))
