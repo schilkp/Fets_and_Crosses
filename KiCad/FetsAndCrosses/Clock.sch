@@ -22,9 +22,11 @@ F2 "A" I L 7400 3700 50
 F3 "Q" O R 7950 3700 50 
 $EndSheet
 $Comp
-L Timer:LM555 U3
+L FetsAndCrosses-rescue:LM555-Timer U3
 U 1 1 5F1ABDD6
 P 6050 3900
+AR Path="/5F1ABDD6" Ref="U3"  Part="1" 
+AR Path="/5F18A492/5F1ABDD6" Ref="U3"  Part="1" 
 F 0 "U3" H 6200 4350 50  0000 C CNN
 F 1 "LM555" H 6250 4250 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 6050 3900 50  0001 C CNN

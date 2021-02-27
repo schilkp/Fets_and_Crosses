@@ -100,7 +100,6 @@ F10 "Board_P2_[0..8]" I R 8500 7550 50
 F11 "Move[0..8]" O L 7250 7050 50 
 F12 "P2_isComputer" O R 8500 6600 50 
 F13 "P2_Starts" O R 8500 6700 50 
-F14 "Computer2_selected" O R 8500 6800 50 
 $EndSheet
 $Sheet
 S 7200 4050 1400 400 
@@ -110,7 +109,6 @@ F1 "Computer.sch" 50
 F2 "Board_P1_[0..8]" I R 8600 4150 50 
 F3 "Board_P2_[0..8]" I R 8600 4250 50 
 F4 "Computer[0..8]" O L 7200 4150 50 
-F5 "Computer2_selected" I R 8600 4350 50 
 $EndSheet
 $Sheet
 S 5200 5800 1250 650 
@@ -128,28 +126,6 @@ F 1 "L7805" H 2850 9901 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 2875 9600 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 2850 9700 50  0001 C CNN
 	1    2850 9750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5EFEC151
-P 3500 9950
-F 0 "C2" H 3592 9996 50  0000 L CNN
-F 1 "0u1" H 3592 9905 50  0000 L CNN
-F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 3500 9950 50  0001 C CNN
-F 3 "~" H 3500 9950 50  0001 C CNN
-	1    3500 9950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C1
-U 1 1 5EFEC7FC
-P 2200 9950
-F 0 "C1" H 2292 9996 50  0000 L CNN
-F 1 "0u1" H 2292 9905 50  0000 L CNN
-F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 2200 9950 50  0001 C CNN
-F 3 "~" H 2200 9950 50  0001 C CNN
-	1    2200 9950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -380,39 +356,15 @@ Wire Bus Line
 Wire Bus Line
 	4700 4850 4700 7050
 Wire Wire Line
-	8600 4350 9650 4350
-Wire Wire Line
-	9650 4350 9650 6800
-Wire Wire Line
-	9650 6800 8500 6800
-Wire Wire Line
-	2200 10050 2200 10200
-Wire Wire Line
-	2200 10200 2850 10200
-Wire Wire Line
 	4050 10200 4050 10050
-Wire Wire Line
-	3500 10050 3500 10200
-Wire Wire Line
-	3500 10200 4050 10200
 Wire Wire Line
 	2850 10050 2850 10200
 Wire Wire Line
 	2850 10200 3450 10200
 Wire Wire Line
-	2200 10200 1900 10200
-Wire Wire Line
 	1900 10200 1900 9950
 Wire Wire Line
-	2200 9850 2200 9750
-Wire Wire Line
-	2200 9750 2300 9750
-Wire Wire Line
 	4050 9750 4050 9850
-Wire Wire Line
-	3500 9850 3500 9750
-Wire Wire Line
-	3500 9750 4050 9750
 Wire Wire Line
 	4050 9700 4050 9750
 Wire Wire Line
@@ -423,10 +375,6 @@ Wire Wire Line
 	2300 9750 2550 9750
 Wire Wire Line
 	3450 10250 3450 10200
-Wire Wire Line
-	3450 10200 3500 10200
-Wire Wire Line
-	3150 9750 3500 9750
 Connection ~ 9850 3350
 Connection ~ 9750 2600
 Connection ~ 9750 3450
@@ -440,11 +388,7 @@ Connection ~ 7100 3550
 Connection ~ 7100 6050
 Connection ~ 9250 5600
 Connection ~ 4700 4850
-Connection ~ 3500 10200
 Connection ~ 2850 10200
-Connection ~ 2200 10200
-Connection ~ 2200 9750
-Connection ~ 3500 9750
 Connection ~ 4050 9750
 Connection ~ 4050 10200
 Connection ~ 2300 9750
@@ -491,8 +435,6 @@ F 3 "~" H 1500 9810 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1750 9950 1900 9950
-Wire Wire Line
-	1750 9750 2200 9750
 $Comp
 L BarrelPolarity:BarrelPolarity_CenterNeg G1
 U 1 1 5F036EF3
@@ -788,36 +730,18 @@ F 3 "~" H 9450 9950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C25
-U 1 1 5F124F06
+L Device:C_Small C26
+U 1 1 5F124F0C
 P 9800 9950
-F 0 "C25" H 9892 9996 50  0000 L CNN
+F 0 "C26" H 9892 9996 50  0000 L CNN
 F 1 "0u1" H 9892 9905 50  0000 L CNN
 F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 9800 9950 50  0001 C CNN
 F 3 "~" H 9800 9950 50  0001 C CNN
 	1    9800 9950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C26
-U 1 1 5F124F0C
-P 10150 9950
-F 0 "C26" H 10242 9996 50  0000 L CNN
-F 1 "0u1" H 10242 9905 50  0000 L CNN
-F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 10150 9950 50  0001 C CNN
-F 3 "~" H 10150 9950 50  0001 C CNN
-	1    10150 9950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10150 10200 10150 10050
-Wire Wire Line
-	10150 9750 10150 9850
 Wire Wire Line
 	9800 9850 9800 9750
-Connection ~ 9800 9750
-Wire Wire Line
-	9800 9750 10150 9750
 Wire Wire Line
 	9450 9850 9450 9750
 Wire Wire Line
@@ -844,9 +768,6 @@ Wire Wire Line
 	9450 10200 9800 10200
 Wire Wire Line
 	9800 10050 9800 10200
-Connection ~ 9800 10200
-Wire Wire Line
-	9800 10200 10150 10200
 Connection ~ 8400 9750
 Wire Wire Line
 	8750 10050 8750 10200
@@ -874,36 +795,18 @@ F 3 "~" H 5250 10500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C29
-U 1 1 5F52D317
+L Device:C_Small C30
+U 1 1 5F52D31D
 P 5600 10500
-F 0 "C29" H 5692 10546 50  0000 L CNN
+F 0 "C30" H 5692 10546 50  0000 L CNN
 F 1 "0u1" H 5692 10455 50  0000 L CNN
 F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 5600 10500 50  0001 C CNN
 F 3 "~" H 5600 10500 50  0001 C CNN
 	1    5600 10500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C30
-U 1 1 5F52D31D
-P 5950 10500
-F 0 "C30" H 6042 10546 50  0000 L CNN
-F 1 "0u1" H 6042 10455 50  0000 L CNN
-F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 5950 10500 50  0001 C CNN
-F 3 "~" H 5950 10500 50  0001 C CNN
-	1    5950 10500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5950 10750 5950 10600
-Wire Wire Line
-	5950 10300 5950 10400
 Wire Wire Line
 	5600 10400 5600 10300
-Connection ~ 5600 10300
-Wire Wire Line
-	5600 10300 5950 10300
 Wire Wire Line
 	5250 10400 5250 10300
 Connection ~ 5250 10300
@@ -924,9 +827,6 @@ Wire Wire Line
 	5250 10750 5600 10750
 Wire Wire Line
 	5600 10600 5600 10750
-Connection ~ 5600 10750
-Wire Wire Line
-	5600 10750 5950 10750
 Wire Wire Line
 	4900 10300 4800 10300
 Wire Wire Line
@@ -951,4 +851,12 @@ Wire Wire Line
 	9450 10200 9100 10200
 Connection ~ 9450 10200
 Connection ~ 9100 10200
+Wire Wire Line
+	3450 10200 4050 10200
+Wire Wire Line
+	3150 9750 4050 9750
+Wire Wire Line
+	1900 10200 2850 10200
+Wire Wire Line
+	1750 9750 2300 9750
 $EndSCHEMATC

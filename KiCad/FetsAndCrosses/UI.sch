@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 344 362
+Sheet 346 362
 Title "Fets and Crosses"
 Date "2020-09-15"
 Rev "v0.2"
@@ -101,14 +101,13 @@ F9 "MovSel_8" O R 1550 2150 50
 F10 "MovSel_7" O R 1550 2050 50 
 $EndSheet
 $Sheet
-S 950  3150 850  500 
+S 950  3150 850  400 
 U 5E6A228F
 F0 "UI_Setup.sch" 50
 F1 "UI_Setup.sch" 50
 F2 "Reset" O R 1800 3250 50 
 F3 "P2_isComputer" O R 1800 3350 50 
 F4 "P2_Starts" O R 1800 3450 50 
-F5 "Computer2_selected" O R 1800 3550 50 
 $EndSheet
 $Sheet
 S 7650 3900 800  800 
@@ -280,8 +279,6 @@ Text Label 1950 1350 2    50   ~ 0
 Move8
 Text HLabel 2000 3450 2    50   Output ~ 0
 P2_Starts
-Text HLabel 2000 3550 2    50   Output ~ 0
-Computer2_selected
 Wire Wire Line
 	2000 3250 1800 3250
 Wire Wire Line
@@ -396,8 +393,6 @@ Wire Wire Line
 	1550 2150 1950 2150
 Wire Wire Line
 	2000 3350 1800 3350
-Wire Wire Line
-	1800 3550 2000 3550
 Entry Wire Line
 	3800 1750 3900 1850
 Entry Wire Line
