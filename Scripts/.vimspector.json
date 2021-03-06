@@ -1,0 +1,18 @@
+{
+  "configurations": {
+    "full_engine_test: Launch": {
+      "adapter": "debugpy",
+      "configuration": {
+        "name": "full_engine_test: Launch",
+        "type": "python",
+        "request": "launch",
+        "cwd": "",
+        "python": "python3",
+        "stopOnEntry": true,
+        "console": "externalTerminal",
+        "debugOptions": [],
+        "program": "full_engine_test.py"
+      }
+    }
+  }
+}
