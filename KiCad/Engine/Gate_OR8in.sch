@@ -15,7 +15,7 @@ Comment4 ""
 $EndDescr
 $Sheet
 S 5250 2500 550  900 
-U 60D8C82A
+U 60472FE5
 F0 "Sheet60D625A1" 50
 F1 "Gate_NOR8in.sch" 50
 F2 "0" I L 5250 2600 50 
@@ -32,7 +32,7 @@ Text Notes 5450 3000 0    100  ~ 20
 ~II
 $Sheet
 S 6100 2800 550  200 
-U 60D7A8D7
+U 60472FE4
 F0 "sheet60D63D17" 50
 F1 "Gate_NOT.sch" 50
 F2 "A" I L 6100 2900 50 
