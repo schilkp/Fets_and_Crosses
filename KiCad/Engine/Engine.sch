@@ -1416,8 +1416,6 @@ Wire Wire Line
 Wire Wire Line
 	8950 10900 8950 10350
 Wire Wire Line
-	9050 10900 9050 10550
-Wire Wire Line
 	9150 10900 9150 10350
 Wire Wire Line
 	9250 10900 9250 10350
@@ -1562,9 +1560,9 @@ Wire Wire Line
 Wire Wire Line
 	7700 10450 7700 10350
 Wire Wire Line
-	9050 10450 9050 10350
-Wire Wire Line
 	10400 10350 10400 10900
+Wire Wire Line
+	9050 10350 9050 10900
 Wire Bus Line
 	13800 1550 13800 6200
 Wire Bus Line
