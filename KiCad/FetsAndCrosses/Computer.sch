@@ -465,7 +465,7 @@ U 1 1 60F5701A
 P 2700 2000
 F 0 "J3" H 2780 1992 50  0000 L CNN
 F 1 "Power" H 2780 1901 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 2700 2000 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal" H 2700 2000 50  0001 C CNN
 F 3 "~" H 2700 2000 50  0001 C CNN
 	1    2700 2000
 	1    0    0    -1  
@@ -476,7 +476,7 @@ U 1 1 60F5E074
 P 2700 3450
 F 0 "J4" H 2780 3442 50  0000 L CNN
 F 1 "P1" H 2780 3351 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 2700 3450 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal" H 2700 3450 50  0001 C CNN
 F 3 "~" H 2700 3450 50  0001 C CNN
 	1    2700 3450
 	1    0    0    -1  
@@ -487,7 +487,7 @@ U 1 1 60F672EF
 P 2700 4800
 F 0 "J5" H 2780 4792 50  0000 L CNN
 F 1 "P2" H 2780 4701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 2700 4800 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal" H 2700 4800 50  0001 C CNN
 F 3 "~" H 2700 4800 50  0001 C CNN
 	1    2700 4800
 	1    0    0    -1  
@@ -498,7 +498,7 @@ U 1 1 60F672F5
 P 2700 6100
 F 0 "J9" H 2780 6092 50  0000 L CNN
 F 1 "Move" H 2780 6001 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 2700 6100 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal" H 2700 6100 50  0001 C CNN
 F 3 "~" H 2700 6100 50  0001 C CNN
 	1    2700 6100
 	1    0    0    -1  

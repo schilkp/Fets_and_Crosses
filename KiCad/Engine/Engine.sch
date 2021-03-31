@@ -1451,7 +1451,7 @@ U 1 1 606DD8E1
 P 7800 10150
 F 0 "J3" V 8017 10096 50  0000 C CNN
 F 1 "P1" V 7926 10096 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal" H 7800 10150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 7800 10150 50  0001 C CNN
 F 3 "~" H 7800 10150 50  0001 C CNN
 	1    7800 10150
 	0    -1   -1   0   
@@ -1462,7 +1462,7 @@ U 1 1 606DEA6F
 P 9150 10150
 F 0 "J4" V 9367 10096 50  0000 C CNN
 F 1 "P2" V 9276 10096 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal" H 9150 10150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 9150 10150 50  0001 C CNN
 F 3 "~" H 9150 10150 50  0001 C CNN
 	1    9150 10150
 	0    -1   -1   0   
@@ -1473,7 +1473,7 @@ U 1 1 606F87D5
 P 10500 10150
 F 0 "J5" V 10717 10096 50  0000 C CNN
 F 1 "Move" V 10626 10096 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal" H 10500 10150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 10500 10150 50  0001 C CNN
 F 3 "~" H 10500 10150 50  0001 C CNN
 	1    10500 10150
 	0    -1   -1   0   
@@ -1484,7 +1484,7 @@ U 1 1 60712B58
 P 6450 10150
 F 0 "J1" V 6667 10096 50  0000 C CNN
 F 1 "Power" V 6576 10096 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal" H 6450 10150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 6450 10150 50  0001 C CNN
 F 3 "~" H 6450 10150 50  0001 C CNN
 	1    6450 10150
 	0    -1   -1   0   
