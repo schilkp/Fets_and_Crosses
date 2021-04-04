@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 344 398
+Sheet 119 398
 Title ""
 Date ""
 Rev ""
@@ -216,8 +216,8 @@ F0 "sheet607A3999" 50
 F1 "Cell1in.sch" 50
 F2 "A" I L 4050 2150 50 
 F3 "Out" O R 4850 2150 50 
-F4 "Inhib" I L 4050 2050 50 
-F5 "Inhib_Out" O R 4850 2050 50 
+F4 "Block" I L 4050 2050 50 
+F5 "Block_Out" O R 4850 2050 50 
 $EndSheet
 $Sheet
 S 8050 1950 800  300 
@@ -226,8 +226,8 @@ F0 "sheet607A6A47" 50
 F1 "Cell1in.sch" 50
 F2 "A" I L 8050 2150 50 
 F3 "Out" O R 8850 2150 50 
-F4 "Inhib" I L 8050 2050 50 
-F5 "Inhib_Out" O R 8850 2050 50 
+F4 "Block" I L 8050 2050 50 
+F5 "Block_Out" O R 8850 2050 50 
 $EndSheet
 Wire Wire Line
 	6850 2050 8050 2050
@@ -238,8 +238,8 @@ F0 "sheet607A4A2C" 50
 F1 "Cell1in.sch" 50
 F2 "A" I L 6050 2150 50 
 F3 "Out" O R 6850 2150 50 
-F4 "Inhib" I L 6050 2050 50 
-F5 "Inhib_Out" O R 6850 2050 50 
+F4 "Block" I L 6050 2050 50 
+F5 "Block_Out" O R 6850 2050 50 
 $EndSheet
 Wire Wire Line
 	6900 2150 6850 2150

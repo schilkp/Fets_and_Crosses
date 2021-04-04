@@ -1282,8 +1282,6 @@ Wire Wire Line
 Wire Wire Line
 	7600 10900 7600 10350
 Wire Wire Line
-	7700 10900 7700 10550
-Wire Wire Line
 	7800 10900 7800 10350
 Wire Wire Line
 	7900 10900 7900 10350
@@ -1326,23 +1324,23 @@ F 3 "" H 10100 10900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10100 10350 10100 10900
-Text Label 10200 10900 1    50   ~ 0
+Text Label 11000 10900 1    50   ~ 0
 Computer8
-Text Label 10300 10900 1    50   ~ 0
+Text Label 10900 10900 1    50   ~ 0
 Computer7
-Text Label 10400 10900 1    50   ~ 0
+Text Label 10800 10900 1    50   ~ 0
 Computer6
-Text Label 10500 10900 1    50   ~ 0
+Text Label 10700 10900 1    50   ~ 0
 Computer5
 Text Label 10600 10900 1    50   ~ 0
 Computer4
-Text Label 10700 10900 1    50   ~ 0
+Text Label 10500 10900 1    50   ~ 0
 Computer3
-Text Label 10800 10900 1    50   ~ 0
+Text Label 10400 10900 1    50   ~ 0
 Computer2
-Text Label 10900 10900 1    50   ~ 0
+Text Label 10300 10900 1    50   ~ 0
 Computer1
-Text Label 11000 10900 1    50   ~ 0
+Text Label 10200 10900 1    50   ~ 0
 Computer0
 Wire Wire Line
 	1350 8000 1800 8000
@@ -1428,21 +1426,21 @@ Wire Wire Line
 Wire Wire Line
 	9650 10900 9650 10350
 Wire Wire Line
-	10200 10900 10200 10350
-Wire Wire Line
-	10300 10900 10300 10350
-Wire Wire Line
-	10500 10900 10500 10350
-Wire Wire Line
-	10600 10900 10600 10350
-Wire Wire Line
-	10700 10900 10700 10350
-Wire Wire Line
-	10800 10900 10800 10350
+	11000 10900 11000 10350
 Wire Wire Line
 	10900 10900 10900 10350
 Wire Wire Line
-	11000 10900 11000 10350
+	10700 10900 10700 10350
+Wire Wire Line
+	10600 10900 10600 10350
+Wire Wire Line
+	10500 10900 10500 10350
+Wire Wire Line
+	10400 10900 10400 10350
+Wire Wire Line
+	10300 10900 10300 10350
+Wire Wire Line
+	10200 10900 10200 10350
 $Comp
 L Connector_Generic:Conn_01x10 J3
 U 1 1 606DD8E1
@@ -1558,11 +1556,37 @@ Connection ~ 6950 10450
 Wire Wire Line
 	6950 10450 6950 10500
 Wire Wire Line
-	7700 10450 7700 10350
-Wire Wire Line
-	10400 10350 10400 10900
+	10800 10350 10800 10900
 Wire Wire Line
 	9050 10350 9050 10900
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60713304
+P 5950 10450
+F 0 "#FLG0101" H 5950 10525 50  0001 C CNN
+F 1 "PWR_FLAG" H 5750 10600 50  0000 L CNN
+F 2 "" H 5950 10450 50  0001 C CNN
+F 3 "~" H 5950 10450 50  0001 C CNN
+	1    5950 10450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 60714033
+P 7050 10450
+F 0 "#FLG0102" H 7050 10525 50  0001 C CNN
+F 1 "PWR_FLAG" H 6900 10600 50  0000 L CNN
+F 2 "" H 7050 10450 50  0001 C CNN
+F 3 "~" H 7050 10450 50  0001 C CNN
+	1    7050 10450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 10450 6050 10450
+Wire Wire Line
+	7050 10450 6950 10450
+Wire Wire Line
+	7700 10350 7700 10900
 Wire Bus Line
 	13800 1550 13800 6200
 Wire Bus Line

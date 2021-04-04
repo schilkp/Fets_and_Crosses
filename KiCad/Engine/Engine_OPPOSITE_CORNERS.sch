@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 323 398
+Sheet 77 398
 Title ""
 Date ""
 Rev ""
@@ -217,8 +217,8 @@ F1 "Cell2in.sch" 50
 F2 "A" I L 4050 3250 50 
 F3 "B" I L 4050 3350 50 
 F4 "Out" O R 4850 3350 50 
-F5 "Inhib_Out" O R 4850 3150 50 
-F6 "Inhib" I L 4050 3150 50 
+F5 "Block" I L 4050 3150 50 
+F6 "Block_Out" O R 4850 3150 50 
 $EndSheet
 $Sheet
 S 4050 1950 800  400 
@@ -228,8 +228,8 @@ F1 "Cell2in.sch" 50
 F2 "A" I L 4050 2150 50 
 F3 "B" I L 4050 2250 50 
 F4 "Out" O R 4850 2250 50 
-F5 "Inhib_Out" O R 4850 2050 50 
-F6 "Inhib" I L 4050 2050 50 
+F5 "Block" I L 4050 2050 50 
+F6 "Block_Out" O R 4850 2050 50 
 $EndSheet
 $Sheet
 S 6050 1950 800  400 
@@ -239,8 +239,8 @@ F1 "Cell2in.sch" 50
 F2 "A" I L 6050 2150 50 
 F3 "B" I L 6050 2250 50 
 F4 "Out" O R 6850 2250 50 
-F5 "Inhib_Out" O R 6850 2050 50 
-F6 "Inhib" I L 6050 2050 50 
+F5 "Block" I L 6050 2050 50 
+F6 "Block_Out" O R 6850 2050 50 
 $EndSheet
 $Sheet
 S 8050 1950 800  400 
@@ -250,8 +250,8 @@ F1 "Cell2in.sch" 50
 F2 "A" I L 8050 2150 50 
 F3 "B" I L 8050 2250 50 
 F4 "Out" O R 8850 2250 50 
-F5 "Inhib_Out" O R 8850 2050 50 
-F6 "Inhib" I L 8050 2050 50 
+F5 "Block" I L 8050 2050 50 
+F6 "Block_Out" O R 8850 2050 50 
 $EndSheet
 Text HLabel 4900 2250 2    50   Output ~ 0
 M0_K

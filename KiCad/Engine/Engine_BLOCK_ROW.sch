@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 169 398
+Sheet 234 398
 Title ""
 Date ""
 Rev ""
@@ -219,18 +219,6 @@ Wire Wire Line
 	9650 2050 8850 2050
 Wire Wire Line
 	9650 2800 9650 2050
-$Sheet
-S 6050 1950 800  500 
-U 6074DF42
-F0 "Sheet604ADE57" 50
-F1 "Cell3in.sch" 50
-F2 "A" I L 6050 2150 50 
-F3 "B" I L 6050 2250 50 
-F4 "C" I L 6050 2350 50 
-F5 "Out" O R 6850 2350 50 
-F6 "Inhib_Out" O R 6850 2050 50 
-F7 "Inhib" I L 6050 2050 50 
-$EndSheet
 Text HLabel 9050 4050 2    50   Output ~ 0
 Inhib_Out
 Wire Wire Line
@@ -243,90 +231,6 @@ Wire Wire Line
 	3950 2800 9650 2800
 Wire Wire Line
 	6850 4050 8050 4050
-$Sheet
-S 8050 1950 800  500 
-U 60571EDF
-F0 "sheet60571ED7" 50
-F1 "Cell3in.sch" 50
-F2 "A" I L 8050 2150 50 
-F3 "B" I L 8050 2250 50 
-F4 "C" I L 8050 2350 50 
-F5 "Out" O R 8850 2350 50 
-F6 "Inhib_Out" O R 8850 2050 50 
-F7 "Inhib" I L 8050 2050 50 
-$EndSheet
-$Sheet
-S 6050 2950 800  500 
-U 60573EF6
-F0 "sheet60573EED" 50
-F1 "Cell3in.sch" 50
-F2 "A" I L 6050 3150 50 
-F3 "B" I L 6050 3250 50 
-F4 "C" I L 6050 3350 50 
-F5 "Out" O R 6850 3350 50 
-F6 "Inhib_Out" O R 6850 3050 50 
-F7 "Inhib" I L 6050 3050 50 
-$EndSheet
-$Sheet
-S 8050 2950 800  500 
-U 60573EFE
-F0 "sheet60573EEE" 50
-F1 "Cell3in.sch" 50
-F2 "A" I L 8050 3150 50 
-F3 "B" I L 8050 3250 50 
-F4 "C" I L 8050 3350 50 
-F5 "Out" O R 8850 3350 50 
-F6 "Inhib_Out" O R 8850 3050 50 
-F7 "Inhib" I L 8050 3050 50 
-$EndSheet
-$Sheet
-S 6050 3950 800  500 
-U 6057574A
-F0 "sheet60575741" 50
-F1 "Cell3in.sch" 50
-F2 "A" I L 6050 4150 50 
-F3 "B" I L 6050 4250 50 
-F4 "C" I L 6050 4350 50 
-F5 "Out" O R 6850 4350 50 
-F6 "Inhib_Out" O R 6850 4050 50 
-F7 "Inhib" I L 6050 4050 50 
-$EndSheet
-$Sheet
-S 8050 3950 800  500 
-U 60575752
-F0 "sheet60575742" 50
-F1 "Cell3in.sch" 50
-F2 "A" I L 8050 4150 50 
-F3 "B" I L 8050 4250 50 
-F4 "C" I L 8050 4350 50 
-F5 "Out" O R 8850 4350 50 
-F6 "Inhib_Out" O R 8850 4050 50 
-F7 "Inhib" I L 8050 4050 50 
-$EndSheet
-$Sheet
-S 4050 2950 800  500 
-U 604A9E8F
-F0 "sheet605776C7" 50
-F1 "Cell3in.sch" 50
-F2 "A" I L 4050 3150 50 
-F3 "B" I L 4050 3250 50 
-F4 "C" I L 4050 3350 50 
-F5 "Out" O R 4850 3350 50 
-F6 "Inhib_Out" O R 4850 3050 50 
-F7 "Inhib" I L 4050 3050 50 
-$EndSheet
-$Sheet
-S 4050 3950 800  500 
-U 605776D9
-F0 "sheet605776C8" 50
-F1 "Cell3in.sch" 50
-F2 "A" I L 4050 4150 50 
-F3 "B" I L 4050 4250 50 
-F4 "C" I L 4050 4350 50 
-F5 "Out" O R 4850 4350 50 
-F6 "Inhib_Out" O R 4850 4050 50 
-F7 "Inhib" I L 4050 4050 50 
-$EndSheet
 Wire Wire Line
 	9650 3800 3950 3800
 Wire Wire Line
@@ -373,18 +277,6 @@ Wire Wire Line
 	4050 2050 3700 2050
 Text HLabel 3700 2050 0    50   Input ~ 0
 Inhib
-$Sheet
-S 4050 1950 800  500 
-U 606B2753
-F0 "sheet606B274B" 50
-F1 "Cell3in.sch" 50
-F2 "A" I L 4050 2150 50 
-F3 "B" I L 4050 2250 50 
-F4 "C" I L 4050 2350 50 
-F5 "Out" O R 4850 2350 50 
-F6 "Inhib_Out" O R 4850 2050 50 
-F7 "Inhib" I L 4050 2050 50 
-$EndSheet
 Wire Wire Line
 	4850 4050 6050 4050
 Text HLabel 4900 2350 2    50   Output ~ 0
@@ -479,6 +371,114 @@ Wire Wire Line
 	7700 4150 8050 4150
 Wire Wire Line
 	7700 4250 8050 4250
+$Sheet
+S 4050 1950 800  500 
+U 606E6747
+F0 "sheet606E6739" 50
+F1 "Cell3in.sch" 50
+F2 "A" I L 4050 2150 50 
+F3 "B" I L 4050 2250 50 
+F4 "C" I L 4050 2350 50 
+F5 "Out" O R 4850 2350 50 
+F6 "Block" I L 4050 2050 50 
+F7 "Block_Out" O R 4850 2050 50 
+$EndSheet
+$Sheet
+S 6050 1950 800  500 
+U 606E674F
+F0 "sheet606E673A" 50
+F1 "Cell3in.sch" 50
+F2 "A" I L 6050 2150 50 
+F3 "B" I L 6050 2250 50 
+F4 "C" I L 6050 2350 50 
+F5 "Out" O R 6850 2350 50 
+F6 "Block" I L 6050 2050 50 
+F7 "Block_Out" O R 6850 2050 50 
+$EndSheet
+$Sheet
+S 8050 1950 800  500 
+U 606E6757
+F0 "sheet606E673B" 50
+F1 "Cell3in.sch" 50
+F2 "A" I L 8050 2150 50 
+F3 "B" I L 8050 2250 50 
+F4 "C" I L 8050 2350 50 
+F5 "Out" O R 8850 2350 50 
+F6 "Block" I L 8050 2050 50 
+F7 "Block_Out" O R 8850 2050 50 
+$EndSheet
+$Sheet
+S 4050 2950 800  500 
+U 606E6760
+F0 "sheet606E673C" 50
+F1 "Cell3in.sch" 50
+F2 "A" I L 4050 3150 50 
+F3 "B" I L 4050 3250 50 
+F4 "C" I L 4050 3350 50 
+F5 "Out" O R 4850 3350 50 
+F6 "Block" I L 4050 3050 50 
+F7 "Block_Out" O R 4850 3050 50 
+$EndSheet
+$Sheet
+S 6050 2950 800  500 
+U 606E6768
+F0 "sheet606E673D" 50
+F1 "Cell3in.sch" 50
+F2 "A" I L 6050 3150 50 
+F3 "B" I L 6050 3250 50 
+F4 "C" I L 6050 3350 50 
+F5 "Out" O R 6850 3350 50 
+F6 "Block" I L 6050 3050 50 
+F7 "Block_Out" O R 6850 3050 50 
+$EndSheet
+$Sheet
+S 8050 2950 800  500 
+U 606E6770
+F0 "sheet606E673E" 50
+F1 "Cell3in.sch" 50
+F2 "A" I L 8050 3150 50 
+F3 "B" I L 8050 3250 50 
+F4 "C" I L 8050 3350 50 
+F5 "Out" O R 8850 3350 50 
+F6 "Block" I L 8050 3050 50 
+F7 "Block_Out" O R 8850 3050 50 
+$EndSheet
+$Sheet
+S 4050 3950 800  500 
+U 606EA2A7
+F0 "sheet606EA29D" 50
+F1 "Cell3in.sch" 50
+F2 "A" I L 4050 4150 50 
+F3 "B" I L 4050 4250 50 
+F4 "C" I L 4050 4350 50 
+F5 "Out" O R 4850 4350 50 
+F6 "Block" I L 4050 4050 50 
+F7 "Block_Out" O R 4850 4050 50 
+$EndSheet
+$Sheet
+S 6050 3950 800  500 
+U 606EA2AF
+F0 "sheet606EA29E" 50
+F1 "Cell3in.sch" 50
+F2 "A" I L 6050 4150 50 
+F3 "B" I L 6050 4250 50 
+F4 "C" I L 6050 4350 50 
+F5 "Out" O R 6850 4350 50 
+F6 "Block" I L 6050 4050 50 
+F7 "Block_Out" O R 6850 4050 50 
+$EndSheet
+$Sheet
+S 8050 3950 800  500 
+U 606EA2B7
+F0 "sheet606EA29F" 50
+F1 "Cell3in.sch" 50
+F2 "A" I L 8050 4150 50 
+F3 "B" I L 8050 4250 50 
+F4 "C" I L 8050 4350 50 
+F5 "Out" O R 8850 4350 50 
+F6 "Block" I L 8050 4050 50 
+F7 "Block_Out" O R 8850 4050 50 
+$EndSheet
 Wire Bus Line
 	2150 3900 2150 4700
 Wire Bus Line

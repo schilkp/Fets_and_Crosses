@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 365 398
+Sheet 98 398
 Title ""
 Date ""
 Rev ""
@@ -209,12 +209,12 @@ Wire Wire Line
 	4900 3150 4850 3150
 Text HLabel 4900 2150 2    50   Output ~ 0
 M0_L
-Text HLabel 6900 2150 2    50   Output ~ 0
-M8_L
 Text HLabel 4900 3250 2    50   Output ~ 0
+M8_L
+Text HLabel 8900 2150 2    50   Output ~ 0
 M6_L
 Wire Wire Line
-	8850 2150 8900 2150
+	6850 2150 6900 2150
 $Sheet
 S 4050 1950 800  300 
 U 607A399F
@@ -222,65 +222,65 @@ F0 "sheet607A3999" 50
 F1 "Cell1in.sch" 50
 F2 "A" I L 4050 2150 50 
 F3 "Out" O R 4850 2150 50 
-F4 "Inhib" I L 4050 2050 50 
-F5 "Inhib_Out" O R 4850 2050 50 
+F4 "Block" I L 4050 2050 50 
+F5 "Block_Out" O R 4850 2050 50 
 $EndSheet
 $Sheet
-S 8050 1950 800  300 
+S 6050 1950 800  300 
 U 607A6A4D
 F0 "sheet607A6A47" 50
 F1 "Cell1in.sch" 50
-F2 "A" I L 8050 2150 50 
-F3 "Out" O R 8850 2150 50 
-F4 "Inhib" I L 8050 2050 50 
-F5 "Inhib_Out" O R 8850 2050 50 
+F2 "A" I L 6050 2150 50 
+F3 "Out" O R 6850 2150 50 
+F4 "Block" I L 6050 2050 50 
+F5 "Block_Out" O R 6850 2050 50 
 $EndSheet
 $Sheet
-S 4050 3050 800  300 
+S 8050 1950 800  300 
 U 607A7A81
 F0 "sheet607A7A7B" 50
 F1 "Cell1in.sch" 50
-F2 "A" I L 4050 3250 50 
-F3 "Out" O R 4850 3250 50 
-F4 "Inhib" I L 4050 3150 50 
-F5 "Inhib_Out" O R 4850 3150 50 
+F2 "A" I L 8050 2150 50 
+F3 "Out" O R 8850 2150 50 
+F4 "Block" I L 8050 2050 50 
+F5 "Block_Out" O R 8850 2050 50 
 $EndSheet
 Wire Wire Line
 	6850 2050 8050 2050
 $Sheet
-S 6050 1950 800  300 
+S 4050 3050 800  300 
 U 607A4A32
 F0 "sheet607A4A2C" 50
 F1 "Cell1in.sch" 50
-F2 "A" I L 6050 2150 50 
-F3 "Out" O R 6850 2150 50 
-F4 "Inhib" I L 6050 2050 50 
-F5 "Inhib_Out" O R 6850 2050 50 
+F2 "A" I L 4050 3250 50 
+F3 "Out" O R 4850 3250 50 
+F4 "Block" I L 4050 3150 50 
+F5 "Block_Out" O R 4850 3150 50 
 $EndSheet
 Wire Wire Line
-	6900 2150 6850 2150
+	4900 3250 4850 3250
 Wire Wire Line
 	4850 2150 4900 2150
 Wire Wire Line
-	4900 3250 4850 3250
-Text HLabel 8900 2150 2    50   Output ~ 0
+	8900 2150 8850 2150
+Text HLabel 6900 2150 2    50   Output ~ 0
 M2_L
-Text Label 3700 3250 0    50   ~ 0
+Text Label 7700 2150 0    50   ~ 0
 ~Empty_6
 Wire Wire Line
-	3700 3250 4050 3250
+	7700 2150 8050 2150
 Text Label 3700 2150 0    50   ~ 0
 ~Empty_0
 Wire Wire Line
 	3700 2150 4050 2150
-Text Label 5700 2150 0    50   ~ 0
+Text Label 3700 3250 0    50   ~ 0
 ~Empty_8
 Wire Wire Line
-	5700 2150 6050 2150
-Text Label 7700 2150 0    50   ~ 0
+	3700 3250 4050 3250
+Text Label 5700 2150 0    50   ~ 0
 ~Empty_2
 Wire Wire Line
-	7700 2150 8050 2150
+	5700 2150 6050 2150
 Wire Bus Line
 	2150 3900 2150 4700
 Wire Bus Line
