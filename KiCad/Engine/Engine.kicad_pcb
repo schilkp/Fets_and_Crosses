@@ -1590,7 +1590,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B3B7A)
-    (at 759.645 -347.09)
+    (at 755.015 -342.9)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /60494412/60707AB4/60756041/60756040/5E557A9B)
@@ -2159,7 +2159,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B3A45)
-    (at 843.21 -389.075)
+    (at 838.835 -383.54)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /60494412/60707AAC/60756041/60756040/5E557A8F)
@@ -2734,7 +2734,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B38DA)
-    (at 880.37 -322.215)
+    (at 875.665 -317.5)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /60494412/60707AA4/60756041/60756040/5E557A9B)
@@ -3303,7 +3303,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B37A5)
-    (at 880.41 -398.12)
+    (at 880.11 -398.145)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /60494412/60703EB4/60756041/60756040/5E557A8F)
@@ -3350,7 +3350,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B378A)
-    (at 880.41 -402.67)
+    (at 875.03 -397.51)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /60494412/60703EB4/60756041/60756040/5E557A9B)
@@ -3919,7 +3919,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B3655)
-    (at 802.455 -247.135)
+    (at 798.195 -242.57)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /60494412/60700FCA/60756041/60756040/5E557A8F)
@@ -4582,7 +4582,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B34EA)
-    (at 803.015 -348.925)
+    (at 798.83 -344.17)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /60494412/606FDE9B/60756041/60756040/5E557A9B)
@@ -5151,7 +5151,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B33B5)
-    (at 880.41 -389.71)
+    (at 875.03 -386.08)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /60494412/606FAE30/60756041/60756040/5E557A8F)
@@ -5767,7 +5767,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B2ECD)
-    (at 801.365 -234.175)
+    (at 796.925 -229.235)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6055E6B2/606C7A6F/60756041/60756040/5E557A8F)
@@ -6430,7 +6430,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B2D62)
-    (at 879.28 -309.255)
+    (at 874.395 -304.165)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6055E6B2/606C7A67/60756041/60756040/5E557A9B)
@@ -7046,7 +7046,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B2C12)
-    (at 840.99 -295.06)
+    (at 836.295 -290.195)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6055E6B2/606C7A5F/60756041/60756040/5E557A9B)
@@ -7662,7 +7662,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B2AC2)
-    (at 802.975 -318.51)
+    (at 798.195 -313.69)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6055E6B2/6071E247/60756041/60756040/5E557A9B)
@@ -8143,7 +8143,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B298D)
-    (at 759.605 -291.355)
+    (at 755.015 -287.02)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6055E6B2/6071E23F/60756041/60756040/5E557A8F)
@@ -8806,7 +8806,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B2822)
-    (at 804.105 -400.765)
+    (at 800.1 -396.24)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6055E6B2/6071E237/60756041/60756040/5E557A9B)
@@ -9422,7 +9422,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B26D2)
-    (at 842.12 -376.115)
+    (at 837.565 -371.475)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6055E6B2/60719C77/60756041/60756040/5E557A9B)
@@ -10038,7 +10038,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B2582)
-    (at 759.645 -334.13)
+    (at 755.015 -330.2)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6055E6B2/60719C6F/60756041/60756040/5E557A9B)
@@ -10654,7 +10654,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B2432)
-    (at 803.015 -361.885)
+    (at 798.83 -356.87)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6055E6B2/60719C67/60756041/60756040/5E557A9B)
@@ -11223,7 +11223,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B22FD)
-    (at 840.44 -273.685)
+    (at 835.66 -269.24)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6058F8B2/606D52EE/60756041/60756040/5E557A8F)
@@ -11839,7 +11839,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B21AD)
-    (at 760.175 -271.82)
+    (at 755.015 -266.7)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6058F8B2/606D52E6/60756041/60756040/5E557A8F)
@@ -12455,7 +12455,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B205D)
-    (at 841.645 -235.215)
+    (at 833.755 -223.52)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6058F8B2/606D52DE/60756041/60756040/5E557A8F)
@@ -13071,7 +13071,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B1F0D)
-    (at 841.9 -247.84)
+    (at 835.66 -243.205)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6058F8B2/606D52D5/60756041/60756040/5E557A8F)
@@ -13734,7 +13734,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B1DA2)
-    (at 761.825 -387.17)
+    (at 757.555 -382.905)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6058F8B2/606D52CD/60756041/60756040/5E557A9B)
@@ -14350,7 +14350,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B1C52)
-    (at 760.175 -258.86)
+    (at 755.015 -254.635)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6058F8B2/606D52C5/60756041/60756040/5E557A9B)
@@ -14919,7 +14919,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B1B1D)
-    (at 842.08 -308.02)
+    (at 836.93 -303.53)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /606A7B8D/606EA2B7/60756041/60756040/5E557A8F)
@@ -15582,7 +15582,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B19B2)
-    (at 843.21 -402.035)
+    (at 838.2 -396.875)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /606A7B8D/606EA2AF/60756041/60756040/5E557A9B)
@@ -16151,7 +16151,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B187D)
-    (at 801.885 -292.59)
+    (at 797.56 -288.29)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /606A7B8D/606EA2A7/60756041/60756040/5E557A8F)
@@ -16814,7 +16814,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B1712)
-    (at 842.08 -320.98)
+    (at 836.93 -316.23)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /606A7B8D/606E6770/60756041/60756040/5E557A9B)
@@ -17430,7 +17430,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B15C2)
-    (at 802.455 -260.095)
+    (at 798.195 -255.905)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /606A7B8D/606E6768/60756041/60756040/5E557A9B)
@@ -18046,7 +18046,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B1472)
-    (at 804.105 -387.805)
+    (at 800.1 -383.54)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /606A7B8D/606E6760/60756041/60756040/5E557A9B)
@@ -18662,7 +18662,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B1322)
-    (at 759.085 -245.9)
+    (at 755.015 -241.3)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /606A7B8D/606E6757/60756041/60756040/5E557A9B)
@@ -19278,7 +19278,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B11D2)
-    (at 760.735 -373.01)
+    (at 756.92 -368.3)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /606A7B8D/606E674F/60756041/60756040/5E557A9B)
@@ -19847,7 +19847,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606B109D)
-    (at 803.545 -273.055)
+    (at 799.465 -268.605)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /606A7B8D/606E6747/60756041/60756040/5E557A8F)
@@ -20463,7 +20463,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606AF8A9)
-    (at 878.73 -275.52)
+    (at 873.76 -271.78)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /606933AE/606FA495/60756041/60756040/5E557A8F)
@@ -21126,7 +21126,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606AF73E)
-    (at 801.885 -305.55)
+    (at 797.56 -300.99)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /606933AE/606FA48D/60756041/60756040/5E557A9B)
@@ -21695,7 +21695,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606AF609)
-    (at 841.9 -260.8)
+    (at 836.295 -255.905)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /606933AE/606FA485/60756041/60756040/5E557A8F)
@@ -22358,7 +22358,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606AF49E)
-    (at 759.605 -317.275)
+    (at 755.015 -312.42)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /606933AE/606F7C04/60756041/60756040/5E557A9B)
@@ -23590,7 +23590,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606AF1FE)
-    (at 759.605 -304.315)
+    (at 755.015 -300.355)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /606933AE/606F7BF4/60756041/60756040/5E557A9B)
@@ -24206,7 +24206,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606AEEE2)
-    (at 803.015 -374.845)
+    (at 799.465 -370.205)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6073F2D8/606FFAC7/60756041/60756040/5E557A9B)
@@ -24734,7 +24734,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606AED92)
-    (at 760.735 -360.05)
+    (at 755.65 -354.965)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6073F2D8/606FFABF/60756041/60756040/5E557A9B)
@@ -25303,7 +25303,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 606AEC5D)
-    (at 759.085 -232.94)
+    (at 755.015 -228.6)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6073F2D8/606FFAB7/60756041/60756040/5E557A8F)
@@ -26463,7 +26463,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A507A)
-    (at 966.125001 -402.644999)
+    (at 961.39 -398.145)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /60494412/604ADE57/60756041/60756040/5E557A8F)
@@ -27126,7 +27126,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A2F8F)
-    (at 922.280001 -403.094999)
+    (at 917.575 -399.415)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /604A81A5/606D7643/60756041/60756040/5E557A9B)
@@ -27742,7 +27742,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A2E3F)
-    (at 966.775001 -239.364999)
+    (at 962.66 -234.315)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /604A81A5/6057F8C1/60756041/60756040/5E557A9B)
@@ -28311,7 +28311,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A2D0A)
-    (at 878.405001 -234.154999)
+    (at 873.125 -229.87)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /604A81A5/606D7641/60756041/60756040/5E557A8F)
@@ -28927,7 +28927,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 60748513)
-    (at 879.395001 -362.264999)
+    (at 875.03 -357.505)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /604A81A5/606D7640/60756041/60756040/5E557A8F)
@@ -29590,7 +29590,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A2A4F)
-    (at 880.310001 -295.254999)
+    (at 875.03 -290.83)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /604A81A5/606D763F/60756041/60756040/5E557A9B)
@@ -30206,7 +30206,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A28FF)
-    (at 920.790001 -367.834999)
+    (at 915.035 -362.585)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /604A81A5/606D763E/60756041/60756040/5E557A9B)
@@ -30775,7 +30775,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A27CA)
-    (at 917.995001 -249.014999)
+    (at 913.765 -243.84)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /604A81A5/606D763D/60756041/60756040/5E557A8F)
@@ -31391,7 +31391,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A267A)
-    (at 921.690001 -323.124999)
+    (at 917.575 -318.77)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /604A81A5/606A92D4/60756041/60756040/5E557A8F)
@@ -32007,7 +32007,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A252A)
-    (at 880.210001 -376.049999)
+    (at 875.03 -371.475)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /604A81A5/6057F86F/60756041/60756040/5E557A8F)
@@ -32623,7 +32623,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A1BFA)
-    (at 998.720001 -402.834999)
+    (at 993.775 -398.145)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6073F2D8/60758AB8/6075685A/5E557A8F)
@@ -32799,7 +32799,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A1B9A)
-    (at 920.270001 -276.954999)
+    (at 915.67 -272.415)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6073F2D8/60758AB8/6077B160/60756040/5E557A8F)
@@ -33110,7 +33110,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A16FF)
-    (at 840.575001 -348.744999)
+    (at 835.66 -344.17)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /607BECCD/6087B8C8/5E557A9B)
@@ -33286,7 +33286,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A169F)
-    (at 966.835001 -383.669999)
+    (at 962.025 -378.46)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /607BECCD/60D626A0/6075685A/5E557A9B)
@@ -33415,7 +33415,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A165A)
-    (at 998.185001 -374.339999)
+    (at 993.14 -370.205)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /607BECCD/60D626A0/6077B160/60756040/5E557A8F)
@@ -33726,7 +33726,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A15AF)
-    (at 998.155001 -242.714999)
+    (at 993.775 -238.125)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /607BECCD/60D626A1/6075685A/5E557A9B)
@@ -33855,7 +33855,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A156A)
-    (at 920.640001 -295.674999)
+    (at 915.035 -290.83)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /607BECCD/60D626A1/6077B160/60756040/5E557A8F)
@@ -34166,7 +34166,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A14BF)
-    (at 998.970001 -261.974999)
+    (at 995.045 -257.81)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /607BECCD/60D6269F/6075685A/5E557A9B)
@@ -34342,7 +34342,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A145F)
-    (at 968.520001 -315.059999)
+    (at 963.93 -309.88)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /607BECCD/60D6269F/6077B160/60756040/5E557A9B)
@@ -34559,7 +34559,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A13EA)
-    (at 999.500001 -356.049999)
+    (at 994.68 -351.155)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6079A95A/607A4A32/6075685A/5E557A8F)
@@ -34735,7 +34735,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A138A)
-    (at 920.790001 -341.914999)
+    (at 916.305 -336.55)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6079A95A/607A4A32/6077B160/60756040/5E557A8F)
@@ -34999,7 +34999,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A12FA)
-    (at 1001.340001 -302.894999)
+    (at 996.95 -298.45)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6079A95A/607A7A81/6075685A/5E557A8F)
@@ -35175,7 +35175,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A129A)
-    (at 968.605001 -273.584999)
+    (at 963.295 -267.97)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6079A95A/607A7A81/6077B160/60756040/5E557A8F)
@@ -35486,7 +35486,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A11EF)
-    (at 999.245001 -281.594999)
+    (at 994.41 -276.86)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6079A95A/607A6A4D/6075685A/5E557A9B)
@@ -35662,7 +35662,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A118F)
-    (at 968.520001 -328.019999)
+    (at 963.93 -323.85)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6079A95A/607A6A4D/6077B160/60756040/5E557A9B)
@@ -35879,7 +35879,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A111A)
-    (at 1000.770001 -320.184999)
+    (at 996.315 -316.23)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6079A95A/607A399F/6075685A/5E557A8F)
@@ -36102,7 +36102,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A109F)
-    (at 917.995001 -236.054999)
+    (at 914.4 -231.775)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6079A95A/607A399F/6077B160/60756040/5E557A9B)
@@ -36630,7 +36630,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A0F7F)
-    (at 920.270001 -263.994999)
+    (at 914.4 -259.08)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /607791A0/6078289B/6054A991/60756040/5E557A9B)
@@ -37158,7 +37158,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A0E5F)
-    (at 920.790001 -354.874999)
+    (at 915.035 -349.885)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /607791A0/60781DE3/6054A991/60756040/5E557A9B)
@@ -37686,7 +37686,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A0D3F)
-    (at 968.605001 -299.504999)
+    (at 963.93 -294.64)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /607791A0/60781397/6054A991/60756040/5E557A9B)
@@ -38214,7 +38214,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 604A0C1F)
-    (at 968.770001 -370.824999)
+    (at 963.295 -366.395)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /607791A0/6077F4C6/6054A991/60756040/5E557A9B)
@@ -44902,7 +44902,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 6049FDDF)
-    (at 969.420001 -342.739999)
+    (at 964.565 -337.82)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6049469C/6050A897/60756040/5E557A9B)
@@ -45119,7 +45119,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 6049FD6A)
-    (at 1000.280001 -338.029999)
+    (at 995.045 -333.375)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6049469C/60509B60/60756040/5E557A8F)
@@ -45430,7 +45430,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 6049FCBF)
-    (at 920.640001 -308.634999)
+    (at 916.305 -304.165)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6049469C/60509B54/60756040/5E557A9B)
@@ -45694,7 +45694,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 6049FC2F)
-    (at 999.275001 -387.299999)
+    (at 994.41 -382.27)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6049469C/60509B48/60756040/5E557A9B)
@@ -45911,7 +45911,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 6049FBBA)
-    (at 921.220001 -387.219999)
+    (at 916.94 -382.905)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6049469C/60509B3C/60756040/5E557A8F)
@@ -46222,7 +46222,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 6049FB0F)
-    (at 968.605001 -286.544999)
+    (at 963.93 -281.94)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6049469C/605089A8/60756040/5E557A9B)
@@ -46439,7 +46439,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 6049FA9A)
-    (at 840.870001 -362.829999)
+    (at 835.66 -357.505)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6049469C/6050899C/60756040/5E557A8F)
@@ -46703,7 +46703,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 6049FA0A)
-    (at 967.145001 -257.144999)
+    (at 962.66 -252.73)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6049469C/605078CA/60756040/5E557A8F)
@@ -46967,7 +46967,7 @@
   )
 
   (module LogicQ:SOT-23-P (layer F.Cu) (tedit 5E318444) (tstamp 6049F97A)
-    (at 970.055001 -356.594999)
+    (at 965.2 -351.79)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6049469C/60506E59/60756040/5E557A8F)
