@@ -1597,4 +1597,6 @@ Wire Bus Line
 	1900 8100 1900 8950
 Wire Bus Line
 	13800 6200 13800 7300
+Text Notes 3000 9000 0    100  ~ 20
+!
 $EndSCHEMATC
