@@ -1,4 +1,4 @@
-  
+
 def get_int(prompt, int_range):
     i = 0
     while True:
@@ -9,11 +9,3 @@ def get_int(prompt, int_range):
         except ValueError:
             pass
     return i
-  
-  
-  
-  
-  
-  
-  
-  

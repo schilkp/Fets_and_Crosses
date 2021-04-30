@@ -5,32 +5,31 @@ from Utils.select_engine import select_engine
 # Setup board
 b = board()
 
-engine = select_engine();
+engine = select_engine()
 
 # engine is always player 2. Select who goes first?
-turn = get_int("Who starts (Player=1,Engine=2):",range(1,3))
+turn = get_int("Who starts (Player=1,Engine=2):", range(1, 3))
+
 
 # Game Loop:
 while True:
     if b.game_over():
         print("Game Over!")
-        print("Winner: "+str(b.game_state()))
+        print("Winner: " + str(b.game_state()))
         break
 
     print(b)
 
     if turn == 1:
         while True:
-            move = get_int("Move [0-8]:",range(9))
+            move = get_int("Move [0-8]:", range(9))
             if b.get_i(move) == 0:
-                b.set_i(move,1)
+                b.set_i(move, 1)
                 turn = 2
                 break
         continue
 
     if turn == 2:
-        b.set_i(engine.respond(b,2),2)
+        b.set_i(engine.respond(b, 2), 2)
         turn = 1
         continue
-
-    

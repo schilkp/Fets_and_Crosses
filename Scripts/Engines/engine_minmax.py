@@ -1,6 +1,7 @@
 import Utils.board
 import copy
 
+
 class engine_minmax:
     def __init__(self):
         self.calls = 0
@@ -22,7 +23,7 @@ class engine_minmax:
         # Check if the game is over
         if b.game_over():
             return -1, b.game_state()
-        
+
         # Otherwise, find best move:
         moves = Utils.board.line_list_empty_index(b.board)
 
@@ -30,26 +31,27 @@ class engine_minmax:
             opponent = 2
         else:
             opponent = 1
-     
+
         results = {}
-        
+
         for move in moves:
             # Keep iterating:
             new_b = copy.deepcopy(b)
-            new_b.set_i(move,current_player)
-            opponent_move, outcome = self.min_max(new_b, opponent, history + " " + str(move))
-            
+            new_b.set_i(move, current_player)
+            opponent_move, outcome = self.min_max(
+                new_b, opponent, history + " " + str(move))
+
             # If it is a win, return: (very simple alpha-beta-pruning):
             if outcome == current_player:
                 return move, outcome
-            
+
             # If it is not a win, keep track and keep iteratring:
             results[move] = outcome
-       
+
         # Now find the most desirable result out of all the possible results generated
         # (These will only be losses and draws)
-        final_move, final_outcome = results.popitem() 
-        
+        final_move, final_outcome = results.popitem()
+
         for move, outcome in results.items():
             # If there is a draw, that is still better than a loss:
             if outcome == 0 and final_outcome == opponent:

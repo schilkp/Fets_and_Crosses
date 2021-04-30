@@ -5,15 +5,15 @@ from Engines.engine_improved import engine_improved
 from Utils.get_int import get_int
 
 engines = {
-        1: engine_naive(),
-        2: engine_minmax(),
-        3: engine_improved()
+    1: engine_naive(),
+    2: engine_minmax(),
+    3: engine_improved()
 }
+
 
 def select_engine():
     print("Select engine: ")
     for n, engine in engines.items():
         print(str(n) + ": " + str(engine))
-    n = get_int("Engine: ", range(1,len(engines)+1)) 
+    n = get_int("Engine: ", range(1, len(engines)+1))
     return engines[n]
-

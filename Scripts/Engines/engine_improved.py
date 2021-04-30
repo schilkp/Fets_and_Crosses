@@ -9,6 +9,7 @@ from Utils.board import line_get_empty_index
 #   Corner if possible
 #   Side if possible
 
+
 class engine_improved:
     def __init__(self):
         pass
@@ -27,28 +28,28 @@ class engine_improved:
 
         # Attempt to win if possible: 9*2+6 cells
         for r in b.rows:
-            if line_count_player(b.get_r(r),current_player) == 2 and line_count_player(b.get_r(r),0) == 1:
+            if line_count_player(b.get_r(r), current_player) == 2 and line_count_player(b.get_r(r), 0) == 1:
                 return line_get_empty_index(b.get_r(r))+r*3
-        
+
         for c in b.columns:
-            if line_count_player(b.get_c(c),current_player) == 2 and line_count_player(b.get_c(c),0) == 1:
+            if line_count_player(b.get_c(c), current_player) == 2 and line_count_player(b.get_c(c), 0) == 1:
                 return line_get_empty_index(b.get_c(c))*3 + c
 
         for d in b.diags:
-            if line_count_player(b.get_d(d),current_player) == 2 and line_count_player(b.get_d(d),0) == 1:
+            if line_count_player(b.get_d(d), current_player) == 2 and line_count_player(b.get_d(d), 0) == 1:
                 return b.diag_index[d][line_get_empty_index(b.get_d(d))]
 
         # Attempt to block if possible: 9*2+6 cells
         for r in b.rows:
-            if line_count_player(b.get_r(r),opponent) == 2 and line_count_player(b.get_r(r),0) == 1:
+            if line_count_player(b.get_r(r), opponent) == 2 and line_count_player(b.get_r(r), 0) == 1:
                 return line_get_empty_index(b.get_r(r))+r*3
-        
+
         for c in b.columns:
-            if line_count_player(b.get_c(c),opponent) == 2 and line_count_player(b.get_c(c),0) == 1:
+            if line_count_player(b.get_c(c), opponent) == 2 and line_count_player(b.get_c(c), 0) == 1:
                 return line_get_empty_index(b.get_c(c))*3 + c
 
         for d in b.diags:
-            if line_count_player(b.get_d(d),opponent) == 2 and line_count_player(b.get_d(d),0) == 1:
+            if line_count_player(b.get_d(d), opponent) == 2 and line_count_player(b.get_d(d), 0) == 1:
                 return b.diag_index[d][line_get_empty_index(b.get_d(d))]
 
         # Prevent forks:
@@ -57,7 +58,7 @@ class engine_improved:
 
         if b.get_i(2) == opponent and b.get_i(6) == opponent and b.get_i(7) == 0:
             return 7
-        
+
         if b.get_i(7) == opponent and b.get_i(5) == opponent and b.get_i(8) == 0:
             return 8
 
@@ -68,13 +69,13 @@ class engine_improved:
         # Play Opposite Corner if possible: 4 cells
         if b.get_i(0) == 0 and b.get_i(8) == opponent:
             return 0
-        
+
         if b.get_i(8) == 0 and b.get_i(0) == opponent:
             return 8
-        
+
         if b.get_i(2) == 0 and b.get_i(6) == opponent:
             return 2
-        
+
         if b.get_i(6) == 0 and b.get_i(2) == opponent:
             return 6
 

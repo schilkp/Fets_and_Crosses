@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Run autopep8 to check if formatting is ok
+# (stdout suppressed, because it prints the whole diff)
+autopep8 --diff -r Scripts/. --max-line-length 160 --exit-code > /dev/null
+
+if [ $? -eq 0 ]
+then
+    echo "autopep8: Python formatting OK!"
+    exit 0
+else
+    echo "autopep8: Error! Pyhon not formatted. Run Scripts/format_all.sh!"  
+    exit 1
+fi
+
+
