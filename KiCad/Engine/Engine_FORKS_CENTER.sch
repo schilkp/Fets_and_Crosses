@@ -200,7 +200,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 2050 3700 2050
 Text HLabel 3700 2050 0    50   Input ~ 0
-Inhib
+Block
 Wire Wire Line
 	4850 2350 4900 2350
 Wire Wire Line
@@ -222,7 +222,7 @@ F4 "Block" I L 4050 3150 50
 F5 "Block_Out" O R 4850 3150 50 
 $EndSheet
 Text HLabel 4900 3150 2    50   Output ~ 0
-Inhib_Out
+Block_Out
 Wire Wire Line
 	4900 3150 4850 3150
 Text HLabel 4900 2350 2    50   Output ~ 0

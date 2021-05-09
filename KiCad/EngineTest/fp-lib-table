@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ARM_SWD_SMD_TH)(type KiCad)(uri ${KIPRJMOD}/ARM_SWD/Footprint/ARM_SWD_SMD_TH.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ARM_SWD)(type Legacy)(uri ${KIPRJMOD}/ARM_SWD/Symbol/ARM_SWD.lib)(options "")(descr ""))
+)

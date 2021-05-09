@@ -36,7 +36,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 2050 8850 2050
 Text HLabel 9050 3050 2    50   Output ~ 0
-Inhib_Out
+Block_Out
 Wire Wire Line
 	6850 2050 8050 2050
 Wire Wire Line
@@ -44,7 +44,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 3050 6050 3050
 Text HLabel 3700 2050 0    50   Input ~ 0
-Inhib
+Block
 Wire Wire Line
 	4850 2050 6050 2050
 Wire Wire Line

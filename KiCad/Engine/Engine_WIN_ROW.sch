@@ -236,7 +236,7 @@ F6 "Block" I L 6050 2050 50
 F7 "Block_Out" O R 6850 2050 50 
 $EndSheet
 Text HLabel 9050 4050 2    50   Output ~ 0
-Inhib_Out
+Block_Out
 Text HLabel 8900 4350 2    50   Output ~ 0
 M8_A
 Text HLabel 6900 4350 2    50   Output ~ 0

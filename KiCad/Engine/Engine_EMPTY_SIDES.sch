@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 119 398
+Sheet 382 398
 Title ""
 Date ""
 Rev ""
@@ -194,7 +194,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 2050 3700 2050
 Text HLabel 3700 2050 0    50   Input ~ 0
-Inhib
+Block
 Wire Wire Line
 	9650 2800 9650 2050
 Wire Wire Line

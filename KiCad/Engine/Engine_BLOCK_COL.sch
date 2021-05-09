@@ -62,11 +62,11 @@ F2 "A" I L 6050 2150 50
 F3 "B" I L 6050 2250 50 
 F4 "C" I L 6050 2350 50 
 F5 "Out" O R 6850 2350 50 
-F6 "Inhib_Out" O R 6850 2050 50 
-F7 "Inhib" I L 6050 2050 50 
+F6 "Block" I L 6050 2050 50 
+F7 "Block_Out" O R 6850 2050 50 
 $EndSheet
 Text HLabel 9050 4050 2    50   Output ~ 0
-Inhib_Out
+Block_Out
 Wire Wire Line
 	6850 2050 8050 2050
 Wire Wire Line
@@ -88,8 +88,8 @@ F2 "A" I L 8050 2150 50
 F3 "B" I L 8050 2250 50 
 F4 "C" I L 8050 2350 50 
 F5 "Out" O R 8850 2350 50 
-F6 "Inhib_Out" O R 8850 2050 50 
-F7 "Inhib" I L 8050 2050 50 
+F6 "Block" I L 8050 2050 50 
+F7 "Block_Out" O R 8850 2050 50 
 $EndSheet
 $Sheet
 S 6050 2950 800  500 
@@ -100,8 +100,8 @@ F2 "A" I L 6050 3150 50
 F3 "B" I L 6050 3250 50 
 F4 "C" I L 6050 3350 50 
 F5 "Out" O R 6850 3350 50 
-F6 "Inhib_Out" O R 6850 3050 50 
-F7 "Inhib" I L 6050 3050 50 
+F6 "Block" I L 6050 3050 50 
+F7 "Block_Out" O R 6850 3050 50 
 $EndSheet
 $Sheet
 S 8050 2950 800  500 
@@ -112,8 +112,8 @@ F2 "A" I L 8050 3150 50
 F3 "B" I L 8050 3250 50 
 F4 "C" I L 8050 3350 50 
 F5 "Out" O R 8850 3350 50 
-F6 "Inhib_Out" O R 8850 3050 50 
-F7 "Inhib" I L 8050 3050 50 
+F6 "Block" I L 8050 3050 50 
+F7 "Block_Out" O R 8850 3050 50 
 $EndSheet
 $Sheet
 S 6050 3950 800  500 
@@ -124,8 +124,8 @@ F2 "A" I L 6050 4150 50
 F3 "B" I L 6050 4250 50 
 F4 "C" I L 6050 4350 50 
 F5 "Out" O R 6850 4350 50 
-F6 "Inhib_Out" O R 6850 4050 50 
-F7 "Inhib" I L 6050 4050 50 
+F6 "Block" I L 6050 4050 50 
+F7 "Block_Out" O R 6850 4050 50 
 $EndSheet
 $Sheet
 S 8050 3950 800  500 
@@ -136,8 +136,8 @@ F2 "A" I L 8050 4150 50
 F3 "B" I L 8050 4250 50 
 F4 "C" I L 8050 4350 50 
 F5 "Out" O R 8850 4350 50 
-F6 "Inhib_Out" O R 8850 4050 50 
-F7 "Inhib" I L 8050 4050 50 
+F6 "Block" I L 8050 4050 50 
+F7 "Block_Out" O R 8850 4050 50 
 $EndSheet
 $Sheet
 S 4050 2950 800  500 
@@ -148,8 +148,8 @@ F2 "A" I L 4050 3150 50
 F3 "B" I L 4050 3250 50 
 F4 "C" I L 4050 3350 50 
 F5 "Out" O R 4850 3350 50 
-F6 "Inhib_Out" O R 4850 3050 50 
-F7 "Inhib" I L 4050 3050 50 
+F6 "Block" I L 4050 3050 50 
+F7 "Block_Out" O R 4850 3050 50 
 $EndSheet
 $Sheet
 S 4050 3950 800  500 
@@ -160,13 +160,13 @@ F2 "A" I L 4050 4150 50
 F3 "B" I L 4050 4250 50 
 F4 "C" I L 4050 4350 50 
 F5 "Out" O R 4850 4350 50 
-F6 "Inhib_Out" O R 4850 4050 50 
-F7 "Inhib" I L 4050 4050 50 
+F6 "Block" I L 4050 4050 50 
+F7 "Block_Out" O R 4850 4050 50 
 $EndSheet
 Wire Wire Line
 	9650 3800 3950 3800
 Text HLabel 3700 2050 0    50   Input ~ 0
-Inhib
+Block
 Wire Wire Line
 	4850 2050 6050 2050
 $Sheet
@@ -178,8 +178,8 @@ F2 "A" I L 4050 2150 50
 F3 "B" I L 4050 2250 50 
 F4 "C" I L 4050 2350 50 
 F5 "Out" O R 4850 2350 50 
-F6 "Inhib_Out" O R 4850 2050 50 
-F7 "Inhib" I L 4050 2050 50 
+F6 "Block" I L 4050 2050 50 
+F7 "Block_Out" O R 4850 2050 50 
 $EndSheet
 Wire Wire Line
 	3700 2050 4050 2050
