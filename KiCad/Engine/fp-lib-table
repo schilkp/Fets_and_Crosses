@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name LogicQ)(type KiCad)(uri ${KIPRJMOD}/LogicQ.pretty)(options "")(descr ""))
-)
