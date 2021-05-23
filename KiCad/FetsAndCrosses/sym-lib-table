@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name BarrelPolarity)(type Legacy)(uri ${KIPRJMOD}/BarrelPolarity.lib)(options "")(descr ""))
-  (lib (name FetsAndCrosses-rescue)(type Legacy)(uri ${KIPRJMOD}/FetsAndCrosses-rescue.lib)(options "")(descr ""))
-)

@@ -1,0 +1,228 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 359 362
+Title "Fets and Crosses"
+Date "2021-05-23"
+Rev "v1.0"
+Comp "Philipp Schilk"
+Comment1 "Tic-Tac-Toe implementation from discrete-transistor CMOS logic"
+Comment2 ""
+Comment3 ""
+Comment4 "https://github.com/TheSchilk/Fets_and_Crosses"
+$EndDescr
+$Sheet
+S 7400 3600 550  200 
+U 5F1B5D7B
+F0 "sheet5F1B5D77" 50
+F1 "Gate_NOT.sch" 50
+F2 "A" I L 7400 3700 50 
+F3 "Q" O R 7950 3700 50 
+$EndSheet
+$Comp
+L FetsAndCrosses-rescue:LM555-Timer U3
+U 1 1 5F1ABDD6
+P 6050 3900
+AR Path="/5F1ABDD6" Ref="U3"  Part="1" 
+AR Path="/5F18A492/5F1ABDD6" Ref="U3"  Part="1" 
+F 0 "U3" H 6200 4350 50  0000 C CNN
+F 1 "LM555" H 6250 4250 50  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 6050 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 6050 3900 50  0001 C CNN
+	1    6050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01088
+U 1 1 5F1AC9C0
+P 6050 3200
+F 0 "#PWR01088" H 6050 3050 50  0001 C CNN
+F 1 "+5V" H 6065 3373 50  0000 C CNN
+F 2 "" H 6050 3200 50  0001 C CNN
+F 3 "" H 6050 3200 50  0001 C CNN
+	1    6050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5F1AE26A
+P 5900 3350
+F 0 "C7" V 5671 3350 50  0000 C CNN
+F 1 "0u1" V 5762 3350 50  0000 C CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 5900 3350 50  0001 C CNN
+F 3 "~" H 5900 3350 50  0001 C CNN
+	1    5900 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR01089
+U 1 1 5F1AECCD
+P 5750 3350
+F 0 "#PWR01089" H 5750 3100 50  0001 C CNN
+F 1 "GND" V 5755 3222 50  0000 R CNN
+F 2 "" H 5750 3350 50  0001 C CNN
+F 3 "" H 5750 3350 50  0001 C CNN
+	1    5750 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR01090
+U 1 1 5F1AF29C
+P 5500 4100
+F 0 "#PWR01090" H 5500 3950 50  0001 C CNN
+F 1 "+5V" V 5515 4228 50  0000 L CNN
+F 2 "" H 5500 4100 50  0001 C CNN
+F 3 "" H 5500 4100 50  0001 C CNN
+	1    5500 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR01091
+U 1 1 5F1AFBF5
+P 6050 4400
+F 0 "#PWR01091" H 6050 4150 50  0001 C CNN
+F 1 "GND" H 6055 4227 50  0000 C CNN
+F 2 "" H 6050 4400 50  0001 C CNN
+F 3 "" H 6050 4400 50  0001 C CNN
+	1    6050 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5F1B09C4
+P 5100 4250
+F 0 "C6" H 5192 4296 50  0000 L CNN
+F 1 "10n" H 5192 4205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5100 4250 50  0001 C CNN
+F 3 "~" H 5100 4250 50  0001 C CNN
+	1    5100 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01092
+U 1 1 5F1B1525
+P 5100 4400
+F 0 "#PWR01092" H 5100 4150 50  0001 C CNN
+F 1 "GND" H 5105 4227 50  0000 C CNN
+F 2 "" H 5100 4400 50  0001 C CNN
+F 3 "" H 5100 4400 50  0001 C CNN
+	1    5100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 5F1C0AA1
+P 6800 4250
+F 0 "C8" H 6892 4296 50  0000 L CNN
+F 1 "0u1" H 6892 4205 50  0000 L CNN
+F 2 "LogicQ:C_0603_1608Metric_NOLBL" H 6800 4250 50  0001 C CNN
+F 3 "~" H 6800 4250 50  0001 C CNN
+	1    6800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01095
+U 1 1 5F1C1ECD
+P 6800 4400
+F 0 "#PWR01095" H 6800 4150 50  0001 C CNN
+F 1 "GND" H 6805 4227 50  0000 C CNN
+F 2 "" H 6800 4400 50  0001 C CNN
+F 3 "" H 6800 4400 50  0001 C CNN
+	1    6800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R108
+U 1 1 5F1C314D
+P 7100 4100
+F 0 "R108" V 7000 4250 50  0000 C CNN
+F 1 "20K" V 7000 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7100 4100 50  0001 C CNN
+F 3 "~" H 7100 4100 50  0001 C CNN
+	1    7100 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R107
+U 1 1 5F1C5451
+P 6650 3400
+F 0 "R107" V 6550 3550 50  0000 C CNN
+F 1 "20K" V 6550 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6650 3400 50  0001 C CNN
+F 3 "~" H 6650 3400 50  0001 C CNN
+	1    6650 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR01096
+U 1 1 5F1C5F66
+P 6650 3200
+F 0 "#PWR01096" H 6650 3050 50  0001 C CNN
+F 1 "+5V" H 6665 3373 50  0000 C CNN
+F 2 "" H 6650 3200 50  0001 C CNN
+F 3 "" H 6650 3200 50  0001 C CNN
+	1    6650 3200
+	1    0    0    -1  
+$EndComp
+Text Notes 7650 3750 0    100  ~ 20
+!
+Text HLabel 8450 3700 2    50   Output ~ 0
+CLOCK
+Text Notes 8150 3250 0    50   ~ 0
+Aprox 240Hz Out
+Wire Wire Line
+	6050 3500 6050 3350
+Wire Wire Line
+	6000 3350 6050 3350
+Wire Wire Line
+	6050 3350 6050 3200
+Wire Wire Line
+	5750 3350 5800 3350
+Wire Wire Line
+	5500 4100 5550 4100
+Wire Wire Line
+	6050 4400 6050 4300
+Wire Wire Line
+	5100 4150 5100 3900
+Wire Wire Line
+	5100 3900 5550 3900
+Wire Wire Line
+	5100 4400 5100 4350
+Wire Wire Line
+	5550 3700 5050 3700
+Wire Wire Line
+	5050 3700 5050 2800
+Wire Wire Line
+	5050 2800 6800 2800
+Wire Wire Line
+	6800 2800 6800 4100
+Wire Wire Line
+	6800 4100 6550 4100
+Wire Wire Line
+	6800 4150 6800 4100
+Wire Wire Line
+	6800 4400 6800 4350
+Wire Wire Line
+	7000 4100 6800 4100
+Wire Wire Line
+	6550 3900 6650 3900
+Wire Wire Line
+	7350 3900 7350 4100
+Wire Wire Line
+	7350 4100 7200 4100
+Wire Wire Line
+	6650 3500 6650 3900
+Wire Wire Line
+	6650 3900 7350 3900
+Wire Wire Line
+	6650 3200 6650 3300
+Wire Wire Line
+	6550 3700 7400 3700
+Connection ~ 6050 3350
+Connection ~ 6800 4100
+Connection ~ 6650 3900
+Wire Wire Line
+	7950 3700 8450 3700
+$EndSCHEMATC
