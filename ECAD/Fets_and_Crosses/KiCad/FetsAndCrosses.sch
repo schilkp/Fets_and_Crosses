@@ -433,7 +433,7 @@ U 1 1 5F036EF3
 P 1500 9200
 F 0 "G1" H 1781 9246 50  0000 L CNN
 F 1 "BarrelPolarity_CenterNeg" H 1781 9155 50  0000 L CNN
-F 2 "BarrelPolarity_3mm:BarrelPolarity_3mm_CenterNeg" H 1500 9200 50  0001 C CNN
+F 2 "BarrelPolarity:BarrelPolarity_3mm_CenterNeg" H 1500 9200 50  0001 C CNN
 F 3 "" H 1500 9200 50  0001 C CNN
 	1    1500 9200
 	1    0    0    -1  

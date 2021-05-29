@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 359 362
+Sheet 361 362
 Title "Fets and Crosses"
 Date "2021-05-23"
 Rev "v1.0"
@@ -21,19 +21,6 @@ F1 "Gate_NOT.sch" 50
 F2 "A" I L 7400 3700 50 
 F3 "Q" O R 7950 3700 50 
 $EndSheet
-$Comp
-L FetsAndCrosses-rescue:LM555-Timer U3
-U 1 1 5F1ABDD6
-P 6050 3900
-AR Path="/5F1ABDD6" Ref="U3"  Part="1" 
-AR Path="/5F18A492/5F1ABDD6" Ref="U3"  Part="1" 
-F 0 "U3" H 6200 4350 50  0000 C CNN
-F 1 "LM555" H 6250 4250 50  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 6050 3900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 6050 3900 50  0001 C CNN
-	1    6050 3900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR01088
 U 1 1 5F1AC9C0
@@ -225,4 +212,15 @@ Connection ~ 6800 4100
 Connection ~ 6650 3900
 Wire Wire Line
 	7950 3700 8450 3700
+$Comp
+L Timer:LM555xM U3
+U 1 1 614D3FC5
+P 6050 3900
+F 0 "U3" H 6150 4350 50  0000 C CNN
+F 1 "LM555xM" H 6250 4250 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6900 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 6900 3500 50  0001 C CNN
+	1    6050 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
