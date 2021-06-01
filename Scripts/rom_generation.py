@@ -119,37 +119,38 @@ def main():
             if percent > last_percent:
                 print(str(percent)+"%")
                 last_percent = percent
+
+        print()
+        print('Finished generating ROM!')
+        print()
+        print('Number of valid states: ' + str(stats['valid_states']))
+        print('  Including game over states: ' + str(stats['game_over_states']))
+        print('  Including engine error states: ' + str(stats['engine_error_states']))
+        print('Number of invalid states: ' + str(stats['invalid_states']))
+        print()
+
+        # Generate Output Binary
+        with open(str(engine)+".bin", 'wb') as outfile:
+            for b in ROM:
+                outfile.write(b)
+        print('Generated '+str(engine)+".bin!")
+
+        # Generate LOGISIM file
+        with open(str(engine)+"_LOGISIM", 'w') as outfile:
+            outfile.write("v2.0 raw\n")
+            count = 0
+            for b in ROM:
+                count += 1
+                outfile.write(b.hex())
+                if count != 8:
+                    outfile.write(" ")
+                else:
+                    count = 0
+                    outfile.write("\n")
+        print('Generated '+str(engine)+"_LOGISIM!")
+
     finally:
         engine.close()
-
-    print()
-    print('Finished generating ROM!')
-    print()
-    print('Number of valid states: ' + str(stats['valid_states']))
-    print('  Including game over states: ' + str(stats['game_over_states']))
-    print('  Including engine error states: ' + str(stats['engine_error_states']))
-    print('Number of invalid states: ' + str(stats['invalid_states']))
-    print()
-
-    # Generate Output Binary
-    with open(str(engine)+".bin", 'wb') as outfile:
-        for b in ROM:
-            outfile.write(b)
-    print('Generated '+str(engine)+".bin!")
-
-    # Generate LOGISIM file
-    with open(str(engine)+"_LOGISIM", 'w') as outfile:
-        outfile.write("v2.0 raw\n")
-        count = 0
-        for b in ROM:
-            count += 1
-            outfile.write(b.hex())
-            if count != 8:
-                outfile.write(" ")
-            else:
-                count = 0
-                outfile.write("\n")
-    print('Generated '+str(engine)+"_LOGISIM!")
 
 
 if __name__ == '__main__':
