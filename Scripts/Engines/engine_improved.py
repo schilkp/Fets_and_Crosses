@@ -17,6 +17,12 @@ class engine_improved:
     def __str__(self):
         return "engine_improved"
 
+    def open(self):
+        pass
+
+    def close(self):
+        pass
+
     def respond(self, b, current_player):
         if b.game_over():
             raise ValueError("Can't respond if game is already over")

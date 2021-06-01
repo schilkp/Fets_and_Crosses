@@ -90,59 +90,67 @@ def generate_ROM_value(adr, engine, stats):
         return (0x1 << engine_move).to_bytes(1, byteorder='big')
 
 
-# Have user select engine:
-engine = Utils.select_engine.select_engine()
+def main():
+    # Have user select engine:
+    engine = Utils.select_engine.select_engine()
+    engine.open()
 
-# The complete address space:
-adr_range = range(2**18)
-adr_max = 2**18 - 1
+    # The complete address space:
+    adr_range = range(2**18)
+    adr_max = 2**18 - 1
 
-# The ROM:
-ROM = []
+    # The ROM:
+    ROM = []
 
-stats = {
-    'valid_states': 0,
-    'game_over_states': 0,
-    'engine_error_states': 0,
-    'invalid_states': 0,
-}
+    stats = {
+        'valid_states': 0,
+        'game_over_states': 0,
+        'engine_error_states': 0,
+        'invalid_states': 0,
+    }
 
-# Iterate through ROM:
-last_percent = 0
-print('0%')
-for adr in adr_range:
-    ROM.append(generate_ROM_value(adr, engine, stats))
-    percent = round((adr/adr_max)*100)
-    if percent > last_percent:
-        print(str(percent)+"%")
-        last_percent = percent
+    try:
+        # Iterate through ROM:
+        last_percent = 0
+        print('0%')
+        for adr in adr_range:
+            ROM.append(generate_ROM_value(adr, engine, stats))
+            percent = round((adr/adr_max)*100)
+            if percent > last_percent:
+                print(str(percent)+"%")
+                last_percent = percent
+    finally:
+        engine.close()
 
-print()
-print('Finished generating ROM!')
-print()
-print('Number of valid states: ' + str(stats['valid_states']))
-print('  Including game over states: ' + str(stats['game_over_states']))
-print('  Including engine error states: ' + str(stats['engine_error_states']))
-print('Number of invalid states: ' + str(stats['invalid_states']))
-print()
+    print()
+    print('Finished generating ROM!')
+    print()
+    print('Number of valid states: ' + str(stats['valid_states']))
+    print('  Including game over states: ' + str(stats['game_over_states']))
+    print('  Including engine error states: ' + str(stats['engine_error_states']))
+    print('Number of invalid states: ' + str(stats['invalid_states']))
+    print()
+
+    # Generate Output Binary
+    with open(str(engine)+".bin", 'wb') as outfile:
+        for b in ROM:
+            outfile.write(b)
+    print('Generated '+str(engine)+".bin!")
+
+    # Generate LOGISIM file
+    with open(str(engine)+"_LOGISIM", 'w') as outfile:
+        outfile.write("v2.0 raw\n")
+        count = 0
+        for b in ROM:
+            count += 1
+            outfile.write(b.hex())
+            if count != 8:
+                outfile.write(" ")
+            else:
+                count = 0
+                outfile.write("\n")
+    print('Generated '+str(engine)+"_LOGISIM!")
 
 
-# Generate Output Binary
-with open(str(engine)+".bin", 'wb') as outfile:
-    for b in ROM:
-        outfile.write(b)
-print('Generated '+str(engine)+".bin!")
-
-# Generate LOGISIM file
-with open(str(engine)+"_LOGISIM", 'w') as outfile:
-    outfile.write("v2.0 raw\n")
-    count = 0
-    for b in ROM:
-        count += 1
-        outfile.write(b.hex())
-        if count != 8:
-            outfile.write(" ")
-        else:
-            count = 0
-            outfile.write("\n")
-print('Generated '+str(engine)+"_LOGISIM!")
+if __name__ == '__main__':
+    main()

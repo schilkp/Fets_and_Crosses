@@ -11,6 +11,12 @@ class engine_minmax:
         # TODO give engine a name
         return "engine_name"
 
+    def open(self):
+        pass
+
+    def close(self):
+        pass
+
     def respond(self, b, current_player):
         # TODO implement engine
         # Return the move the engine should make (0-8), given the current

@@ -9,6 +9,12 @@ class engine_minmax:
     def __str__(self):
         return "engine_minmax"
 
+    def open(self):
+        pass
+
+    def close(self):
+        pass
+
     def respond(self, b, current_player):
         self.calls = 0
         move, outcome = self.min_max(b, current_player, "> ")

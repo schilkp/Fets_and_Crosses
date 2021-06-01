@@ -2,10 +2,8 @@ import Utils.board as board
 import copy
 from Utils.select_engine import select_engine
 
-engine = select_engine()
 
-
-def engine_test(b, turn, history, logging):
+def engine_test(engine, b, turn, history, logging):
     # Check if game is over
     if b.game_over():
         logging['finished'] += 1
@@ -30,7 +28,7 @@ def engine_test(b, turn, history, logging):
             new_b = copy.deepcopy(b)
             new_b.set_i(move, 1)
             move_hist = "P1\\" + str(move)
-            engine_test(new_b, 2, history + " " + move_hist, logging)
+            engine_test(engine, new_b, 2, history + " " + move_hist, logging)
 
     else:
         # Engine's turn:
@@ -49,28 +47,39 @@ def engine_test(b, turn, history, logging):
         new_b = copy.deepcopy(b)
         new_b.set_i(move, 2)
         move_hist = "P2\\" + str(move)
-        engine_test(new_b, 1, history + " " + move_hist, logging)
+        engine_test(engine, new_b, 1, history + " " + move_hist, logging)
 
     return
 
 
-log = {
-    'finished': 0,
-    'success': 0,
-    'error': 0,
-    'error_hists': []
-}
+def main():
+    engine = select_engine()
+    engine.open()
+    try:
+        log = {
+            'finished': 0,
+            'success': 0,
+            'error': 0,
+            'error_hists': []
+        }
 
-# Test with player starting:
-print('Testing with player starting....')
-b = board.board()
-engine_test(b, 1, "", log)
+        # Test with player starting:
+        print('Testing with player starting....')
+        b = board.board()
+        engine_test(engine, b, 1, "", log)
 
-print('Testing with engine starting....')
-# Test with engine starting:
-b = board.board()
-engine_test(b, 2, "", log)
+        print('Testing with engine starting....')
+        # Test with engine starting:
+        b = board.board()
+        engine_test(engine, b, 2, "", log)
 
-print('Finished Games: ' + str(log['finished']))
-print('Engine Win/Draw: ' + str(log['success']))
-print('Engine Loss:' + str(log['error']))
+        print('Finished Games: ' + str(log['finished']))
+        print('Engine Win/Draw: ' + str(log['success']))
+        print('Engine Loss:' + str(log['error']))
+
+    finally:
+        engine.close()
+
+
+if __name__ == '__main__':
+    main()
