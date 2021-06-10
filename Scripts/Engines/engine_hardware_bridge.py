@@ -1,10 +1,10 @@
 from Utils.get_int import get_int
-from Utils.board import board as board
 from Engines.engine_improved import engine_improved
 import serial
 import serial.tools.list_ports
 import sys
 import copy
+import re
 
 
 class engine_hardware_bridge:
@@ -35,7 +35,8 @@ class engine_hardware_bridge:
             port = port_list[get_int(prompt, range(port_count-1))].device
             print("Selected port.")
         try:
-            self.com = serial.Serial(port, 115200, timeout=1.5, write_timeout=1)
+            self.com = serial.Serial(
+                port, 115200, timeout=1.5, write_timeout=1)
             print("Serial port openened.")
         except serial.SerialException:
             print("Failed to open serial port.")
@@ -51,7 +52,6 @@ class engine_hardware_bridge:
         # as (1-2)
 
         if(current_player == 1):
-            # Engine only supports playing as player 2. Flip board.
             b = copy.deepcopy(b)
             for i in range(9):
                 if b.get_i(i) == 0:
@@ -70,24 +70,23 @@ class engine_hardware_bridge:
         package = package.encode('ascii')
 
         try:
+            self.com.flushOutput()
+            self.com.flushInput()
+
             # Send package
             self.com.write(package)
 
             # Get reponse
             resp = self.com.readline()
+            resp = resp.decode('ascii')
 
-            # Decode response
-            # TODO
+            if not re.fullmatch(r'^RESP-[0-8]\n$', resp):
+                print('Did not receive valid response...')
+                print('Received: ' + str(resp))
+                raise Exception()
+
+            return int(resp[5])
 
         except serial.SerialException as e:
             print('Serial exception...')
             raise e
-
-        print(package)
-
-        # DEBUG
-        engine_cheat = engine_improved()
-        engine_cheat.open()
-        resp = engine_cheat.respond(b, 2)
-        engine_cheat.close()
-        return resp

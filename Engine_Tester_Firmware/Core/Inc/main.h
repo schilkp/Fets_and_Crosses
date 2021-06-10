@@ -42,13 +42,8 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-#define psMCU_interface_spi_handle    hspi1
-#define us_timer_handle               htim17
-#define serial_interface_uart_handle  huart1
-
-extern SPI_HandleTypeDef psMCU_interface_spi_handle;
-extern TIM_HandleTypeDef us_timer_handle;
-extern UART_HandleTypeDef serial_interface_uart_handle;
+extern UART_HandleTypeDef huart1;
+extern SPI_HandleTypeDef hspi1;
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/
@@ -64,42 +59,37 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define MEM_nOE_Pin GPIO_PIN_0
-#define MEM_nOE_GPIO_Port GPIOF
-#define W_SCLK_Pin GPIO_PIN_5
-#define W_SCLK_GPIO_Port GPIOA
-#define W_RCLK_Pin GPIO_PIN_6
-#define W_RCLK_GPIO_Port GPIOA
-#define W_SER_Pin GPIO_PIN_7
-#define W_SER_GPIO_Port GPIOA
 #define LED1_Pin GPIO_PIN_0
-#define LED1_GPIO_Port GPIOB
-#define LED2_Pin GPIO_PIN_1
-#define LED2_GPIO_Port GPIOB
-#define ROUTE_ADR_nPC_PROG_Pin GPIO_PIN_8
-#define ROUTE_ADR_nPC_PROG_GPIO_Port GPIOA
-#define ROUTE_DATA_ROM_nPROG_Pin GPIO_PIN_9
-#define ROUTE_DATA_ROM_nPROG_GPIO_Port GPIOA
-#define RESET_TARGET_Pin GPIO_PIN_10
-#define RESET_TARGET_GPIO_Port GPIOA
-#define BUF_5V_nOE_Pin GPIO_PIN_11
-#define BUF_5V_nOE_GPIO_Port GPIOA
-#define VTARGET_DTCT_Pin GPIO_PIN_12
-#define VTARGET_DTCT_GPIO_Port GPIOA
-#define MEM_nCE_Pin GPIO_PIN_15
-#define MEM_nCE_GPIO_Port GPIOA
-#define R_SCLK_Pin GPIO_PIN_3
-#define R_SCLK_GPIO_Port GPIOB
-#define R_SER_Pin GPIO_PIN_4
-#define R_SER_GPIO_Port GPIOB
-#define R_RCLK_Pin GPIO_PIN_5
-#define R_RCLK_GPIO_Port GPIOB
-#define BKPT_RCLK_Pin GPIO_PIN_6
-#define BKPT_RCLK_GPIO_Port GPIOB
-#define MEM_nPGM_Pin GPIO_PIN_7
-#define MEM_nPGM_GPIO_Port GPIOB
+#define LED1_GPIO_Port GPIOA
+#define UART_TX_Pin GPIO_PIN_2
+#define UART_TX_GPIO_Port GPIOA
+#define UART_RX_Pin GPIO_PIN_3
+#define UART_RX_GPIO_Port GPIOA
+#define ENGINE_OUT_0_Pin GPIO_PIN_4
+#define ENGINE_OUT_0_GPIO_Port GPIOA
+#define ENGINE_OUT_1_Pin GPIO_PIN_5
+#define ENGINE_OUT_1_GPIO_Port GPIOA
+#define ENGINE_OUT_2_Pin GPIO_PIN_6
+#define ENGINE_OUT_2_GPIO_Port GPIOA
+#define ENGINE_OUT_3_Pin GPIO_PIN_7
+#define ENGINE_OUT_3_GPIO_Port GPIOA
+#define ENGINE_OUT_4_Pin GPIO_PIN_8
+#define ENGINE_OUT_4_GPIO_Port GPIOA
+#define ENGINE_OUT_5_Pin GPIO_PIN_9
+#define ENGINE_OUT_5_GPIO_Port GPIOA
+#define ENGINE_OUT_6_Pin GPIO_PIN_10
+#define ENGINE_OUT_6_GPIO_Port GPIOA
+#define ENGINE_OUT_7_Pin GPIO_PIN_11
+#define ENGINE_OUT_7_GPIO_Port GPIOA
+#define ENGINE_OUT_8_Pin GPIO_PIN_12
+#define ENGINE_OUT_8_GPIO_Port GPIOA
+#define OUT_CLK_Pin GPIO_PIN_3
+#define OUT_CLK_GPIO_Port GPIOB
+#define OUT_LATCH_Pin GPIO_PIN_4
+#define OUT_LATCH_GPIO_Port GPIOB
+#define OUT_DATA_Pin GPIO_PIN_5
+#define OUT_DATA_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
-
 
 /* USER CODE END Private defines */
 

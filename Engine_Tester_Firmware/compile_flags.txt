@@ -6,13 +6,12 @@
 -DSTM32F030x6
 -DDEBUG
 
--IpsPROG/Inc
+-IEngineTester/Inc
 -ICore/Inc
 -IDrivers/STM32F0xx_HAL_Driver/Inc
 -IDrivers/STM32F0xx_HAL_Driver/Inc/Legacy
 -IDrivers/CMSIS/Device/ST/STM32F0xx/Include
 -IDrivers/CMSIS/Include
-
 
 -Wall
 -Wextra

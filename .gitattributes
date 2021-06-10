@@ -2,9 +2,9 @@
 *.html linguist-detectable=false
 
 # Ignore STM32 HAL/Drivers/usw in Github's language stats:
-Tester_Firmware/Drivers/** linguist-vendored
-Tester_Firmware/Core/** linguist-vendored
-Tester_Firmware/Core/Src/main.c -linguist-vendored
+Engine_Tester_Firmware/Drivers/** linguist-vendored
+Engine_Tester_Firmware/Core/** linguist-vendored
+Engine_Tester_Firmware/Core/Src/main.c -linguist-vendored
 
 # This is a C project....
 *.h linguist-language=C
