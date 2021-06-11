@@ -1,5 +1,5 @@
 from Utils.get_int import get_int
-from Engines.engine_improved import engine_improved
+from Engines.EngineError import EngineError
 import serial
 import serial.tools.list_ports
 import sys
@@ -83,10 +83,10 @@ class engine_hardware_bridge:
             if not re.fullmatch(r'^RESP-[0-8]\n$', resp):
                 print('Did not receive valid response...')
                 print('Received: ' + str(resp))
-                raise Exception()
+                raise EngineError()
 
             return int(resp[5])
 
-        except serial.SerialException as e:
+        except serial.SerialException:
             print('Serial exception...')
-            raise e
+            raise EngineError

@@ -1,5 +1,3 @@
-import pdb
-
 
 def check_args(r, c, d, i, player):
     if r > 2 or r < 0:

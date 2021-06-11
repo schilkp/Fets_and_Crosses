@@ -1,4 +1,5 @@
 import Utils.board as board
+from Engines.EngineError import EngineError
 import copy
 from Utils.select_engine import select_engine
 
@@ -8,8 +9,8 @@ def engine_test(engine, b, turn, history, logging):
     if b.game_over():
         logging['finished'] += 1
         if b.game_state() == 1:
-            logging['error'] += 1
-            logging['error_hists'].append(history)
+            logging['loss'] += 1
+            logging['loss_hist'].append(history)
             print('Error, Engine lost:' + history)
             print(b)
         else:
@@ -34,12 +35,18 @@ def engine_test(engine, b, turn, history, logging):
         # Engine's turn:
 
         # Let engine determine move:
-        move = engine.respond(b, 2)
+        try:
+            move = engine.respond(b, 2)
+        except EngineError:
+            print('Gamestate: '+history)
+            logging['error'] += 1
+            logging['error_hist'].append(history)
+            return
 
         # Make sure that is a legal move:
         if b.get_i(move) != 0:
             logging['error'] += 1
-            logging['error_hists'] += history
+            logging['error_hist'].append(history)
             print('Error, Illegal engine move after this state:' + history)
             return
 
@@ -59,8 +66,10 @@ def main():
         log = {
             'finished': 0,
             'success': 0,
+            'loss': 0,
+            'loss_hist': [],
             'error': 0,
-            'error_hists': []
+            'error_hist': []
         }
 
         # Test with player starting:
@@ -73,9 +82,34 @@ def main():
         b = board.board()
         engine_test(engine, b, 2, "", log)
 
+        print()
+        print()
+        print('====== Finished ======')
+        print()
+        print()
+
+        if log['loss'] != 0 or log['error'] != 0:
+            print('Error states:')
+            print()
+            for state in (log['error_hist']):
+                print(state)
+
+            print()
+            print('Loss states:')
+            print()
+            for state in (log['loss_hist']):
+                print(state)
+
+            print()
+            print()
+            print('====== Summary ======')
+            print()
+            print()
+
         print('Finished Games: ' + str(log['finished']))
         print('Engine Win/Draw: ' + str(log['success']))
-        print('Engine Loss:' + str(log['error']))
+        print('Engine Loss: ' + str(log['loss']))
+        print('Engine Error: ' + str(log['error']))
 
     finally:
         engine.close()

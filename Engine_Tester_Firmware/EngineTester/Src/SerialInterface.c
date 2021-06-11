@@ -11,7 +11,7 @@
 #include "stm32f0xx_hal_uart.h"
 #include <string.h>
 
-#define CHAR_RX_TIMEOUT 100
+#define CHAR_RX_TIMEOUT 200
 #define RX_MSG_LEN 16
 
 #define TX_MSG_LEN 7
@@ -100,7 +100,19 @@ testererror_t tx(uint16_t *engine_response) {
     rx_buf[5] = '8';
     break;
   default:;
-    char *error_msg = "Got invalid engine response!\n";
+    char error_msg[] = "(012345678) Got invalid engine response!\n";
+    error_msg[1+0] = (*engine_response & (1<<0)) ? '1' : '0';
+    error_msg[1+1] = (*engine_response & (1<<1)) ? '1' : '0';
+    error_msg[1+2] = (*engine_response & (1<<2)) ? '1' : '0';
+
+    error_msg[1+3] = (*engine_response & (1<<3)) ? '1' : '0';
+    error_msg[1+4] = (*engine_response & (1<<4)) ? '1' : '0';
+    error_msg[1+5] = (*engine_response & (1<<5)) ? '1' : '0';
+
+    error_msg[1+6] = (*engine_response & (1<<6)) ? '1' : '0';
+    error_msg[1+7] = (*engine_response & (1<<7)) ? '1' : '0';
+    error_msg[1+8] = (*engine_response & (1<<8)) ? '1' : '0';
+
     HAL_UART_Transmit(&huart1, (uint8_t *)error_msg, strlen(error_msg),
                       TX_TIMEOUT);
     return TESTER_ERR;
