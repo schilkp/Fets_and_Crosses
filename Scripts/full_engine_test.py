@@ -1,6 +1,7 @@
 import Utils.board as board
 from Engines.EngineError import EngineError
 import copy
+import sys
 from Utils.select_engine import select_engine
 
 
@@ -60,7 +61,7 @@ def engine_test(engine, b, turn, history, logging):
 
 
 def main():
-    engine = select_engine()
+    engine = select_engine(sys.argv)
     engine.open()
     try:
         log = {

@@ -25,6 +25,8 @@ testererror_t get_engine_response(uint16_t p1_state, uint16_t p2_state, uint16_t
   HAL_GPIO_WritePin(OUT_LATCH_GPIO_Port, OUT_LATCH_Pin, GPIO_PIN_SET);
   HAL_GPIO_WritePin(OUT_LATCH_GPIO_Port, OUT_LATCH_Pin, GPIO_PIN_RESET);
 
+  HAL_Delay(20);
+
   // Get response
   *resp = ( GPIOA->IDR >> 4) & 0x1FF; 
   return TESTER_OK;

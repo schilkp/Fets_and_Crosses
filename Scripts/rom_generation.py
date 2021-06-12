@@ -31,10 +31,11 @@
 
 import Utils.select_engine
 from Utils.board import board
+import sys
 
 
 def generate_ROM_value(adr, engine, stats):
-    ### Attempt to convert current address into a board state: ###
+    # Attempt to convert current address into a board state:
     b = board()
 
     # Split address into the two binary fields
@@ -68,7 +69,7 @@ def generate_ROM_value(adr, engine, stats):
         stats['game_over_states'] += 1
         return (0xFF).to_bytes(1, byteorder='big')
 
-    ### Generate Engine move ###
+    # Generate Engine move:
 
     engine_move = engine.respond(b, 2)
 
@@ -92,7 +93,7 @@ def generate_ROM_value(adr, engine, stats):
 
 def main():
     # Have user select engine:
-    engine = Utils.select_engine.select_engine()
+    engine = Utils.select_engine.select_engine(sys.argv)
     engine.open()
 
     # The complete address space:
@@ -124,8 +125,10 @@ def main():
         print('Finished generating ROM!')
         print()
         print('Number of valid states: ' + str(stats['valid_states']))
-        print('  Including game over states: ' + str(stats['game_over_states']))
-        print('  Including engine error states: ' + str(stats['engine_error_states']))
+        print('  Including game over states: ' +
+              str(stats['game_over_states']))
+        print('  Including engine error states: ' +
+              str(stats['engine_error_states']))
         print('Number of invalid states: ' + str(stats['invalid_states']))
         print()
 

@@ -1,13 +1,14 @@
 from Utils.board import board
 from Utils.get_int import get_int
 from Utils.select_engine import select_engine
+import sys
 
 
 def main():
     # Setup board
     b = board()
 
-    engine = select_engine()
+    engine = select_engine(sys.argv)
     engine.open()
 
     try:

@@ -39,12 +39,12 @@ def line_list_empty_index(line):
 
 
 class board:
-    def __init__(self) -> None:
+    def __init__(self, board=[0, 0, 0, 0, 0, 0, 0, 0, 0]) -> None:
         # The board:
         # 0 1 2
         # 3 4 5
         # 6 7 8
-        self.board = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+        self.board = board
 
         # Player symbols:
         self.p_sym = [' ', 'O', 'X']
