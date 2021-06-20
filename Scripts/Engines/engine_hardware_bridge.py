@@ -10,6 +10,13 @@ import re
 class engine_hardware_bridge:
     def __init__(self):
         self.com = None
+        argv = sys.argv
+
+        self.debug = False
+        if len(argv) >= 3:
+            if argv[2] == "debug":
+                self.debug = True
+
         pass
 
     def __str__(self):
@@ -62,12 +69,12 @@ class engine_hardware_bridge:
                     b.set_i(i, 1)
 
         # Construct package:
-        package = "STATE-"
+        package_str = "STATE-"
         for i in range(9):
-            package += str(b.get_i(i))
-        package += '\n'
+            package_str += str(b.get_i(i))
+        package_str += '\n'
 
-        package = package.encode('ascii')
+        package = package_str.encode('ascii')
 
         try:
             self.com.flushOutput()
@@ -84,6 +91,10 @@ class engine_hardware_bridge:
                 print('Did not receive valid response...')
                 print('Received: ' + str(resp))
                 raise EngineError()
+
+            if self.debug:
+                print("%s - Response: %s" %
+                      (package_str.rstrip('\n'), resp[5]))
 
             return int(resp[5])
 
