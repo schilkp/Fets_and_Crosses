@@ -39,7 +39,7 @@ class engine_hardware_bridge:
             port = port_list[0].device
         else:
             prompt = "Select port [0-%i]:" % (port_count-1)
-            port = port_list[get_int(prompt, range(port_count-1))].device
+            port = port_list[get_int(prompt, range(port_count))].device
             print("Selected port.")
         try:
             self.com = serial.Serial(
