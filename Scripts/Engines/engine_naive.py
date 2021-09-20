@@ -9,6 +9,7 @@ from Utils.board import line_get_empty_index
 #   Corner if possible
 #   Side if possible
 
+
 class engine_naive:
     def __init__(self):
         pass
@@ -32,7 +33,7 @@ class engine_naive:
             opponent = 1
 
         # Attempt to win if possible: 9*2+6 cells
-        # A win opportunity is a line in which the we played twice and one is empty 
+        # A win opportunity is a line in which we played twice and one is empty
         for r in b.rows:
             if line_count_player(b.get_r(r), current_player) == 2 and line_count_player(b.get_r(r), 0) == 1:
                 return line_get_empty_index(b.get_r(r))+r*3
@@ -75,17 +76,16 @@ class engine_naive:
 
         if b.get_i(6) == 0 and b.get_i(2) == opponent:
             return 6
-        
+
         # Play Corner if possible: 4 cells
-        for corner in [0,2,6,8]:
+        for corner in [0, 2, 6, 8]:
             if b.get_i(corner) == 0:
                 return corner
 
         # Play side: 4 cells
-        for side in [1,3,5,7]:
+        for side in [1, 3, 5, 7]:
             if b.get_i(side) == 0:
                 return side
 
         # If we reach this point, the game-over detection is broken :)
         raise Exception()
-

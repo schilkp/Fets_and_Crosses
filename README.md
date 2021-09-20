@@ -44,3 +44,6 @@ JP1 has to be added when using the ROM IC, and removed when using the engine PCB
 	
 **ECAD:**  
     All KiCad projects and production files.  
+    
+## Other Links
+[Construction Timelapse](https://www.youtube.com/watch?v=Lz2p190qZ2Q)
