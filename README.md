@@ -10,6 +10,8 @@ Why? *Because.*
 
 ![PCB Render](Doc/pcb_render.png)
 
+![Full PCB Picture](Doc/pcb_pic.jpg)
+
 ## Features
 - Players vs Player and Player vs Computer with engine fully implemented in transistors.
 - Win-State and End-State detection
