@@ -4,4 +4,5 @@
   (lib (name DPDT_4mm_2.5mm_TH)(type KiCad)(uri ${KIPRJMOD}/DPDT_4mm_2.5mm_TH/Footprint/DPDT_4mm_2.5mm_TH.pretty)(options "")(descr ""))
   (lib (name DPDT_5.6mm_2.5mm_SMD)(type KiCad)(uri ${KIPRJMOD}/DPDT_5.6mm_2.5mm_SMD/Footprint/DPDT_5.6mm_2.5mm_SMD.pretty)(options "")(descr ""))
   (lib (name BarrelPolarity)(type KiCad)(uri ${KIPRJMOD}/BarrelPolarity/Footprint/BarrelPolarity.pretty)(options "")(descr ""))
+  (lib (name jlcpcb_tooling_hole)(type KiCad)(uri ${KIPRJMOD}/jlcpcb_tooling_hole/Footprint/jlcpcb_tooling_hole.pretty)(options "")(descr ""))
 )
