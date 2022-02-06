@@ -860,10 +860,10 @@ Wire Wire Line
 Wire Wire Line
 	12550 2700 11900 2700
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H3
 U 1 1 620A7417
 P 650 10700
-F 0 "H?" H 750 10746 50  0000 L CNN
+F 0 "H3" H 750 10746 50  0000 L CNN
 F 1 "ToolingHole" H 750 10655 50  0000 L CNN
 F 2 "jlcpcb_tooling_hole:jlcpcb_tooling_hole" H 650 10700 50  0001 C CNN
 F 3 "~" H 650 10700 50  0001 C CNN
@@ -871,10 +871,10 @@ F 3 "~" H 650 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H4
 U 1 1 620B5491
 P 650 10950
-F 0 "H?" H 750 10996 50  0000 L CNN
+F 0 "H4" H 750 10996 50  0000 L CNN
 F 1 "ToolingHole" H 750 10905 50  0000 L CNN
 F 2 "jlcpcb_tooling_hole:jlcpcb_tooling_hole" H 650 10950 50  0001 C CNN
 F 3 "~" H 650 10950 50  0001 C CNN
@@ -882,10 +882,10 @@ F 3 "~" H 650 10950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H5
 U 1 1 620BC1C9
 P 1300 10700
-F 0 "H?" H 1400 10746 50  0000 L CNN
+F 0 "H5" H 1400 10746 50  0000 L CNN
 F 1 "ToolingHole" H 1400 10655 50  0000 L CNN
 F 2 "jlcpcb_tooling_hole:jlcpcb_tooling_hole" H 1300 10700 50  0001 C CNN
 F 3 "~" H 1300 10700 50  0001 C CNN
