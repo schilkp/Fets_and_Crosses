@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 373 398
+Sheet 75 398
 Title "Fets & Crosses Engine"
-Date "2020-09-15"
-Rev "v1.0"
+Date "2022-02-06"
+Rev "v1.1"
 Comp "Philipp Schilk "
 Comment1 "Tic-Tac-Toe implementation from discrete-transistor CMOS logic"
 Comment2 ""
