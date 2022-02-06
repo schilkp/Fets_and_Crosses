@@ -1589,6 +1589,39 @@ F7 "M7_M" O R 3800 6700 50
 F8 "M5_M" O R 3800 6600 50 
 F9 "Block" I L 2800 6200 50 
 $EndSheet
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6202FFCB
+P 14300 9300
+F 0 "H3" H 14400 9346 50  0000 L CNN
+F 1 "Tooling Hole" H 14400 9255 50  0000 L CNN
+F 2 "jlcpcb_tooling_hole:jlcpcb_tooling_hole" H 14300 9300 50  0001 C CNN
+F 3 "~" H 14300 9300 50  0001 C CNN
+	1    14300 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 620487EA
+P 14300 9500
+F 0 "H4" H 14400 9546 50  0000 L CNN
+F 1 "Tooling Hole" H 14400 9455 50  0000 L CNN
+F 2 "jlcpcb_tooling_hole:jlcpcb_tooling_hole" H 14300 9500 50  0001 C CNN
+F 3 "~" H 14300 9500 50  0001 C CNN
+	1    14300 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 6206176A
+P 15100 9300
+F 0 "H5" H 15200 9346 50  0000 L CNN
+F 1 "Tooling Hole" H 15200 9255 50  0000 L CNN
+F 2 "jlcpcb_tooling_hole:jlcpcb_tooling_hole" H 15100 9300 50  0001 C CNN
+F 3 "~" H 15100 9300 50  0001 C CNN
+	1    15100 9300
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	13800 1550 13800 6200
 Wire Bus Line

@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name LogicQ)(type KiCad)(uri ${KIPRJMOD}/LogicQ.pretty)(options "")(descr ""))
+  (lib (name jlcpcb_tooling_hole)(type KiCad)(uri ${KIPRJMOD}/jlcpcb_tooling_hole/Footprint/jlcpcb_tooling_hole.pretty)(options "")(descr ""))
 )
