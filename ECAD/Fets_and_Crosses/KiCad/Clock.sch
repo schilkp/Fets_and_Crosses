@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 365 363
 Title "Fets and Crosses"
-Date "2021-05-23"
-Rev "v1.0"
+Date "2022-02-07"
+Rev "v1.1"
 Comp "Philipp Schilk"
 Comment1 "Tic-Tac-Toe implementation from discrete-transistor CMOS logic"
 Comment2 ""
@@ -129,7 +129,7 @@ U 1 1 5F1C314D
 P 7100 4100
 F 0 "R108" V 7000 4250 50  0000 C CNN
 F 1 "20K" V 7000 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7100 4100 50  0001 C CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 7100 4100 50  0001 C CNN
 F 3 "~" H 7100 4100 50  0001 C CNN
 F 4 "C4184" H 7100 4100 50  0001 C CNN "LCSC"
 	1    7100 4100
@@ -141,7 +141,7 @@ U 1 1 5F1C5451
 P 6650 3400
 F 0 "R107" V 6550 3550 50  0000 C CNN
 F 1 "20K" V 6550 3250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6650 3400 50  0001 C CNN
+F 2 "LogicQ:R_0603_1608Metric_NOLBL" H 6650 3400 50  0001 C CNN
 F 3 "~" H 6650 3400 50  0001 C CNN
 F 4 "C4184" H 6650 3400 50  0001 C CNN "LCSC"
 	1    6650 3400

@@ -5,8 +5,8 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 195 363
 Title "Fets and Crosses"
-Date "2021-05-23"
-Rev "v1.0"
+Date "2022-02-07"
+Rev "v1.1"
 Comp "Philipp Schilk"
 Comment1 "Tic-Tac-Toe implementation from discrete-transistor CMOS logic"
 Comment2 ""
